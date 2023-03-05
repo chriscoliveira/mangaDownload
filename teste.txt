@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Veja aqui a listagem de Mangás do nosso acervo por ordem alfabética, visualizações, gêneros ou status." name="description"/>
+  <meta content="Union Mangás" name="author"/>
+  <link href="https://unionleitor.top/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <meta content="index, follow" name="robots"/>
+  <meta content="index, follow" name="googlebot"/>
+  <title>
+   Lista de Mangás - Union Mangás
+  </title>
+  <link href="https://unionleitor.top/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://unionleitor.top/css/responsive-slider.css" rel="stylesheet"/>
+  <link href="https://unionleitor.top/css/union-custom.css?v=0.2" rel="stylesheet"/>
+  <link href="https://unionleitor.top/css/jquery.qtip.min.css" rel="stylesheet"/>
+  <link href="https://unionleitor.top/css/select2.min.css" rel="stylesheet"/>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <!--[if lt IE 9]><!--<script src="../../assets/js/ie8-responsive-file-warning.js">-></script><![endif]-->
+  <!--[if lt IE 9]>
+        <!--
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        -->
+  <!--[endif]---->
+  <style>
+   .logo {
+            background: url("https://unionleitor.top/images/logo-peq5.png") no-repeat scroll left 0 rgba(0, 0, 0, 0);
+            display: block;
+            width: 140px;
+        }
+  </style>
+  <script src="https://partner.googleadservices.com/gampad/cookie.js?domain=unionleitor.top&amp;callback=_gfp_s_&amp;client=ca-pub-1357811707739237">
+  </script>
+  <script id="google_shimpl" src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202302230101/show_ads_impl.js?bust=31072649">
+  </script>
+  <script async="" src="//www.google-analytics.com/analytics.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script src="https://unionleitor.top/js/bootstrap.min.js">
+  </script>
+  <script src="https://unionleitor.top/js/jquery.event.move.js">
+  </script>
+  <script src="https://unionleitor.top/js/responsive-slider.min.js">
+  </script>
+  <script src="https://unionleitor.top/js/jquery.qtip.min.js">
+  </script>
+  <script src="https://unionleitor.top/js/uteis.js">
+  </script>
+  <script src="https://unionleitor.top/js/select2.min.js">
+  </script>
+  <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1357811707739237",
+        enable_page_level_ads: true
+    });
+  </script>
+  <meta content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==" http-equiv="origin-trial"/>
+  <link as="script" href="https://adservice.google.com.br/adsid/integrator.js?domain=unionleitor.top" rel="preload"/>
+  <script src="https://adservice.google.com.br/adsid/integrator.js?domain=unionleitor.top" type="text/javascript">
+  </script>
+  <link as="script" href="https://adservice.google.com/adsid/integrator.js?domain=unionleitor.top" rel="preload"/>
+  <script src="https://adservice.google.com/adsid/integrator.js?domain=unionleitor.top" type="text/javascript">
+  </script>
+  <link as="script" href="https://adservice.google.com.br/adsid/integrator.js?domain=unionleitor.top" rel="preload"/>
+  <script src="https://adservice.google.com.br/adsid/integrator.js?domain=unionleitor.top" type="text/javascript">
+  </script>
+  <link as="script" href="https://adservice.google.com/adsid/integrator.js?domain=unionleitor.top" rel="preload"/>
+  <script src="https://adservice.google.com/adsid/integrator.js?domain=unionleitor.top" type="text/javascript">
+  </script>
+ </head>
+ <body class="modal-open">
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-53294920-1', 'auto');
+	ga('send', 'pageview');
+  </script>
+  <header class="navbar navbar-static-top bs-docs-nav navbar-fixed-top navbar-default" id="top" role="banner">
+   <div class="container">
+    <div class="navbar-header">
+     <button class="navbar-toggle collapsed" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button">
+      <span class="sr-only">
+       Toggle navigation
+      </span>
+      <span class="icon-bar icon-bar-custom">
+      </span>
+      <span class="icon-bar icon-bar-custom">
+      </span>
+      <span class="icon-bar icon-bar-custom">
+      </span>
+     </button>
+     <a class="navbar-brand logo" href="https://unionleitor.top">
+     </a>
+    </div>
+    <nav aria-expanded="false" class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
+     <ul class="nav navbar-nav">
+      <li class="active">
+       <a class="link-menu" href="https://unionleitor.top/lista-mangas">
+        Mangás
+       </a>
+      </li>
+      <li>
+       <a class="link-menu" href="https://unionleitor.top/scans">
+        Scans
+       </a>
+      </li>
+      <li>
+       <a class="link-menu" href="https://unionleitor.top/contato">
+        Contato
+       </a>
+      </li>
+      <li>
+       <a class="link-menu" href="https://unionleitor.top/faq">
+        F.A.Q.
+       </a>
+      </li>
+      <li>
+       <a class="link-menu" href="https://unionleitor.top/registro">
+        <i class="fa fa-user-plus">
+        </i>
+        Cadastro
+       </a>
+      </li>
+      <li>
+       <a class="link-menu" href="https://unionleitor.top/login">
+        <i class="fa fa-sign-in">
+        </i>
+        Login
+       </a>
+      </li>
+     </ul>
+     <form action="https://unionleitor.top/busca" class="navbar-form navbar-right" method="post" role="form" style="background-color: #fff">
+      <div class="form-group">
+       <input class="form-control" id="pesquisa" name="pesquisa" placeholder="Pesquisar mangá" style="width: 140px;" type="text"/>
+      </div>
+      <button class="btn btn-success" type="submit">
+       OK
+      </button>
+     </form>
+    </nav>
+   </div>
+  </header>
+  <div class="container" style="margin-top: 60px; background-color: rgb(255, 255, 255); height: auto !important;">
+   <div class="row" style="display:none">
+    <div class="col-md-12">
+     <div class="alert alert-warning alert-dismissible" role="alert" style="margin-top: 10px">
+      <button aria-label="Close" class="close" data-dismiss="alert" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+      </button>
+      <strong>
+       Atenção!
+      </strong>
+      Estamos reestabelecendo o nosso acervo e, por isso, estamos passando por instabilidades.
+     </div>
+    </div>
+   </div>
+   <div class="row" style="height: auto !important;">
+    <div class="col-md-8 tamanho-bloco-perfil" style="height: auto !important; min-height: 0px !important;">
+     <div class="row">
+      <div class="col-md-12">
+       <h2>
+        Lista de Mangás
+       </h2>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12 text-center">
+       <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <ins class="adsbygoogle" data-ad-client="ca-pub-1357811707739237" data-ad-format="auto" data-ad-slot="4059319507" data-ad-status="unfilled" data-adsbygoogle-status="done" style="display: block; height: 280px;">
+        <div aria-label="Advertisement" id="aswift_1_host" style="border: none; height: 280px; width: 750px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;" tabindex="0" title="Advertisement">
+         <iframe allowtransparency="true" data-google-container-id="a!2" data-google-query-id="CL7Gxfe_w_0CFfoPuQYdtE4HqA" data-load-complete="true" frameborder="0" height="280" hspace="0" id="aswift_1" marginheight="0" marginwidth="0" name="aswift_1" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1357811707739237&amp;output=html&amp;h=280&amp;slotname=4059319507&amp;adk=2118278487&amp;adf=446936388&amp;pi=t.ma~as.4059319507&amp;w=750&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1677974985&amp;rafmt=1&amp;format=750x280&amp;url=https%3A%2F%2Funionleitor.top%2Flista-mangas&amp;fwr=0&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&amp;dt=1677974984540&amp;bpp=4&amp;bdt=755&amp;idt=930&amp;shv=r20230301&amp;mjsv=m202302230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=4453641354231&amp;frm=20&amp;pv=1&amp;ga_vid=2090536191.1677974984&amp;ga_sid=1677974985&amp;ga_hid=669309963&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=70&amp;ady=143&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759926%2C44759875%2C44777877%2C44773810%2C44759837%2C31072649&amp;oid=2&amp;pvsid=1643238133734580&amp;tmod=1021175068&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;xpc=Rk7XYQ8EXD&amp;p=https%3A//unionleitor.top&amp;dtd=942" style="left:0;position:absolute;top:0;border:0;width:750px;height:280px;" vspace="0" width="750">
+         </iframe>
+        </div>
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row" style="padding-left: 5px; padding-right: 5px;">
+      <ul class="nav nav-tabs">
+       <li class="active" role="presentation">
+        <a href="https://unionleitor.top/lista-mangas/a-z">
+         A - Z
+        </a>
+       </li>
+       <li role="presentation">
+        <a href="https://unionleitor.top/lista-mangas/visualizacoes">
+         Visualizações
+        </a>
+       </li>
+       <li role="presentation">
+        <a href="https://unionleitor.top/lista-mangas/completos">
+         Completos
+        </a>
+       </li>
+       <li class="dropdown" role="presentation">
+        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" style="cursor: pointer;">
+         Gêneros
+         <span class="caret">
+         </span>
+        </a>
+        <ul class="dropdown-menu">
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/4-koma">
+           4-koma
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/acao">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/adulto">
+           Adulto
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/artes-marciais">
+           Artes Marciais
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/aventura">
+           Aventura
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/bender">
+           Bender
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/comedia">
+           Comédia
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/doujinshi">
+           Doujinshi
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/drama">
+           Drama
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/ecchi">
+           Ecchi
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/esporte">
+           Esporte
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/fantasia">
+           Fantasia
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/ficcao">
+           Ficção
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/gastronomia">
+           Gastronomia
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/gender">
+           Gender
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/guerra">
+           Guerra
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/harem">
+           Harem
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/historico">
+           Histórico
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/horror">
+           Horror
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/isekai">
+           Isekai
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/josei">
+           Josei
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/magia">
+           Magia
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/manhua">
+           Manhua
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/manhwa">
+           Manhwa
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/mecha">
+           Mecha
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/medicina">
+           Medicina
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/militar">
+           Militar
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/misterio">
+           Mistério
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/musical">
+           Musical
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/one-shot">
+           One-Shot
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/psicologico">
+           Psicológico
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/romance">
+           Romance
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/sci-fi">
+           Sci-fi
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/seinen">
+           Seinen
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/shoujo">
+           Shoujo
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/shoujo-ai">
+           Shoujo Ai
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/shounen">
+           Shounen
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/shounen-ai">
+           Shounen Ai
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/slice-of-life">
+           Slice of Life
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/sobrenatural">
+           Sobrenatural
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/super-poderes">
+           Super Poderes
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/suspense">
+           Suspense
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/terror">
+           Terror
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/thriller">
+           Thriller
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/tragedia">
+           Tragédia
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/vida-escolar">
+           Vida Escolar
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/webtoon">
+           Webtoon
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/yaoi">
+           Yaoi
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/yuri">
+           Yuri
+          </a>
+         </li>
+         <li>
+          <a href="https://unionleitor.top/lista-mangas/zumbi">
+           Zumbi
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row" style="padding-left: 5px; padding-right: 5px;">
+      <nav class="lista-manga">
+       <ul class="nav nav-pills nav-justified">
+        <li class="active" role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/*" style="padding: 5px">
+          *
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/num" style="padding: 5px">
+          #
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/a" style="padding: 5px">
+          A
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/b" style="padding: 5px">
+          B
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/c" style="padding: 5px">
+          C
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/d" style="padding: 5px">
+          D
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/e" style="padding: 5px">
+          E
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/f" style="padding: 5px">
+          F
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/g" style="padding: 5px">
+          G
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/h" style="padding: 5px">
+          H
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/i" style="padding: 5px">
+          I
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/j" style="padding: 5px">
+          J
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/k" style="padding: 5px">
+          K
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/l" style="padding: 5px">
+          L
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/m" style="padding: 5px">
+          M
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/n" style="padding: 5px">
+          N
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/o" style="padding: 5px">
+          O
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/p" style="padding: 5px">
+          P
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/q" style="padding: 5px">
+          Q
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/r" style="padding: 5px">
+          R
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/s" style="padding: 5px">
+          S
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/t" style="padding: 5px">
+          T
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/u" style="padding: 5px">
+          U
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/v" style="padding: 5px">
+          V
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/w" style="padding: 5px">
+          W
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/x" style="padding: 5px">
+          X
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/y" style="padding: 5px">
+          Y
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/z" style="padding: 5px">
+          Z
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_9975" data-hasqtip="0" href="https://unionleitor.top/pagina-manga/e">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/1b2c3509.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/e">
+        (E)
+       </a>
+       <div id="bloco-tooltip-9975" style="display: none">
+        <b>
+         (E)
+        </b>
+        <br/>
+        <br/>
+        Aoki Kaoru é uma mulher de 26 anos que nunca esteve em um relacionamento. Normalmente desapegada e desmotivada na vida, não é de admirar que ela surpreenda todos quando ela decidiu iniciar um salã...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_4305" data-hasqtip="1" href="https://unionleitor.top/pagina-manga/rain-oneshot">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/d5c9f914.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/rain-oneshot">
+        -Rain- (Oneshot)
+       </a>
+       <div id="bloco-tooltip-4305" style="display: none">
+        <b>
+         -Rain- (Oneshot)
+        </b>
+        <br/>
+        <br/>
+        "Porque eu te amo." Em um dia chuvoso, quando Mai foi traída pelo cara que ela gostava, ela conheceu uma menina bonita que lhe disse que ela era a Rain(chuva) e que ela tinha vindo por causa de suas...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_3906" data-hasqtip="2" href="https://unionleitor.top/pagina-manga/01-zero-one">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/aead7109.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/01-zero-one">
+        01 - Zero one
+       </a>
+       <div id="bloco-tooltip-3906" style="display: none">
+        <b>
+         01 - Zero one
+        </b>
+        <br/>
+        <br/>
+        O ano é 2028, o local em Nova Koshigaya. Um menino jovem, Isurugi Neru, vive em uma família pobre e é forçado a abandonar a escola para que ele possa encontrar seu próprio caminho na vida. Neru,...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_353" data-hasqtip="3" href="https://unionleitor.top/pagina-manga/07-ghost">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/47079026.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/07-ghost">
+        07 Ghost
+       </a>
+       <div id="bloco-tooltip-353" style="display: none">
+        <b>
+         07 Ghost
+        </b>
+        <br/>
+        <br/>
+        Teito Klein é um ex-escravo que ingressa em uma escola Militar de Barsburg, devido a sua capacidade de usar o Zaiphon. Um poder muito misterioso e sobrenatural. Uma habilidade muito rara e por isso a...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_723" data-hasqtip="4" href="https://unionleitor.top/pagina-manga/08-05-no-hengao-san">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/0a321723.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/08-05-no-hengao-san">
+        08:05 no Hengao-san
+       </a>
+       <div id="bloco-tooltip-723" style="display: none">
+        <b>
+         08:05 no Hengao-san
+        </b>
+        <br/>
+        <br/>
+        Comunicação facial, não é preciso palavras.
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_4306" data-hasqtip="5" href="https://unionleitor.top/pagina-manga/090-eko-to-issho">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/db7b9c09.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/090-eko-to-issho">
+        090: Eko to Issho
+       </a>
+       <div id="bloco-tooltip-4306" style="display: none">
+        <b>
+         090: Eko to Issho
+        </b>
+        <br/>
+        <br/>
+        Hiroshi encontrado um celular quebrado na rua e foi a uma loja para consertá-lo. Quando ele foi entregue na casa dele, ele tem uma garota em tamanho natural, em vez, mas ainda é um celular. Hiroshi...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_12978" data-hasqtip="6" href="https://unionleitor.top/pagina-manga/0c-no-mahou">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/6c6dbf07.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/0c-no-mahou">
+        0C no Mahou
+       </a>
+       <div id="bloco-tooltip-12978" style="display: none">
+        <b>
+         0C no Mahou
+        </b>
+        <br/>
+        <br/>
+        A curta história de uma garota que consegue criar vida e um boneco de neve.
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_2360" data-hasqtip="7" href="https://unionleitor.top/pagina-manga/0x0-memories">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/65562e01.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/0x0-memories">
+        0x0 Memories
+       </a>
+       <div id="bloco-tooltip-2360" style="display: none">
+        <b>
+         0x0 Memories
+        </b>
+        <br/>
+        <br/>
+        Devido a um acidente, Tsuda Rei perdeu todas as suas memórias. Ela não consegue lembrar-se das suas comidas favoritas, os seus pais, ou mesmo do seu melhor amigo de infância, Ichi. Ichi leva Rei at...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_605" data-hasqtip="8" href="https://unionleitor.top/pagina-manga/1-2-prince">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/92c81c09.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-2-prince">
+        1 2 Prince
+       </a>
+       <div id="bloco-tooltip-605" style="display: none">
+        <b>
+         1 2 Prince
+        </b>
+        <br/>
+        <br/>
+        No ano de 2100, humanos criaram um jogo de realidade virtual. Feng Lan apostou com o seu irmão que podia crescer no jogo sem os "benefícios femininos". Graças a isso ela se transforma no primeiro t...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_11950" data-hasqtip="9" href="https://unionleitor.top/pagina-manga/1-2-prince-novel">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/14bbf901.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-2-prince-novel">
+        1 2 Prince (Novel)
+       </a>
+       <div id="bloco-tooltip-11950" style="display: none">
+        <b>
+         1 2 Prince (Novel)
+        </b>
+        <br/>
+        <br/>
+        Ano de 2100. Os Avanços Tecnológico tornaram possível a existência da realidade virtual, agora o tão esperado chegou ao Second Life, um jogo com um nível de realismo de 99%. Provocado pelo seu i...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_15132" data-hasqtip="10" href="https://unionleitor.top/pagina-manga/1-24-romance">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/ebc87301.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-24-romance">
+        1 24 Romance
+       </a>
+       <div id="bloco-tooltip-15132" style="display: none">
+        <b>
+         1 24 Romance
+        </b>
+        <br/>
+        <br/>
+        A lenda da promoção de vendas "super alta velocidade" na JK ELECTRONICS! Mulher número um! Cha Ju-An!
+Com um bom coração e espírito puro! Sua aparência é a de um modelo, mas ele é "cheio d...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_9669" data-hasqtip="11" href="https://unionleitor.top/pagina-manga/1-3-romantica">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/00bb0009.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-3-romantica">
+        1 3 Romantica
+       </a>
+       <div id="bloco-tooltip-9669" style="display: none">
+        <b>
+         1 3 Romantica
+        </b>
+        <br/>
+        <br/>
+        Hana começou a sair com o Tokumoto kun, que é popular tanto na classe quanto com as meninas. Hana se apaixona cada vez mais pela gentileza e pelo senso de humor dele, até que ela descobre algo sobr...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_19318" data-hasqtip="12" href="https://unionleitor.top/pagina-manga/1-in-7-billion-irregular">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/3c749e20.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-in-7-billion-irregular">
+        1 in 7 Billion Irregular
+       </a>
+       <div id="bloco-tooltip-19318" style="display: none">
+        <b>
+         1 in 7 Billion Irregular
+        </b>
+        <br/>
+        <br/>
+        Joo Seung-ho é incapaz de jogar usando a realidade virtual devido à ‘síndrome de hiper imersão congênita’, um fenômeno de amplificação sensorial excessiva.
+Um dia, uma série de cores des...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_9410" data-hasqtip="13" href="https://unionleitor.top/pagina-manga/1-litre-no-namida">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/c0468413.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-litre-no-namida">
+        1 Litre no Namida
+       </a>
+       <div id="bloco-tooltip-9410" style="display: none">
+        <b>
+         1 Litre no Namida
+        </b>
+        <br/>
+        <br/>
+        O fato de eu estar viva é uma coisa tão encantadora e maravilhosa que me faz querer viver mais e mais". Aya é uma garota que acaba de entrar no Ensino Médio quando descobre que possui uma doença...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_1322" data-hasqtip="14" href="https://unionleitor.top/pagina-manga/1-love-9">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/7512e909.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-love-9">
+        1 Love 9
+       </a>
+       <div id="bloco-tooltip-1322" style="display: none">
+        <b>
+         1 Love 9
+        </b>
+        <br/>
+        <br/>
+        Takuma Miyabe é um menino que morava em uma ilha e se mudou para Tokyo porque em sua ilha não havia colegial. Entretanto, a taxa de homens para mulheres é de 1 para 9. São muitas meninas na mesma...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_20880" data-hasqtip="15" href="https://unionleitor.top/pagina-manga/1-plus-1">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/5adbce28.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-plus-1">
+        1 Plus 1
+       </a>
+       <div id="bloco-tooltip-20880" style="display: none">
+        <b>
+         1 Plus 1
+        </b>
+        <br/>
+        <br/>
+        Algo está acontecendo durante a noite!
+...E também baques e pancadas e MAIS solavancos! Então Sung-eun literalmente esbarra no motivo de todo o barulho: seu vizinho bonito e charmoso, Eun-sung....
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_4307" data-hasqtip="16" href="https://unionleitor.top/pagina-manga/1-pound-no-fukuin">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/1b3c4501.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-pound-no-fukuin">
+        1 Pound no Fukuin
+       </a>
+       <div id="bloco-tooltip-4307" style="display: none">
+        <b>
+         1 Pound no Fukuin
+        </b>
+        <br/>
+        <br/>
+        Este é um mangá da Rumiko Takahashi, autora de Ranma 1/2 e Inuyasha! Ele conta a história de Kosaku Hatanaka, um garoto que saiu da escola para lutar boxe, se tornando campeão, e o orgulho da acad...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_14354" data-hasqtip="17" href="https://unionleitor.top/pagina-manga/1-second">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/c0fe7b01.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-second">
+        1 Second
+       </a>
+       <div id="bloco-tooltip-14354" style="display: none">
+        <b>
+         1 Second
+        </b>
+        <br/>
+        <br/>
+        Um bombeiro lendário, com uma taxa de 100% de sucesso em resgate. Qual é a razão de sua habilidade especial?"/&gt;
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_11305" data-hasqtip="18" href="https://unionleitor.top/pagina-manga/1-x-1-2">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/7fe71931.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-x-1-2">
+        1 x 1 2
+       </a>
+       <div id="bloco-tooltip-11305" style="display: none">
+        <b>
+         1 x 1 2
+        </b>
+        <br/>
+        <br/>
+        Um mangá Yuri sobre Incesto. Esse mangá conta a história de Asuka e sua paixão pela sua mãe.
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_11976" data-hasqtip="19" href="https://unionleitor.top/pagina-manga/1-en-no-otoko">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/8b6cda31.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-en-no-otoko">
+        1-en no Otoko
+       </a>
+       <div id="bloco-tooltip-11976" style="display: none">
+        <b>
+         1-en no Otoko
+        </b>
+        <br/>
+        <br/>
+        Um banqueiro muito rude, mas de boa aparência chamado Ryou Masaki procura a ajuda do pobre detetive Keisuke Sanjo. Este é o primeiro cliente assim que ele vê em muito tempo … o que ele poderia pr...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_4320" data-hasqtip="20" href="https://unionleitor.top/pagina-manga/1-nen-5-kumi-ikimono-gakari">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/680d3009.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-nen-5-kumi-ikimono-gakari">
+        1-nen 5-kumi Ikimono Gaka...
+       </a>
+       <div id="bloco-tooltip-4320" style="display: none">
+        <b>
+         1-nen 5-kumi Ikimono Gakari
+        </b>
+        <br/>
+        <br/>
+        Eru Yamada não consegue ficar longe do sobrenatural. Ela está sendo perseguida por um vampiro. E seu professor é um lobisomem, que pensa que ela pertence a ele! Como se isso já não bastasse, um o...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_11435" data-hasqtip="21" href="https://unionleitor.top/pagina-manga/1-nen-a-gumi-no-monster">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/0f3d9217.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1-nen-a-gumi-no-monster">
+        1-nen A-Gumi no Monster
+       </a>
+       <div id="bloco-tooltip-11435" style="display: none">
+        <b>
+         1-nen A-Gumi no Monster
+        </b>
+        <br/>
+        <br/>
+        Essa escola particular de ensino médio é especializada em educar moças para serem graciosas, delicadas e intelectuais. Exceto pela classe 1-A, cheia de garotas problemáticas, chantagistas e sádic...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_4017" data-hasqtip="22" href="https://unionleitor.top/pagina-manga/10-manbun-no-1">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/84903208.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/10-manbun-no-1">
+        10-manbun no 1
+       </a>
+       <div id="bloco-tooltip-4017" style="display: none">
+        <b>
+         10-manbun no 1
+        </b>
+        <br/>
+        <br/>
+        A estudante do 2º ano Rino Sakuragi está apaixonada pelo Ren Kiritani, alguém do seu círculo de amizade desde o primário.
+Rino não consegue amar nem a sua própria personalidade e nem o seu pr�...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_16501" data-hasqtip="23" href="https://unionleitor.top/pagina-manga/10-nen-mae-kara-irete-hoshikute-junshin-gyaru-wa-mirai-kara-kita-osananajimi">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/fb8f6731.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/10-nen-mae-kara-irete-hoshikute-junshin-gyaru-wa-mirai-kara-kita-osananajimi">
+        10-Nen Mae Kara Irete Hos...
+       </a>
+       <div id="bloco-tooltip-16501" style="display: none">
+        <b>
+         10-Nen Mae Kara Irete Hoshikute ~Junshin Gyaru wa Mirai Kara kita Osananajimi~
+        </b>
+        <br/>
+        <br/>
+        “Eu sempre quis isso,” disse a garota fortemente bronzeada com cabelos pretos enquanto tremia de desejo diante dos olhos de Kanata. Quem é ela…? Kanata pensou… Meu amigo de infância de dez a...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_14937" data-hasqtip="24" href="https://unionleitor.top/pagina-manga/100-dias-pra-ficar-bom">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/24ce8501.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-dias-pra-ficar-bom">
+        100 dias pra ficar bom
+       </a>
+       <div id="bloco-tooltip-14937" style="display: none">
+        <b>
+         100 dias pra ficar bom
+        </b>
+        <br/>
+        <br/>
+        Um mangá, que a cada 5 capítulos irá melhorar a arte e a história
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_363" data-hasqtip="25" href="https://unionleitor.top/pagina-manga/100-dollar-wa-yasu-sugiru">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/3d03dd09.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-dollar-wa-yasu-sugiru">
+        100 Dollar wa Yasu Sugiru
+       </a>
+       <div id="bloco-tooltip-363" style="display: none">
+        <b>
+         100 Dollar wa Yasu Sugiru
+        </b>
+        <br/>
+        <br/>
+        Petey é uma caçadora de recompensas em um tempo e lugar cheio de caçadores de recompensas. Os criminosos são superados em número pelos caçadores de recompensas e sempre que um cartaz de procurad...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_14776" data-hasqtip="26" href="https://unionleitor.top/pagina-manga/100-nichi-go-kimi-ga-shinu-made-ato">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/52dfe601.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-nichi-go-kimi-ga-shinu-made-ato">
+        100 Nichi Go Kimi ga Shin...
+       </a>
+       <div id="bloco-tooltip-14776" style="display: none">
+        <b>
+         100 Nichi Go Kimi ga Shinu Made Ato
+        </b>
+        <br/>
+        <br/>
+        Uma comédia romântica focada em dois amigos de infância, Tarou e Umi. Foram necessárias quatro tentativas do Tarou confessando o seu amor para Umi, até que na última tentativa ele consegue e rec...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_11001" data-hasqtip="27" href="https://unionleitor.top/pagina-manga/100-perfect-girl">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/9a0aba09.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-perfect-girl">
+        100 Perfect Girl
+       </a>
+       <div id="bloco-tooltip-11001" style="display: none">
+        <b>
+         100 Perfect Girl
+        </b>
+        <br/>
+        <br/>
+        Jay Jin é uma adolescente rebelde e obstinada, determinada a provar que ela está falando sério sobre fazer arte. J. Max é um estrangeiro de grande porte em negócios na Coréia do Sul - o seu pass...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_17697" data-hasqtip="28" href="https://unionleitor.top/pagina-manga/100-000-levels-of-body-refining-all-the-dogs-i-raise-are-the-emperor">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/da9c0b19.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-000-levels-of-body-refining-all-the-dogs-i-raise-are-the-emperor">
+        100,000 Levels of Body Re...
+       </a>
+       <div id="bloco-tooltip-17697" style="display: none">
+        <b>
+         100,000 Levels of Body Refining: All the Dogs I Raise Are the Emperor
+        </b>
+        <br/>
+        <br/>
+        Cinco mil anos atrás, um adolescente que havia ansiado incontáveis ??pelo cultivo, mas por causa de seu físico especial, foi incapaz de romper o período de treinamento físico e entrar na próxima...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_3485" data-hasqtip="29" href="https://unionleitor.top/pagina-manga/100-man-no-inochi-no-ue-ni-ore-wa-tatte-iru">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/62bf3e02.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-man-no-inochi-no-ue-ni-ore-wa-tatte-iru">
+        100-man no Inochi no Ue n...
+       </a>
+       <div id="bloco-tooltip-3485" style="display: none">
+        <b>
+         100-man no Inochi no Ue ni Ore wa Tatte Iru
+        </b>
+        <br/>
+        <br/>
+        Obrigado a jogar um jogo estranho, Yotsuya yusuke se vê em outro mundo junto com duas de suas colegas de classe. Um estranho ser aparece diante dele e lhe diz que deve passar p0 fases ou a morte lhe...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_19682" data-hasqtip="30" href="https://unionleitor.top/pagina-manga/100-nichi-go-ni-xxx-suru-onna-shachou-to-shinyuu-shain">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/ad692813.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-nichi-go-ni-xxx-suru-onna-shachou-to-shinyuu-shain">
+        100-nichi Go ni XXX suru...
+       </a>
+       <div id="bloco-tooltip-19682" style="display: none">
+        <b>
+         100-nichi Go ni XXX suru Onna Shachou to Shinyuu Shain
+        </b>
+        <br/>
+        <br/>
+        Minha nova funcionária, Mai, que fez algo errado. Para assumir a responsabilidade, decidi sair juntos por sugestão da bela presidente, Eri. O que acontecerá com a relação entre os dois em 100 dia...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_12846" data-hasqtip="31" href="https://unionleitor.top/pagina-manga/100-nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/6f593720.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha">
+        100-nin no Eiyuu o Sodate...
+       </a>
+       <div id="bloco-tooltip-12846" style="display: none">
+        <b>
+         100-nin no Eiyuu o Sodateta Saikyou Yogensha wa Boukensha
+        </b>
+        <br/>
+        <br/>
+        Criando cem heróis e terminando a guerra com um deus maligno, Eisen é o profeta que salvou o mundo. Tendo recebido uma grande lesão ao proteger os heróis, ele foi para o Outro Mundo para se recupe...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_355" data-hasqtip="32" href="https://unionleitor.top/pagina-manga/1001-knights">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/ad2b1022.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/1001-knights">
+        1001 Knights
+       </a>
+       <div id="bloco-tooltip-355" style="display: none">
+        <b>
+         1001 Knights
+        </b>
+        <br/>
+        <br/>
+        Um conto de mistério e magia. Mesmo que gêmeos, Naito e Yuta Fuuga são irmãos gêmeos com personalidades muito diferentes. Enquanto Naito é elegante e se sai bem na escola, Yuta é atlético e mu...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_18523" data-hasqtip="33" href="https://unionleitor.top/pagina-manga/100-battlegrounds">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/3818a718.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/100-battlegrounds">
+        100: Battlegrounds
+       </a>
+       <div id="bloco-tooltip-18523" style="display: none">
+        <b>
+         100: Battlegrounds
+        </b>
+        <br/>
+        <br/>
+        Cheon Hoyeong, um membro do Serviço Nacional de Inteligência, participa do jogo de assassinato ilegal Battlegrounds para encontrar o deputado desaparecido. Sobreviva entre 100 presos no corredor da...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_17876" data-hasqtip="34" href="https://unionleitor.top/pagina-manga/101-ways-to-win-her-heart">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/1fdc8d04.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/101-ways-to-win-her-heart">
+        101 Ways to Win Her Heart
+       </a>
+       <div id="bloco-tooltip-17876" style="display: none">
+        <b>
+         101 Ways to Win Her Heart
+        </b>
+        <br/>
+        <br/>
+        Minyoung - que se formou em uma escola secundária, colegial e faculdade só para meninas e agora trabalha como designer de lingerie - não sabe nada sobre homens e, subsequentemente, nunca namorou ni...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_19615" data-hasqtip="35" href="https://unionleitor.top/pagina-manga/10th-class-bastard-of-the-knight-clan">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/2a413329.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/10th-class-bastard-of-the-knight-clan">
+        10th Class Bastard of the...
+       </a>
+       <div id="bloco-tooltip-19615" style="display: none">
+        <b>
+         10th Class Bastard of the Knight Clan
+        </b>
+        <br/>
+        <br/>
+        O mundo humano está à beira da destruição após o ataque do Rei Demônio, “Erodin”.
+Após a luta contra o Rei Demônio, o Dragão de Ouro ‘Exigar’ é reencarnado como um humano ‘Kain Ro...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_2203" data-hasqtip="36" href="https://unionleitor.top/pagina-manga/11-eyes-tsumi-to-batsu-to-aganai-no-shoujo">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/43019309.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/11-eyes-tsumi-to-batsu-to-aganai-no-shoujo">
+        11 Eyes -Tsumi to Batsu t...
+       </a>
+       <div id="bloco-tooltip-2203" style="display: none">
+        <b>
+         11 Eyes -Tsumi to Batsu to Aganai no Shoujo-
+        </b>
+        <br/>
+        <br/>
+        Quando o céu fica vermelho, a lua preta, e os mosntros começam a andar pela rua, Satsuki Kakeru está indeciso sobre o que fazer. Juntos com a mulher amiga Yuka, eles decidem tentar decifrar o porqu...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_10840" data-hasqtip="37" href="https://unionleitor.top/pagina-manga/110-ban-wa-uketsukemasen">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/2a8c0e09.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/110-ban-wa-uketsukemasen">
+        110-Ban wa Uketsukemasen!
+       </a>
+       <div id="bloco-tooltip-10840" style="display: none">
+        <b>
+         110-Ban wa Uketsukemasen!
+        </b>
+        <br/>
+        <br/>
+        Imagine um senpai que você não se relaciona bem. Agora imagine ter de trabalhar com ele e viver no no mesmo apartamento que ele! Sem quarto vazio no dormitório, o policial calouro Kaitou não tem o...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_14572" data-hasqtip="38" href="https://unionleitor.top/pagina-manga/11-59">
+        <img class="img-thumbnail" src="https://umangas.club/assets/uploads/mangas/203ca902.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/11-59">
+        11:59
+       </a>
+       <div id="bloco-tooltip-14572" style="display: none">
+        <b>
+         11:59
+        </b>
+        <br/>
+        <br/>
+        Depois de viver em 24 de dezembro, véspera de Natal em repetição interminável, Mokhwa parece ser o único que está ciente da existência do ciclo do tempo. E neste dia repetido, ele passa o tempo...
+       </div>
+      </div>
+      <div class="col-md-3 col-xs-4 text-center lista-mangas-novos">
+       <a class="capa_217" data-hasqtip="39" href="https://unionleitor.top/pagina-manga/12-beast">
+        <img class="img-thumbnail" src="https://unionleitor.top/assets/uploads/mangas/fc0a9205.jpg" style="width: 140px; height: 180px;"/>
+       </a>
+       <br/>
+       <a href="https://unionleitor.top/pagina-manga/12-beast">
+        12 Beast
+       </a>
+       <div id="bloco-tooltip-217" style="display: none">
+        <b>
+         12 Beast
+        </b>
+        <br/>
+        <br/>
+        Eita é um jovem do segundo ano que ama jogos, segundo o seu conceito “Sem jogos, Sem vida” ele vive uma vida pacífica até que uma garota aparece no dojö onde ele mora e diz que veio por indica...
+       </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row text-center">
+      <nav>
+       <ul class="pagination">
+        <li class="active">
+         <a href="https://unionleitor.top/lista-mangas/a-z/1/*">
+          1
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/2/*">
+          2
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/3/*">
+          3
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/4/*">
+          4
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/5/*">
+          5
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/2/*">
+          <span aria-hidden="true">
+           ›
+          </span>
+          <span class="sr-only">
+           Next
+          </span>
+         </a>
+        </li>
+        <li>
+         <a href="https://unionleitor.top/lista-mangas/a-z/364/*">
+          <span aria-hidden="true">
+           »
+          </span>
+          <span class="sr-only">
+           End
+          </span>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+    </div>
+    <div class="col-md-4" style="margin-top: 10px">
+     <h2>
+      Publicidade
+     </h2>
+     <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+     </script>
+     <ins class="adsbygoogle" data-ad-client="ca-pub-1357811707739237" data-ad-slot="1765469123" data-ad-status="unfilled" data-adsbygoogle-status="done" style="display:inline-block;width:300px;height:250px">
+      <div aria-label="Advertisement" id="aswift_2_host" style="border: none; height: 250px; width: 300px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement">
+       <iframe allowtransparency="true" data-google-container-id="a!3" data-google-query-id="CJr_yfe_w_0CFQXn_QUddHAKgQ" data-load-complete="true" frameborder="0" height="250" hspace="0" id="aswift_2" marginheight="0" marginwidth="0" name="aswift_2" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1357811707739237&amp;output=html&amp;h=250&amp;slotname=1765469123&amp;adk=3946911841&amp;adf=3588316316&amp;pi=t.ma~as.1765469123&amp;w=300&amp;lmt=1677974985&amp;format=300x250&amp;url=https%3A%2F%2Funionleitor.top%2Flista-mangas&amp;wgl=1&amp;uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&amp;dt=1677974984544&amp;bpp=3&amp;bdt=758&amp;idt=949&amp;shv=r20230301&amp;mjsv=m202302230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=0x0%2C750x280&amp;nras=1&amp;correlator=4453641354231&amp;frm=20&amp;pv=1&amp;ga_vid=2090536191.1677974984&amp;ga_sid=1677974985&amp;ga_hid=669309963&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=850&amp;ady=133&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759926%2C44759875%2C44777877%2C44773810%2C44759837%2C31072649&amp;oid=2&amp;pvsid=1643238133734580&amp;tmod=1021175068&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;xpc=mR84MidFFT&amp;p=https%3A//unionleitor.top&amp;dtd=957" style="left:0;position:absolute;top:0;border:0;width:300px;height:250px;" vspace="0" width="300">
+       </iframe>
+      </div>
+     </ins>
+     <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+    </div>
+    <div class="col-md-4" style="margin-top: 10px">
+     <h2>
+      Reportar erro
+     </h2>
+     <a href="https://unionleitor.top/report" target="_blank">
+      <span class="glyphicon glyphicon-warning-sign" style="font-size: 70px; color: #a42f30; margin-top: 5px; margin-left: 5px;">
+      </span>
+     </a>
+    </div>
+    <div class="col-md-4" style="margin-top: 10px; height: auto !important; min-height: 0px !important;">
+     <h2>
+      Mais lidos
+     </h2>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/solo-leveling">
+       <img src="https://umangas.club/assets/uploads/mangas/61f35b01.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/solo-leveling">
+         Solo Leveling
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.68
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Solo_Leveling/179">
+         Capítulo #179
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/boku-no-hero-academia-pt-br">
+       <img src="https://umangas.club/assets/uploads/mangas/79b10e20.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/boku-no-hero-academia-pt-br">
+         Boku no Hero Academia (pt-br)
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.25
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Boku_no_Hero_Academia_(pt-br)/376">
+         Capítulo #376
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/one-punch-man">
+       <img src="https://umangas.club/assets/uploads/mangas/e2021404.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/one-punch-man">
+         One Punch-Man
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.49
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/One_Punch-Man/176">
+         Capítulo #176
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/tales-of-demons-and-gods">
+       <img src="https://umangas.club/assets/uploads/mangas/2e944201.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/tales-of-demons-and-gods">
+         Tales of Demons and Gods
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.41
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Tales_of_Demons_and_Gods/412.5">
+         Capítulo #412.5
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/one-piece">
+       <img src="https://umangas.club/assets/uploads/mangas/120edc18.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/one-piece">
+         One Piece
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.64
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/One_Piece/1071">
+         Capítulo #1071
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/black-clover">
+       <img src="https://umangas.club/assets/uploads/mangas/f1144604.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/black-clover">
+         Black Clover
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #8.90
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Black_Clover/346v2">
+         Capítulo #346v2
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/shingeki-no-kyojin">
+       <img src="https://umangas.club/assets/uploads/mangas/7a9f3001.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/shingeki-no-kyojin">
+         Shingeki no Kyojin
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.17
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Shingeki_no_Kyojin/139">
+         Capítulo #139
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/the-beginning-after-the-end">
+       <img src="https://umangas.club/assets/uploads/mangas/72495919.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/the-beginning-after-the-end">
+         The Beginning After The End
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.56
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/The_Beginning_After_The_End/173">
+         Capítulo #173
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/kimetsu-no-yaiba">
+       <img src="https://unionleitor.top/assets/uploads/mangas/e44e8627.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/kimetsu-no-yaiba">
+         Kimetsu no Yaiba
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #9.39
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Kimetsu_no_Yaiba/205">
+         Capítulo #205
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="media lancamento-linha">
+      <a class="media-left" href="https://unionleitor.top/pagina-manga/nanatsu-no-taizai-pt-br">
+       <img src="https://umangas.club/assets/uploads/mangas/6bc56401.jpg" style="width: 60px"/>
+      </a>
+      <div class="media-body">
+       <h4 class="media-heading">
+        <a class="link-titulo" href="https://unionleitor.top/pagina-manga/nanatsu-no-taizai-pt-br">
+         Nanatsu no Taizai(Pt-Br)
+        </a>
+       </h4>
+       <span style="padding: 1px 5px; background-color: #fff; display: inline-block; border: 1px solid #ccc; border-radius: 4px;">
+        #8.75
+       </span>
+       <br/>
+       <p>
+        <a href="https://unionleitor.top/leitor/Nanatsu_no_Taizai(Pt-Br)/300">
+         Capítulo #300
+        </a>
+       </p>
+      </div>
+     </div>
+     <p>
+     </p>
+     <p>
+      <a class="btn btn-default" href="https://unionleitor.top/mangas/visualizacoes" role="button">
+       Ver todos »
+      </a>
+     </p>
+     <div class="google-auto-placed" style="width: 100%; height: auto; clear: none; text-align: center;">
+      <ins class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-1357811707739237" data-ad-format="auto" data-ad-status="unfilled" data-adsbygoogle-status="done" style="display: block; margin: 10px auto; background-color: transparent; height: 0px;">
+       <div aria-label="Advertisement" id="aswift_4_host" style="border: none; height: 0px; width: 360px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
+        <iframe allowtransparency="true" data-google-container-id="a!5" data-google-query-id="CMG75_e_w_0CFRfK_QUd9jgF1A" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_4" marginheight="0" marginwidth="0" name="aswift_4" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1357811707739237&amp;output=html&amp;h=280&amp;adk=3571645867&amp;adf=4028680228&amp;pi=t.aa~a.3790862712~rp.3&amp;daaos=1677974177212&amp;w=360&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1677974985&amp;rafmt=1&amp;to=qs&amp;pwprc=1744542709&amp;format=360x280&amp;url=https%3A%2F%2Funionleitor.top%2Flista-mangas&amp;fwr=0&amp;pra=3&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=40&amp;uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&amp;dt=1677974985934&amp;bpp=2&amp;bdt=2148&amp;idt=2&amp;shv=r20230301&amp;mjsv=m202302230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Db540e278d4192c58-22851ca4cd7f0098%3AT%3D1677974985%3ART%3D1677974985%3AS%3DALNI_MZwCG-JU8Z5lMc79d3GuoXiJSroKw&amp;gpic=UID%3D000009edcdfbe7bf%3AT%3D1677974985%3ART%3D1677974985%3AS%3DALNI_MYi5xtlXOcwhHTafHt2LxdGeVa9Qg&amp;prev_fmts=0x0%2C750x280%2C300x250&amp;nras=2&amp;correlator=4453641354231&amp;frm=20&amp;pv=1&amp;ga_vid=2090536191.1677974984&amp;ga_sid=1677974985&amp;ga_hid=669309963&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=850&amp;ady=1854&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759926%2C44759875%2C44777877%2C44773810%2C44759837%2C31072649&amp;oid=2&amp;pvsid=1643238133734580&amp;tmod=1021175068&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;ifi=5&amp;uci=a!5&amp;btvi=1&amp;fsb=1&amp;xpc=deijZEUrrv&amp;p=https%3A//unionleitor.top&amp;dtd=33" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 360px; height: 0px;" vspace="0" width="360">
+        </iframe>
+       </div>
+      </ins>
+     </div>
+    </div>
+    <div class="col-md-4" style="margin-top: 10px">
+     <h2>
+      Publicidade
+     </h2>
+    </div>
+   </div>
+   <script type="text/javascript">
+    jQuery(document).ready(function() {
+                        jQuery('a[class^=capa]').each(function(){
+                var classe = jQuery(this).attr('class');
+                var arrClasse = classe.split('_');
+                var id = arrClasse[1];
+
+                jQuery('.capa_'+id).qtip({
+                    content: $('#bloco-tooltip-'+id),
+                    style: { classes: 'qtip-tipsy' },
+                    position: {
+                        target: 'mouse', // Track the mouse as the positioning target
+                        adjust: { x: 15, y: 15 } // Offset it slightly from under the mouse
+                    }
+                });
+            });
+                    });
+   </script>
+   ﻿
+   <div class="row">
+    <div class="col-md-12">
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12 text-center">
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+      </div>
+     </div>
+    </div>
+   </div>
+   <hr/>
+   <div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;">
+    <ins class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-1357811707739237" data-ad-format="auto" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 20px; background-color: transparent; height: 280px;">
+     <div id="aswift_3_host" style="border: none; height: 280px; width: 1140px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;">
+     </div>
+    </ins>
+   </div>
+   <footer>
+    <p>
+     <a href="https://unionleitor.top/politica-de-privacidade">
+      Política de Privacidade
+     </a>
+     <br/>
+     © Copyright 2023 Union Mangás
+     <br/>
+     Direitos autorais e marcas comerciais para o mangá, e outros materiais promocionais são mantidos por seus respectivos proprietários e a sua utilização é permitida nos termos da cláusula de uso justo da Lei de Direitos Autorais. | Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.
+     <br/>
+     Não somos responsáveis pela produção do conteúdo aqui presente, todo conteúdo se encontra disponível na internet, e apenas os organizamos para leitura online. Não comercializamos nenhum de nosso conteúdo, o acesso ao Union Mangás é, e sempre será, livre e gratuito. Todo o conteúdo aqui é de fã para fã. Os donos, webmasters e qualquer outra pessoa que tenha relacionamento com a produção do site não tem responsabilidade alguma sobre a forma com que o usuário venha a utilizar os arquivos aqui vistos. Caso algum arquivo seja de sua autoria e esteja sendo utilizado sem sua permissão, entre em contato, analisaremos e removeremos o conteúdo assim que possível. | We are not responsible for the production of our actual content, all the content is found in the internet, and we only organize them for reading. All content here is fan to fan. We do not sell none of our content, the access of Union Mangás is, and is going always to be, free. The owners, webmaster, and any other people who is related with the production of this website does not have any responsibility about how the guest uses our content. If part of the content is from your authority and is being used without permission, contact us, we will analyze and remove it as fast as possible.
+    </p>
+   </footer>
+  </div>
+  <div aria-hidden="false" class="modal fade in" id="myModal" role="dialog" style="display: block;">
+   <div class="modal-backdrop fade in">
+   </div>
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-body">
+      <div class="row">
+       <div class="col-md-12">
+        <select aria-hidden="true" class="select2-input select2-default pesquisa_modal select2-hidden-accessible" data-open="true" id="pesquisa_modal" name="pesquisa_modal" style="width: 100% !important" tabindex="-1">
+        </select>
+        <span class="select2 select2-container select2-container--default select2-container--below select2-container--open" dir="ltr" style="width: 100%;">
+         <span class="selection">
+          <span aria-autocomplete="list" aria-expanded="true" aria-haspopup="true" aria-labelledby="select2-pesquisa_modal-container" aria-owns="select2-pesquisa_modal-results" class="select2-selection select2-selection--single" role="combobox" tabindex="0">
+           <span class="select2-selection__rendered" id="select2-pesquisa_modal-container">
+            <span class="select2-selection__placeholder">
+             Clique aqui e pesquise seu Mangá
+            </span>
+           </span>
+           <span class="select2-selection__arrow" role="presentation">
+            <b role="presentation">
+            </b>
+           </span>
+          </span>
+         </span>
+         <span aria-hidden="true" class="dropdown-wrapper">
+         </span>
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   function formatRepo (repo) {
+    if (repo.loading) return repo.titulo;
+
+    var markup = '<div class="clearfix">' +
+    '<div class="col-sm-1"><a href="https://unionleitor.top/manga/' + repo.url + '">' +
+    '<img src="' + repo.imagem + '" style="max-width: 40px" />' +
+    '</a></div>' +
+    '<div clas="col-sm-10">' +
+    '<div class="clearfix">' +
+    '<div class="col-sm-10"><a href="https://unionleitor.top/manga/' + repo.url + '">' + repo.titulo + '</a></div>' +
+    '<div class="col-sm-10" style="font-size: 10px">Autor: ' + repo.autor + ' | Artista: ' + repo.artista + '</div>' +
+    '<div class="col-sm-6" style="font-size: 10px">Último capítulo: ' + repo.capitulo + '</div>' +
+    '</div>';
+
+//        if (repo.sinopse) {
+//          markup += '<div>' + repo.sinopse + '</div>';
+//        }
+
+    markup += '</div></div><hr style="margin-bottom: 0; margin-top: 10px;">';
+
+    return markup;
+}
+
+jQuery(document).ready(function(){
+    jQuery('#pesquisa').click(function(){
+        jQuery('#myModal').modal('show');
+        setTimeout(function(){ jQuery('.pesquisa_modal').select2('open'); }, 500);
+    });
+
+    jQuery('#pesquisa_modal').select2({
+        placeholder: "Clique aqui e pesquise seu Mangá",
+                ajax: {
+                url: "https://unionleitor.top/assets/busca.php",
+                dataType: 'json',
+                delay: 50,
+                data: function (params) {
+                        return {
+                                nomeManga: params.term, // search term
+                                page: params.page
+                        };
+                },
+                processResults: function (data, page) {
+                        // parse the results into the format expected by Select2.
+                    // since we are using custom formatting functions we do not need to
+                    // alter the remote JSON data
+                    return {
+                            results: data.items
+                    };
+                },
+                cache: true
+        },
+        escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+        minimumInputLength: 1,
+        templateResult: formatRepo, // omitted for brevity, see the source of this page
+        language: {
+            errorLoading: function () {
+              return 'Os resultados não puderam ser carregados.';
+            },
+            inputTooLong: function (args) {
+              var overChars = args.input.length - args.maximum;
+
+              var message = 'Apague ' + overChars + ' caracter';
+
+              if (overChars != 1) {
+                message += 'es';
+              }
+
+              return message;
+            },
+            inputTooShort: function (args) {
+              var remainingChars = args.minimum - args.input.length;
+
+              var message = 'Digite ' + remainingChars + ' ou mais caracteres';
+
+              return message;
+            },
+            loadingMore: function () {
+              return 'Carregando mais resultados…';
+            },
+            maximumSelected: function (args) {
+              var message = 'Você só pode selecionar ' + args.maximum + ' ite';
+
+              if (args.maximum == 1) {
+                message += 'm';
+              } else {
+                message += 'ns';
+              }
+
+              return message;
+            },
+            noResults: function () {
+              return 'Nenhum resultado encontrado';
+            },
+            searching: function () {
+              return 'Buscando…';
+            }
+          },
+          open: true
+    });
+});
+  </script>
+  <script charset="utf-8" type="text/javascript">
+   // Place this code snippet near the footer of your page before the close of the /body tag
+// LEGAL NOTICE: The content of this website and all associated program code are protected under the Digital Millennium Copyright Act. Intentionally circumventing this code may constitute a violation of the DMCA.
+  </script>
+  <script>
+   (function(){var js = "window['__CF$cv$params']={r:'7a2e21bb0a1a277e',m:'93dpQxAcHWyWZTnMLxh1CPFq9GJ78jYJp7irXTQZwvw-1677974983-0-AWamweVlVKSh+N6Fqr730bvaLYqEcGpaU1t2bOT5GR73xQbrJ1l9s0gw9++zPlGdlg/GSu4KFiglLAAaNDfW7LrqvJyrfyVv5T/SQ4jxHBcYCnvDeR/HQFVzRy8kQ1+UUQ==',s:[0xe946edf2fe,0x7084590efd],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();
+  </script>
+  <iframe height="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;" width="1">
+  </iframe>
+  <ins class="adsbygoogle adsbygoogle-noablate" data-ad-status="unfilled" data-adsbygoogle-status="done" style="display: none !important;">
+   <div aria-label="Advertisement" id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement">
+    <iframe allowtransparency="true" data-google-container-id="a!1" data-load-complete="true" frameborder="0" hspace="0" id="aswift_0" marginheight="0" marginwidth="0" name="aswift_0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1357811707739237&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1677974985&amp;plat=2%3A16777216%2C3%3A16%2C4%3A16%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Funionleitor.top%2Flista-mangas&amp;ea=0&amp;pra=5&amp;wgl=1&amp;uach=WyIiLCIiLCIiLCIiLCIiLFtdLGZhbHNlLG51bGwsIiIsW10sZmFsc2Vd&amp;dt=1677974984510&amp;bpp=29&amp;bdt=724&amp;idt=885&amp;shv=r20230301&amp;mjsv=m202302230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;nras=1&amp;correlator=4453641354231&amp;frm=20&amp;pv=2&amp;ga_vid=2090536191.1677974984&amp;ga_sid=1677974985&amp;ga_hid=669309963&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759926%2C44759875%2C44777877%2C44773810%2C44759837%2C31072649&amp;oid=2&amp;pvsid=1643238133734580&amp;tmod=1021175068&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=948" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" vspace="0">
+    </iframe>
+   </div>
+  </ins>
+  <iframe height="0" src="https://www.google.com/recaptcha/api2/aframe" style="display: none;" width="0">
+  </iframe>
+  <span class="select2-container select2-container--default select2-container--open" style="position: absolute; top: 74px; left: 356px;">
+   <span class="select2-dropdown select2-dropdown--below" dir="ltr" style="width: 568px;">
+    <span class="select2-search select2-search--dropdown">
+     <input autocapitalize="off" autocomplete="off" autocorrect="off" class="select2-search__field" role="textbox" spellcheck="false" tabindex="0" type="search"/>
+    </span>
+    <span class="select2-results">
+     <ul aria-expanded="true" aria-hidden="false" class="select2-results__options" id="select2-pesquisa_modal-results" role="tree">
+      <li class="select2-results__option" role="treeitem">
+       <div class="clearfix">
+        <div class="col-sm-1">
+         <a href="https://unionleitor.top/manga/solo-leveling">
+          <img src="https://umangas.club/assets/uploads/mangas/61f35b01.jpg" style="max-width: 40px"/>
+         </a>
+        </div>
+        <div clas="col-sm-10">
+         <div class="clearfix">
+          <div class="col-sm-10">
+           <a href="https://unionleitor.top/manga/solo-leveling">
+            Solo Leveling
+           </a>
+          </div>
+          <div class="col-sm-10" style="font-size: 10px">
+           Autor: Jang Sung-Lak | Artista: Jang Sung-Lak
+          </div>
+          <div class="col-sm-6" style="font-size: 10px">
+           Último capítulo: 187
+          </div>
+         </div>
+        </div>
+       </div>
+       <hr style="margin-bottom: 0; margin-top: 10px;"/>
+      </li>
+      <li class="select2-results__option" role="treeitem">
+       <div class="clearfix">
+        <div class="col-sm-1">
+         <a href="https://unionleitor.top/manga/solo-leveling-novel">
+          <img src="https://umangas.club/assets/uploads/mangas/75533507.jpg" style="max-width: 40px"/>
+         </a>
+        </div>
+        <div clas="col-sm-10">
+         <div class="clearfix">
+          <div class="col-sm-10">
+           <a href="https://unionleitor.top/manga/solo-leveling-novel">
+            Solo Leveling (Novel)
+           </a>
+          </div>
+          <div class="col-sm-10" style="font-size: 10px">
+           Autor: Chugong | Artista: N/A
+          </div>
+          <div class="col-sm-6" style="font-size: 10px">
+           Último capítulo: 90
+          </div>
+         </div>
+        </div>
+       </div>
+       <hr style="margin-bottom: 0; margin-top: 10px;"/>
+      </li>
+     </ul>
+    </span>
+   </span>
+  </span>
+ </body>
+ <iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20230301/r20190131/zrt_lookup.html" style="display: none;">
+ </iframe>
+</html>
