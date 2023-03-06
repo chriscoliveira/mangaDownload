@@ -21,8 +21,8 @@ if sistema == 'Windows':
 else:
     separador = '/'
     folder = 'Download/'
-
-fontes = ['union', 'scanlator', 'muito manga', 'lermanga']
+# fontes = ['union']
+fontes = ['firemangas', 'union', 'scanlator', 'muito manga', 'lermanga']
 
 
 def busca_manga(id, manga_name):
@@ -47,6 +47,10 @@ def pesquisa_manga(id, manga_name, fonte):
         site = 'https://unionleitor.top/lista-mangas'
         blocomangas = 'select2-results__option'
         tag = 'li'
+    elif fonte == 'firemangas':
+        site = 'https://firemangas.com/'
+        blocomangas = 'ui-autocomplete'
+        tag = 'ul'
     elif fonte == 'mangayabu':
         site = 'https://www.mangayabu.top/lista-de-mangas/'
         blocomangas = 'ycard-details'
@@ -78,9 +82,13 @@ def pesquisa_manga(id, manga_name, fonte):
         if fonte == 'mangayabu':
             page.fill('input[id="mangasearch"]', manga_name)
 
-        if fonte == 'union':
+        elif fonte == 'union':
             page.click('input[id="pesquisa"]')
             page.fill('input[class="select2-search__field"]', manga_name)
+
+        elif fonte == 'firemangas':
+            page.click('div[class="search"]')
+            page.fill('input[id="searchInput"]', manga_name)
 
         time.sleep(2)
         mangas_encontrados = page.content()
@@ -98,8 +106,25 @@ def pesquisa_manga(id, manga_name, fonte):
                         link = manga.find('a').get('href')
                         nome = str(manga.text).replace(
                             'Autor:', '||').split('||')[0]
+                        print(link, nome, sep='\n')
                     except:
                         print('falha ao pesquisar em '+fonte)
+                elif fonte == 'firemangas':
+                    try:
+                        itens = manga.find_all('li')
+                        for i in itens:
+                            try:
+                                link = i.find('a', class_='link-block')['href']
+                                nome = i.find(
+                                    'span', class_='series-title').text
+
+                                f.write(f'{nome};{fonte};{link}\n')
+                            except:
+                                pass
+                    except Exception as e:
+                        print('falha ao pesquisar em '+fonte+' '+str(e))
+                    link = ''
+                    nome = ''
                 elif fonte == 'mangayabu':
                     try:
                         link = manga.find('a').get('href')
@@ -121,30 +146,19 @@ def pesquisa_manga(id, manga_name, fonte):
                         nome = manga.find('h3').text.strip().replace(':', '')
                     except:
                         print('falha ao pesquisar em '+fonte)
-                elif fonte == 'union':
+                elif fonte == 'lermanga':
                     try:
                         lista = capitulos.find_all(
                             'div', {'class': 'row capitulos'})
                         fotos = capitulos.find(
                             'div', {'class': 'col-md-4 col-xs-12 text-center col-md-perfil'})
-
-                        # salva a capa do manga
-                        foto = fotos.find(
-                            'img').get('src')
                     except:
                         print('falha ao pesquisar em '+fonte)
-
-                elif fonte == 'lermanga':
-                    try:
-                        link = str(manga.find(
-                            'a', class_='film-poster-ahref item-qtip').get('href'))
-                        nome = str(manga.find(
-                            'a', class_='film-poster-ahref item-qtip').get('title'))
-                    except:
-                        print('falha ao pesquisar em '+fonte)
-
-                if str(manga_name).lower() in str(nome).lower():
-                    f.write(f'{nome};{fonte};{link}\n')
+                try:
+                    if str(manga_name).lower() in str(nome).lower():
+                        f.write(f'{nome};{fonte};{link}\n')
+                except:
+                    pass
 
         # preenche a lista de mangas encontrados
         listagem = []
@@ -214,6 +228,15 @@ def busca_capitulos(id, manga_link, fonte):
                 foto = fotos.find(
                     'img').get('src')
 
+            elif fonte == 'firemangas':
+                lista = capitulos.find_all(
+                    'a', {'class': 'link-dark'})
+                fotos = capitulos.find('div', {'class': 'thumb'})
+
+                # salva a capa do manga
+                foto = fotos.find(
+                    'img').get('src')
+
             with open(f'TXT/{id}capa.jpg', 'wb') as handle:
                 response = requests.get(foto, stream=True)
                 if not response.ok:
@@ -267,6 +290,16 @@ def busca_capitulos(id, manga_link, fonte):
                         "Capítulo ", "").replace(' Ler Mangá', '').replace(' ', '').split('–')[1]
                 elif fonte == 'union':
                     nome = cap.find('a').text
+                    link = cap.find('a').get('href')
+                    # print(nome, link)
+                    if not data:
+                        data = nome
+
+                    nome = nome.replace('Cap. ', '')
+
+                elif fonte == 'firemangas':
+                    nome = cap.find('a').text
+                    nome = nome.replace('VistoCapítulo ', '').split(' ')[0]
                     link = cap.find('a').get('href')
                     # print(nome, link)
                     if not data:
@@ -370,6 +403,9 @@ def baixaPaginas(id, manga, capitulo, link, range_atual, fonte='mangayabu'):
         elif fonte == 'union':
             imgs = imagens.find('div', class_="col-sm-12 text-center")
             imgs = imgs.find_all('img')
+        elif fonte == 'firemangas':
+            imgs = imagens.find('div', class_='readchapter read-slideshow')
+            imgs = imgs.find_all('img')
         elif fonte == 'scanlator':
             imgs = imagens.find_all('img', {'class': 'wp-manga-chapter-img'})
         elif fonte == 'muito manga':
@@ -392,7 +428,7 @@ def baixaPaginas(id, manga, capitulo, link, range_atual, fonte='mangayabu'):
                              f'{manga}_{capitulo}_{cont}.jpg', img, range_atual)
                 lista_baixados.append(capitulo)
                 cont += 1
-            elif fonte == 'mangayabu' or fonte == 'lermanga' or fonte == 'union':
+            elif fonte == 'mangayabu' or fonte == 'lermanga' or fonte == 'union' or fonte == 'firemangas':
                 # print(img)
                 linkImg = str(img.get('src')
                               ).replace('http:', 'https:').strip()
@@ -545,9 +581,9 @@ def log(N=20):
 if __name__ == "__main__":
     pass
 
-    # print(busca_manga('101010', 'solo'))
-    print(busca_capitulos(
-        '101010', 'https://lermanga.org/mangas/solo-leveling/', 'lermanga'))
+    print(busca_manga('101010', 'bleach'))
+    # print(busca_capitulos(
+    #     '101010', 'https://firemangas.com/manga/ler/52', 'firemangas'))
     # print(busca_capitulos(
     #     '101010', 'https://mangayabu.top/manga/oyasumi-punpun/', 'mangayabu'))
 

@@ -82,6 +82,9 @@ if sistema == 'Windows':
                         elif self.rb_union.isChecked():
                             if 'union' in servidor:
                                 lista_encontrado.append([titulo, link])
+                        elif self.rb_firemangas.isChecked():
+                            if 'firemangas' in servidor:
+                                lista_encontrado.append([titulo, link])
                 for i in lista_encontrado:
                     # print(i[0], i[1])
                     self.lista_animes.addItem(i[0])
@@ -110,6 +113,8 @@ if sistema == 'Windows':
                 self.serv = 'muito manga'
             elif self.rb_union.isChecked():
                 self.serv = 'union'
+            elif self.rb_firemangas.isChecked():
+                self.serv = 'firemangas'
 
             with open(f'TXT/mangaDownloaderlista_manga.txt', 'r') as encontrado:
                 encontrado = encontrado.readlines()

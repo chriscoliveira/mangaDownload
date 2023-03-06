@@ -94,7 +94,7 @@ mangá</string>
           <rect>
            <x>10</x>
            <y>60</y>
-           <width>498</width>
+           <width>591</width>
            <height>25</height>
           </rect>
          </property>
@@ -103,7 +103,7 @@ mangá</string>
            <widget class="QRadioButton" name="rb_union">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>9</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -114,10 +114,24 @@ mangá</string>
            </widget>
           </item>
           <item>
+           <widget class="QRadioButton" name="rb_firemangas">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Firemangas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QRadioButton" name="rb_muito">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>9</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -134,13 +148,13 @@ mangá</string>
            <widget class="QRadioButton" name="rb_scan">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>9</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
             <property name="text">
-             <string>Project Scanlator</string>
+             <string>Project Scan</string>
             </property>
            </widget>
           </item>
@@ -148,7 +162,7 @@ mangá</string>
            <widget class="QRadioButton" name="rb_yabu">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>9</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
