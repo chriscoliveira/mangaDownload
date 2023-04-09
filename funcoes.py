@@ -25,18 +25,18 @@ else:
 fontes = ['firemangas', 'union', 'scanlator', 'muito manga', 'lermanga']
 
 
-def busca_manga(id, manga_name):
+def busca_manga(id, manga_name, servidor):
     print(f'{"#"*60}\n\nProcurando nos sites pelo mangá: {manga_name}\n\n{"#"*60}\n\n')
     try:
         os.remove(f'TXT/{id}lista_manga.txt')
     except:
         pass
 
-    for i in fontes:
-        mangas = pesquisa_manga(id, manga_name, fonte=i)
+    # for i in fontes:
+    mangas = pesquisa_manga(id, manga_name, fonte=servidor)
 
-        # if not mangas:
-        #     mangas = pesquisa_manga(id, manga_name.split(' ')[0], fonte=i)
+    # if not mangas:
+    #     mangas = pesquisa_manga(id, manga_name.split(' ')[0], fonte=i)
     return mangas
 
 
@@ -67,108 +67,115 @@ def pesquisa_manga(id, manga_name, fonte):
         site = f'https://lermanga.org/?s={manga_name}'
         blocomangas = 'flw-item'
 
-    # abre o navegador
-    with sync_playwright() as p:
-        if sistema == 'Windows':
+    try:
+        # abre o navegador
+        with sync_playwright() as p:
             browser = p.chromium.launch(
                 channel='chrome', headless=True, args=['--start-maximized'])
-        else:
-            browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+            page = browser.new_page()
 
-        page.goto(site, timeout=0)
+            page.goto(site, timeout=0)
 
-        # caso for do mangayabu faz a pesquisa
-        if fonte == 'mangayabu':
-            page.fill('input[id="mangasearch"]', manga_name)
+            # caso for do mangayabu faz a pesquisa
+            if fonte == 'mangayabu':
+                page.fill('input[id="mangasearch"]', manga_name)
 
-        elif fonte == 'union':
-            page.click('input[id="pesquisa"]')
-            page.fill('input[class="select2-search__field"]', manga_name)
+            elif fonte == 'union':
+                page.click('input[id="pesquisa"]')
+                page.fill('input[class="select2-search__field"]', manga_name)
 
-        elif fonte == 'firemangas':
-            page.click('div[class="search"]')
-            page.fill('input[id="searchInput"]', manga_name)
+            elif fonte == 'firemangas':
+                page.click('div[class="search"]')
+                page.fill('input[id="searchInput"]', manga_name)
 
-        time.sleep(2)
-        mangas_encontrados = page.content()
-        page.close()
+            time.sleep(2)
+            mangas_encontrados = page.content()
+            page.close()
 
-        # faz o scrap da pagina
-        mangas_encontrados = BeautifulSoup(
-            mangas_encontrados, 'html.parser')
+            # faz o scrap da pagina
+            mangas_encontrados = BeautifulSoup(
+                mangas_encontrados, 'html.parser')
 
-        with open(f'TXT/{id}lista_manga.txt', 'a+') as f:
-            for manga in mangas_encontrados.find_all(tag, {'class': blocomangas}):
-                # print(str(manga))
-                if fonte == 'union':
+            with open(f'TXT/{id}lista_manga.txt', 'a+') as f:
+                for manga in mangas_encontrados.find_all(tag, {'class': blocomangas}):
+                    # print(str(manga))
+                    if fonte == 'union':
+                        try:
+                            link = manga.find('a').get('href')
+                            nome = str(manga.text).replace(
+                                'Autor:', '||').split('||')[0]
+                            print(link, nome, sep='\n')
+                        except:
+                            print('falha ao pesquisar em '+fonte +
+                                  '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
+                    elif fonte == 'firemangas':
+                        try:
+                            itens = manga.find_all('li')
+                            for i in itens:
+                                try:
+                                    link = i.find(
+                                        'a', class_='link-block')['href']
+                                    nome = i.find(
+                                        'span', class_='series-title').text
+
+                                    f.write(f'{nome};{fonte};{link}\n')
+                                except:
+                                    pass
+                        except Exception as e:
+                            print('falha ao pesquisar em '+fonte+' ' +
+                                  str(e)+'\nFECHE O PROGRAMA E TENTE NOVAMENTE')
+                        link = ''
+                        nome = ''
+                    elif fonte == 'mangayabu':
+                        try:
+                            link = manga.find('a').get('href')
+                            nome = manga.find('a').get('title').replace(
+                                ':', '').replace('/', ' ').replace('\\', ' ').replace('?', '')
+                        except:
+                            print('falha ao pesquisar em '+fonte +
+                                  '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
+                    elif fonte == 'scanlator':
+                        try:
+                            link = manga.find('a').get('href')
+                            nome = manga.find(
+                                'h3', {'class': 'h5'}).text.strip().replace(':', '')
+                        except:
+                            print('falha ao pesquisar em '+fonte +
+                                  '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
+                    elif fonte == 'muito manga':
+                        try:
+                            link = 'https://muitomanga.com' + \
+                                str(manga.find('a').get('href'))
+                            nome = manga.find(
+                                'h3').text.strip().replace(':', '')
+                        except:
+                            print('falha ao pesquisar em '+fonte +
+                                  '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
+                    elif fonte == 'lermanga':
+                        try:
+                            lista = capitulos.find_all(
+                                'div', {'class': 'row capitulos'})
+                            fotos = capitulos.find(
+                                'div', {'class': 'col-md-4 col-xs-12 text-center col-md-perfil'})
+                        except:
+                            print('falha ao pesquisar em '+fonte +
+                                  '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
                     try:
-                        link = manga.find('a').get('href')
-                        nome = str(manga.text).replace(
-                            'Autor:', '||').split('||')[0]
-                        print(link, nome, sep='\n')
+                        if str(manga_name).lower() in str(nome).lower():
+                            f.write(f'{nome};{fonte};{link}\n')
                     except:
-                        print('falha ao pesquisar em '+fonte)
-                elif fonte == 'firemangas':
-                    try:
-                        itens = manga.find_all('li')
-                        for i in itens:
-                            try:
-                                link = i.find('a', class_='link-block')['href']
-                                nome = i.find(
-                                    'span', class_='series-title').text
+                        pass
 
-                                f.write(f'{nome};{fonte};{link}\n')
-                            except:
-                                pass
-                    except Exception as e:
-                        print('falha ao pesquisar em '+fonte+' '+str(e))
-                    link = ''
-                    nome = ''
-                elif fonte == 'mangayabu':
-                    try:
-                        link = manga.find('a').get('href')
-                        nome = manga.find('a').get('title').replace(
-                            ':', '').replace('/', ' ').replace('\\', ' ').replace('?', '')
-                    except:
-                        print('falha ao pesquisar em '+fonte)
-                elif fonte == 'scanlator':
-                    try:
-                        link = manga.find('a').get('href')
-                        nome = manga.find(
-                            'h3', {'class': 'h5'}).text.strip().replace(':', '')
-                    except:
-                        print('falha ao pesquisar em '+fonte)
-                elif fonte == 'muito manga':
-                    try:
-                        link = 'https://muitomanga.com' + \
-                            str(manga.find('a').get('href'))
-                        nome = manga.find('h3').text.strip().replace(':', '')
-                    except:
-                        print('falha ao pesquisar em '+fonte)
-                elif fonte == 'lermanga':
-                    try:
-                        lista = capitulos.find_all(
-                            'div', {'class': 'row capitulos'})
-                        fotos = capitulos.find(
-                            'div', {'class': 'col-md-4 col-xs-12 text-center col-md-perfil'})
-                    except:
-                        print('falha ao pesquisar em '+fonte)
-                try:
-                    if str(manga_name).lower() in str(nome).lower():
-                        f.write(f'{nome};{fonte};{link}\n')
-                except:
-                    pass
-
-        # preenche a lista de mangas encontrados
-        listagem = []
-        with open(f'TXT/{id}lista_manga.txt', 'r') as f:
-            lista = f.readlines()
-            for item in lista:
-                listagem.append(
-                    f"{item.split(';')[0]};{item.split(';')[1]}")
-        return listagem
-
+            # preenche a lista de mangas encontrados
+            listagem = []
+            with open(f'TXT/{id}lista_manga.txt', 'r') as f:
+                lista = f.readlines()
+                for item in lista:
+                    listagem.append(
+                        f"{item.split(';')[0]};{item.split(';')[1]}")
+            return listagem
+    except Exception as e:
+        print(f'ocorreu esse erro::: {e}')
 # mostra os capitulos do manga
 
 
