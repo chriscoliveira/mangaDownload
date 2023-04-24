@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Buscando por: one punch
+  </title>
+  <meta content="Resultados para a busca one punch no MuitoManga!" name="description"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Mangas" name="apple-mobile-web-app-title"/>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta content="#202020" name="theme-color"/>
+  <!-- Windows Phone -->
+  <meta content="#202020" name="msapplication-navbutton-color"/>
+  <!-- iOS Safari -->
+  <meta content="#202020" name="apple-mobile-web-app-status-bar-style"/>
+  <link href="https://fonts.googleapis.com/" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/" rel="dns-prefetch"/>
+  <link href="https://cdnjs.cloudflare.com/" rel="preconnect"/>
+  <link href="https://cdnjs.cloudflare.com/" rel="dns-prefetch"/>
+  <link href="https://pagead2.googlesyndication.com/" rel="preconnect"/>
+  <link href="https://pagead2.googlesyndication.com/" rel="dns-prefetch"/>
+  <link href="https://muitomanga.com/icon-muitomanga.png" rel="shortcut icon" type="image/x-icon"/>
+  <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet preload"/>
+  <link as="style" href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap" rel="stylesheet preload"/>
+  <link as="style" href="https://muitomanga.com/cdn/style.css?novo19" rel="stylesheet preload"/>
+  <link href="https://muitomanga.com/mask_192.png" rel="apple-touch-icon" type="image/png"/>
+  <link href="https://muitomanga.com/mask_192.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+  <link href="/manifest.json?_v=1.2172221a15" rel="manifest"/>
+  <script crossorigin="anonymous" integrity="sha256-xjwKUY/NgkPjZZBOtOxRYtK20GaqTwUCf7WYCJ1z69w=" src="https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js">
+  </script>
+ </head>
+ <body class="temaDark" style="">
+  <header class="myheader">
+   <nav>
+    <span class="menuIcon js-toggleMe">
+     <span class="bars">
+      <i class="fa fa-bars">
+      </i>
+     </span>
+    </span>
+    <span class="buscaIcon js-toggleSearch">
+     <span class="bars">
+      <i class="fa fa-search">
+      </i>
+     </span>
+    </span>
+    <a class="button_css_login" href="https://muitomanga.com/login">
+     <i class="fa fa-user">
+     </i>
+    </a>
+    <div class="logo">
+     <a href="https://muitomanga.com/">
+      <picture>
+       <source height="45" media="(max-width: 500px)" srcset="https://muitomanga.com/muitomanga-minilogo.png"/>
+       <source height="45" media="(min-width: 501px)" srcset="https://muitomanga.com/logo-muitomanga.png?"/>
+       <img alt="MuitoMangá e um site para ler mangás online grátis em pt-br (português)" height="45" src="https://muitomanga.com/logo-muitomanga.png?" title="MuitoMangá"/>
+      </picture>
+     </a>
+    </div>
+    <div class="search-container">
+     <form action="/buscar" method="get">
+      <input autocomplete="off" id="myInputSearchmm" name="q" placeholder="Digite o nome do mangá.." type="text" value=""/>
+      <label class="labeldesable" for="myInputSearchmm">
+       <button aria-label="Justify" type="submit">
+        <i class="fa fa-search">
+        </i>
+       </button>
+      </label>
+     </form>
+     <div class="live-search ltr">
+     </div>
+    </div>
+    <div class="links">
+     <ul class="menu">
+      <li>
+       <a href="https://muitomanga.com/">
+        <i class="fa fa-home">
+        </i>
+        Inicio
+       </a>
+      </li>
+      <li>
+       <a href="https://muitomanga.com/lista-de-mangas">
+        <i class="fa fa-book">
+        </i>
+        Lista de mangás
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+  </header>
+  <div class="content">
+   <noscript>
+    <div class="widget_senction2">
+     <p class="colorp">
+      Notamos que seu navegador está bloqueando javascript! Praticamente todas as páginas de nosso site necessitam de javascript para funcionar corretamente. Se você estiver usando um navegador antigo por favor atualize.
+     </p>
+    </div>
+   </noscript>
+   <div class="widget_senction2">
+    <div class="widget-title widgtl">
+     <h1 class="subtitles_menus">
+      Resultados para: one punch
+     </h1>
+    </div>
+    <div class="content_post">
+     <div class="capitulo_recente">
+      <div class="anime">
+       <div class="capaMangaBusca">
+        <a href="/manga/one-punch-man">
+         <img src="https://imgs.muitomanga.com/posters/one-punch-man.jpg" title="One Punch-Man"/>
+        </a>
+       </div>
+       <div class="boxAnimeSobreLast">
+        <h3>
+         <a href="/manga/one-punch-man">
+          One Punch-Man
+         </a>
+        </h3>
+        <span class="series_autor">
+         ONE &amp; Murata, Yusuke (Arte)
+        </span>
+        <ul class="lancamento-list last-generos-series">
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ação" title="Gênero: Ação">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/comédia" title="Gênero: Comédia">
+           Comédia
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/drama" title="Gênero: Drama">
+           Drama
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ficção-científica" title="Gênero: Ficção Científica">
+           Ficção Científica
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/seinen" title="Gênero: Seinen">
+           Seinen
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/slice-of-life" title="Gênero: Slice Of Life">
+           Slice Of Life
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/sobrenatural" title="Gênero: Sobrenatural">
+           Sobrenatural
+          </a>
+         </li>
+        </ul>
+        <p>
+         A história segue o dia-a-dia de um herói normal que está infeliz por ser forte o bastante para derrotar todos os seus oponentes com apenas um soco, já que isso não lhe traz mais a sensação de adrenalina ao enfrentar um inimigo poderoso.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="capitulo_recente">
+      <div class="anime">
+       <div class="capaMangaBusca">
+        <a href="/manga/one-punch-man-a-batalha-contra-o-alienigena-de-calamidade-deus-doujinshi">
+         <img src="https://imgs.muitomanga.com/posters/one-punch-man-a-batalha-contra-o-alienigena-de-calamidade-deus-doujinshi.jpg" title="One Punch Man - A Batalha contra o Alienigena de Calamidade Deus (Doujinshi)"/>
+        </a>
+       </div>
+       <div class="boxAnimeSobreLast">
+        <h3>
+         <a href="/manga/one-punch-man-a-batalha-contra-o-alienigena-de-calamidade-deus-doujinshi">
+          One Punch Man - A Batalha contra o Alienigena de Calamidade Deus (Doujinshi)
+         </a>
+        </h3>
+        <span class="series_autor">
+         Cminglap
+        </span>
+        <ul class="lancamento-list last-generos-series">
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/doujinshi" title="Gênero: Doujinshi">
+           Doujinshi
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ação" title="Gênero: Ação">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/artes-marciais" title="Gênero: Artes Marciais">
+           Artes Marciais
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/aventura" title="Gênero: Aventura">
+           Aventura
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/fantasia" title="Gênero: Fantasia">
+           Fantasia
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ficção-científica" title="Gênero: Ficção científica">
+           Ficção científica
+          </a>
+         </li>
+        </ul>
+        <p>
+         Fanzine criado pelo artista (@cminglap) o mundo vive tempos de calma. Certo dia, uma alienígena chamada Effie chega à terra para avisar a Saitama, Genos e Garou que um invasor do espaço conhecido pelo nome de Deus está vindo para a terra para destruir tudo e todos".
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="capitulo_recente">
+      <div class="anime">
+       <div class="capaMangaBusca">
+        <a href="/manga/one-punch-man-gaiden-tatsumaki-no-koto-doujinshi">
+         <img src="https://imgs.muitomanga.com/posters/one-punch-man-gaiden-tatsumaki-no-koto-doujinshi.jpg" title="One Punch-Man - Gaiden: Tatsumaki no Koto (Doujinshi)"/>
+        </a>
+       </div>
+       <div class="boxAnimeSobreLast">
+        <h3>
+         <a href="/manga/one-punch-man-gaiden-tatsumaki-no-koto-doujinshi">
+          One Punch-Man - Gaiden: Tatsumaki no Koto (Doujinshi)
+         </a>
+        </h3>
+        <span class="series_autor">
+         Dollar 88
+        </span>
+        <ul class="lancamento-list last-generos-series">
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ação" title="Gênero: Ação">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/artes-marciais" title="Gênero: Artes Marciais">
+           Artes Marciais
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/comédia" title="Gênero: Comédia">
+           Comédia
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/fantasia" title="Gênero: Fantasia">
+           Fantasia
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/one-shot" title="Gênero: One Shot">
+           One Shot
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/shounen" title="Gênero: Shounen">
+           Shounen
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/sobrenatural" title="Gênero: Sobrenatural">
+           Sobrenatural
+          </a>
+         </li>
+        </ul>
+        <p>
+         Especial da Tatsumaki
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="capitulo_recente">
+      <div class="anime">
+       <div class="capaMangaBusca">
+        <a href="/manga/one-punch-man-webcomic">
+         <img src="https://imgs.muitomanga.com/posters/one-punch-man-webcomic.jpg" title="One Punch Man (Webcomic)"/>
+        </a>
+       </div>
+       <div class="boxAnimeSobreLast">
+        <h3>
+         <a href="/manga/one-punch-man-webcomic">
+          One Punch Man (Webcomic)
+         </a>
+        </h3>
+        <span class="series_autor">
+         One
+        </span>
+        <ul class="lancamento-list last-generos-series">
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ação" title="Gênero: Ação">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/aventura" title="Gênero: Aventura">
+           Aventura
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/shounen" title="Gênero: Shounen">
+           Shounen
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/sobrenatural" title="Gênero: Sobrenatural">
+           Sobrenatural
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/super-poderes" title="Gênero: Super Poderes">
+           Super Poderes
+          </a>
+         </li>
+        </ul>
+        <p>
+         Webcomic que deu origem ao mangá de One Punch Man...
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="capitulo_recente">
+      <div class="anime">
+       <div class="capaMangaBusca">
+        <a href="/manga/niwatori-fighter">
+         <img src="https://imgs2.muitomanga.com/posters/niwatori-fighter.jpg" title="Niwatori Fighter"/>
+        </a>
+       </div>
+       <div class="boxAnimeSobreLast">
+        <h3>
+         <a href="/manga/niwatori-fighter">
+          Niwatori Fighter
+         </a>
+        </h3>
+        <span class="series_autor">
+         Sakuratani, Syu
+        </span>
+        <ul class="lancamento-list last-generos-series">
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/ação" title="Gênero: Ação">
+           Ação
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/aventura" title="Gênero: Aventura">
+           Aventura
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/comédia" title="Gênero: Comédia">
+           Comédia
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/seinen" title="Gênero: Seinen">
+           Seinen
+          </a>
+         </li>
+         <li>
+          <a class="generos_exibir" href="/lista-de-mangas/genero/sobrenatural" title="Gênero: Sobrenatural">
+           Sobrenatural
+          </a>
+         </li>
+        </ul>
+        <p>
+         O mangá de ação de batalha conta a história de como a humanidade é ameaçada por monstros com um poder avassalador chamado "Kijū". Enquanto as cidades são destruídas e as pessoas entram em desespero, um galo se levanta para enfrentar a ameaça. É a história de como um único galo salva a humanidade.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div style="width:0; height:0; background-image:url(https://whos.amung.us/widget/xr99i8h7zk.gif);">
+  </div>
+  <footer class="fixar-rodape">
+   <div class="foter">
+    <p>
+     ©
+     <a href="https://muitomanga.com">
+      MuitoManga.com
+     </a>
+     -
+     <a href="https://muitomanga.com/dmca.html">
+      DMCA
+     </a>
+    </p>
+    <p style="padding:5px 0 5px;">
+     Ler Mangás Online, Leitor de Mangás, Ler Mangás, Mangás Online!
+    </p>
+   </div>
+  </footer>
+  <script defer="" src="https://muitomanga.com/cdn/front.owl.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script src="https://muitomanga.com/cdn/script.js?nocache31">
+  </script>
+  <script async="" src="https://afarkas.github.io/lazysizes/lazysizes.min.js">
+  </script>
+  <script async="" src="/script_pwa.js?x15a222aa">
+  </script>
+ </body>
+</html>
