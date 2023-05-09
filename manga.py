@@ -37,6 +37,12 @@ def exibeServidor(link):
 
 
 def buscaManga():
+    # deleta o conteudo do componentes
+    for item in lsMangas.get_children():
+        lsMangas.delete(item)
+    edCapitulos.delete('1.0', tk.END)
+    edInicio.delete('1.0', tk.END)
+    edFim.delete('1.0', tk.END)
 
     opcao = valor_radio.get()
     if opcao == 'Union Mangá':
@@ -74,7 +80,6 @@ def buscaManga():
             elif opcao == 'firemangas':
                 if opcao in servidor:
                     lsMangas.insert("", tk.END, text=titulo, values=(link))
-    # for i in lista_encontrado:
 
 
 def buscaCapitulos(event):
