@@ -22,7 +22,7 @@ else:
     separador = '/'
     folder = 'Download/'
 # fontes = ['union']
-fontes = ['firemangas', 'union', 'scanlator', 'muito manga', 'lermanga']
+fontes = ['union', 'scanlator', 'muito manga', ]
 
 
 def busca_manga(id, manga_name, servidor):
@@ -74,7 +74,7 @@ def pesquisa_manga(id, manga_name, fonte):
                 channel='chrome', headless=True, args=['--start-maximized'])
             page = browser.new_page()
 
-            page.goto(site, timeout=0)
+            page.goto(site, timeout=100000)
 
             # caso for do mangayabu faz a pesquisa
             if fonte == 'mangayabu':
@@ -88,7 +88,7 @@ def pesquisa_manga(id, manga_name, fonte):
                 page.click('div[class="search"]')
                 page.fill('input[id="searchInput"]', manga_name)
 
-            time.sleep(2)
+            time.sleep(5)
             mangas_encontrados = page.content()
             page.close()
 
@@ -104,7 +104,7 @@ def pesquisa_manga(id, manga_name, fonte):
                             link = manga.find('a').get('href')
                             nome = str(manga.text).replace(
                                 'Autor:', '||').split('||')[0]
-                            print(link, nome, sep='\n')
+                            # print(link, nome, sep='\n')
                         except:
                             print('falha ao pesquisar em '+fonte +
                                   '\nFECHE O PROGRAMA E TENTE NOVAMENTE')
@@ -180,7 +180,7 @@ def pesquisa_manga(id, manga_name, fonte):
 
 
 def busca_capitulos(id, manga_link, fonte):
-    print(f'{"#"*60}\n\nBuscandos os capitulos disponiveis em: {manga_link}\n\n{"#"*60}\n\n')
+    # print(f'{"#"*60}\n\nBuscandos os capitulos disponiveis em: {manga_link}\n\n{"#"*60}\n\n')
 
     with sync_playwright() as p:
         if sistema == 'Windows':
@@ -505,7 +505,7 @@ def zipa(id, manga, capitulo):
     limpaTXT({id}, 'html')
     caminho = str(os.path.abspath(os.getcwd()) +
                   '\Baixados')
-    # print(caminho)
+    print(caminho)
     os.startfile(caminho)
 
 
@@ -583,6 +583,8 @@ def log(N=20):
         for line in (f.readlines()[-N:]):
             texto += line+'\n'
     return texto
+
+# C:\Users\Christian\AppData\Roaming\Python\Python310\Scripts\pyinstaller.exe -F --console -w --upx-dir=D:\upx-4.0.2-win64 --distpath .\ --ico ..\icone.ico -c --name "MangaDownloader 2023" .\manga_download.py
 
 
 if __name__ == "__main__":

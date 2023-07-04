@@ -8,3 +8,5 @@ venv
 imagens
 *.cbr
 build
+temp
+mobi

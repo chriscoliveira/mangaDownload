@@ -8,7 +8,13 @@ from threading import Thread
 def criaPastas():
     try:
         os.mkdir('Baixados')
+    except:
+        pass
+    try:
         os.mkdir('Download')
+    except:
+        pass
+    try:
         os.mkdir('TXT')
     except:
         pass
@@ -36,13 +42,21 @@ def exibeServidor(link):
     return opcao
 
 
+def pbuscaManga():
+    t = Thread(target=buscaManga)
+    t.start()
+
+
 def buscaManga():
     # deleta o conteudo do componentes
     for item in lsMangas.get_children():
         lsMangas.delete(item)
-    edCapitulos.delete('1.0', tk.END)
-    edInicio.delete('1.0', tk.END)
-    edFim.delete('1.0', tk.END)
+    try:
+        edCapitulos.delete('1.0', tk.END)
+        edInicio.delete('1.0', tk.END)
+        edFim.delete('1.0', tk.END)
+    except:
+        pass
 
     opcao = valor_radio.get()
     if opcao == 'Union Mangá':
@@ -92,7 +106,7 @@ def buscaCapitulos(event):
     funcoes.busca_capitulos('', link, opcao)
 
     capp = ''
-    with open('TXT/lista_capitulos.txt', 'r') as lista:
+    with open(f'TXT/lista_capitulos.txt', 'r') as lista:
         lista = lista.readlines()
         for i in lista:
             print(i)
@@ -100,6 +114,11 @@ def buscaCapitulos(event):
 
     edCapitulos.delete("1.0", "end")
     edCapitulos.insert('1.0', capp)
+
+
+def pbaixarCaps():
+    t = Thread(target=baixarCaps)
+    t.start()
 
 
 def baixarCaps():
@@ -119,8 +138,11 @@ def baixarCaps():
 def clique_botao():
     caminho = str(os.path.abspath(os.getcwd()) +
                   '\Baixados')
-    # print(caminho)
-    os.startfile(caminho)
+    caminho = caminho.replace("\\", "\\\\")
+    try:
+        os.startfile(caminho)
+    except Exception as e:
+        print("Error " + str(e))
 
 
 # Cria a janela principal
@@ -136,7 +158,7 @@ tk.Label(linha1, text="Nome Mangá:").pack(
 edNomeManga = tk.Entry(linha1, width=30, font='arial 14')
 edNomeManga.pack(side=tk.LEFT, padx=5, pady=5)
 
-btPesquisar = tk.Button(linha1, text="Pesquisar", command=buscaManga)
+btPesquisar = tk.Button(linha1, text="Pesquisar", command=pbuscaManga)
 btPesquisar.pack(side=tk.LEFT, padx=5, pady=5)
 
 btBaixados = tk.Button(linha1, text="Baixados", command=clique_botao)
@@ -208,7 +230,7 @@ tk.Label(linha5, text="Fim:").pack(side=tk.LEFT)
 edFim = tk.Entry(linha5, font='arial 14', width=10)
 edFim.pack(side=tk.LEFT, padx=5, pady=5)
 
-btBaixar = tk.Button(linha5, text="Baixar", command=baixarCaps)
+btBaixar = tk.Button(linha5, text="Baixar", command=pbaixarCaps)
 btBaixar.pack(side=tk.LEFT, padx=5, pady=5)
 
 print(f'{30*"#"}\n\nNAO FECHE ESTA JANELA!!!!!!!!!!!!!!!')
