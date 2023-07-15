@@ -680,8 +680,21 @@ def mangaChan(nomeManga):
 
 
 def iniciaBuscaManga(chatid, nomeManga):
-    print(mangaChan(nomeManga))
-    print(unionMangas(nomeManga))
+    print(chatid)
+    with open(f'TXT/{chatid}lista_manga.txt', 'a+') as f:
+        try:
+            c = mangaChan(nomeManga)
+            for i in c:
+                link, nome = i
+                f.write(f'{nome};mangachan;{link}\n')
+        except:
+            pass
+        try:
+            u = unionMangas(nomeManga)
+            for i in u:
+                f.write(f'{c[1]};union;{c[0]}\n')
+        except:
+            pass
 
 
 if __name__ == "__main__":
