@@ -1,0 +1,2097 @@
+{
+    "anime": [
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "A boy fights... for &#34;the right death.&#34;<br><br>Hardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What&#39;s more, the Curses can only be exorcised by another Curse.<br><br>Itadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.<br><br>(Source: Crunchyroll)<br><br><span class=\"italics\">Note: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.</span>",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-03-25T17:45:00Z",
+            "episodes": 24,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Demons",
+                    "route": "demons"
+                },
+                {
+                    "name": "School",
+                    "route": "school"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                },
+                {
+                    "name": "Superpower",
+                    "route": "superpower"
+                }
+            ],
+            "id": "I7nw",
+            "imageVersionRoute": "anime/jpg/default/jujutsu-kaisen-35335874fa.jpg",
+            "jpnTime": "0001-01-01T16:25:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "abbreviation": "JJK",
+                "native": "\u546a\u8853\u5efb\u6226",
+                "synonyms": [
+                    "Sorcery Fight"
+                ]
+            },
+            "premier": "2020-10-02T16:25:00Z",
+            "relations": {
+                "other": [
+                    "jujutsu-kaisen-pv"
+                ],
+                "prequels": [
+                    "jujutsu-kaisen-0"
+                ],
+                "sequels": [
+                    "jujutsu-kaisen-2"
+                ]
+            },
+            "route": "jujutsu-kaisen",
+            "season": {
+                "route": "fall-2020",
+                "season": "Fall",
+                "title": "Fall 2020",
+                "year": "2020"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 85.79251861572266,
+                "colorDarkMode": "3BA758",
+                "colorLightMode": "276E3A",
+                "ratingCount": 362,
+                "trackedCount": 1682,
+                "trackedRating": 1
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "MAPPA",
+                    "route": "mappa"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T17:45:00Z",
+            "title": "Jujutsu Kaisen",
+            "websites": {
+                "aniList": "anilist.co/anime/113415/Jujutsu-Kaisen/",
+                "anidb": "anidb.net/anime/15275",
+                "animePlanet": "anime-planet.com/anime/jujutsu-kaisen",
+                "crunchyroll": "www.crunchyroll.com/jujutsu-kaisen",
+                "funimation": "www.funimation.com/shows/jujutsu-kaisen/",
+                "kitsu": "kitsu.io/anime/jujutsu-kaisen",
+                "mal": "myanimelist.net/anime/40748/Jujutsu_Kaisen_TV",
+                "netflix": "www.netflix.com/title/81278456",
+                "official": "jujutsukaisen.jp"
+            },
+            "year": 2020
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita.<br><br>One day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as &#34;Chainsaw Man&#34; \u2014 a man with a devil&#39;s heart.<br><br>(Source: Crunchyroll)",
+            "dubDelayedFrom": "2022-12-27T00:00:00Z",
+            "dubDelayedTimetable": "Delayed",
+            "dubDelayedUntil": "2023-01-03T00:00:00Z",
+            "dubPremier": "2022-10-25T00:00:00Z",
+            "dubTime": "2022-12-25T20:30:00Z",
+            "episodes": 12,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Demons",
+                    "route": "demons"
+                },
+                {
+                    "name": "Horror",
+                    "route": "horror"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "Ms51",
+            "imageVersionRoute": "anime/jpg/default/chainsaw-man-7832b15cf8.jpg",
+            "jpnTime": "2022-09-08T15:00:00Z",
+            "lengthMin": 25,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "abbreviation": "CSM",
+                "native": "\u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3"
+            },
+            "premier": "2022-10-11T00:00:00Z",
+            "relations": {
+                "other": [
+                    "zanki",
+                    "jouzai",
+                    "dainouteki-na-rendezvous",
+                    "fight-song",
+                    "in-the-back-room"
+                ]
+            },
+            "route": "chainsaw-man",
+            "season": {
+                "route": "fall-2022",
+                "season": "Fall",
+                "title": "Fall 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 86.60026550292969,
+                "colorDarkMode": "36A456",
+                "colorLightMode": "246E39",
+                "ratingCount": 198,
+                "trackedCount": 1579,
+                "trackedRating": 2
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "MAPPA",
+                    "route": "mappa"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-11-08T17:00:00Z",
+            "title": "Chainsaw Man",
+            "websites": {
+                "aniList": "anilist.co/anime/127230/Chainsawman/",
+                "anidb": "anidb.net/anime/15914",
+                "animePlanet": "www.anime-planet.com/anime/chainsaw-man",
+                "crunchyroll": "www.crunchyroll.com/chainsaw-man",
+                "hulu": "www.hulu.com/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
+                "kitsu": "kitsu.io/anime/chainsaw-man",
+                "mal": "myanimelist.net/anime/44511/Chainsaw_Man",
+                "official": "chainsawman.dog/",
+                "youtube": "www.youtube.com/playlist?list=PLxSscENEp7JhfvHiWN-djJjCOjW8rxA6p"
+            },
+            "year": 2022
+        },
+        {
+            "delayedFrom": "2023-06-18T00:00:00Z",
+            "delayedTimetable": "Delayed",
+            "delayedUntil": "2023-06-25T00:00:00Z",
+            "description": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece\u2014which promises an unlimited amount of riches and fame\u2014and quite possibly the pinnacle of glory and the title of the Pirate King.<br><br>Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy\u2019s reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes\u2014One Piece.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2020-11-24T00:00:00Z",
+            "dubTime": "2023-01-10T21:00:00Z",
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                }
+            ],
+            "id": "urTI",
+            "imageVersionRoute": "anime/jpg/default/one-piece-f2f2a983a8.jpg",
+            "jpnTime": "0002-01-01T00:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "abbreviation": "OP",
+                "native": "\u30ef\u30f3\u30d4\u30fc\u30b9",
+                "synonyms": [
+                    "\u6d77\u8d3c\u738b"
+                ]
+            },
+            "premier": "1999-10-20T00:00:00Z",
+            "relations": {
+                "alternatives": [
+                    "one-piece-romance-dawn-story"
+                ],
+                "other": [
+                    "a-ra-shi-reborn",
+                    "dragon-ball-z",
+                    "one-piece-the-movie-episode-of-chopper-plus-fuyu-ni-saku-kiseki-no-sakura",
+                    "kyutai-panic-adventure-returns",
+                    "one-piece-episode-of-alabasta-sabaku-no-oujo-to-kaizoku-tachi",
+                    "one-piece-episode-of-nami-koukaishi-no-namida-to-nakama-no-kizuna",
+                    "nissan-serena-x-one-piece-3d-mugiwara-chase-sennyuu-sauzando-sanii-gou",
+                    "one-piece-episode-of-alabasta-sabaku-no-oujo-to-kaizoku-tachi-special",
+                    "kyutai-panic-adventure",
+                    "one-piece-kinkyuu-kikaku-one-piece-kanzen-kouryakuhou",
+                    "one-piece-episode-of-east-blue-luffy-to-4-nin-no-nakama-no-daibouken",
+                    "one-piece-episode-of-sabo-3-kyoudai-no-kizuna-kiseki-no-saikai-to-uketsugareru-ishi",
+                    "hungry-days-aoharu-ka-yo",
+                    "one-piece-episode-of-merry-mou-hitori-no-nakama-no-monogatari",
+                    "one-piece-cry-heart",
+                    "one-piece-episode-of-sorajima",
+                    "toriko"
+                ],
+                "sideStories": [
+                    "one-piece-tv-special-umi-no-heso-no-daibouken-hen",
+                    "one-piece-tv-special-3-mamore-saigo-no-oobutai",
+                    "one-piece-3d2y-ace-no-shi-wo-koete-luffy-nakama-to-no-chikai",
+                    "one-piece-film-red",
+                    "one-piece-the-movie-omatsuri-danshaku-to-himitsu-no-shima",
+                    "one-piece-mezase-kaizoku-yakyuu-ou",
+                    "one-piece-film-gold-episode-0-711ver",
+                    "one-piece-stampede",
+                    "one-piece-taose-kaizoku-ganzack",
+                    "one-piece-3d-mugiwara-chase",
+                    "one-piece-film-strong-world-episode-0",
+                    "one-piece-heart-of-gold",
+                    "one-piece-movie",
+                    "one-piece-adventure-of-nebulandia",
+                    "tokyo-one-piece-tower-tongari-shima-no-dai-hihou",
+                    "one-piece-film-z-glorious-island",
+                    "one-piece-yume-no-soccer-ou",
+                    "one-piece-film-gold",
+                    "one-piece-the-movie-karakuri-jou-no-mecha-kyohei",
+                    "one-piece-mugiwara-gekijou",
+                    "one-piece-the-movie-dead-end-no-bouken",
+                    "one-piece-norowareta-seiken",
+                    "one-piece-oounabara-ni-hirake-dekkai-dekkai-chichi-no-yume",
+                    "one-piece-nejimaki-jima-no-bouken",
+                    "one-piece-film-z",
+                    "one-piece-nenmatsu-tokubetsu-kikaku-mugiwara-no-luffy-oyabun-torimonochou",
+                    "one-piece-3d-gekisou-trap-coaster",
+                    "one-piece-film-strong-world",
+                    "one-piece-episode-of-luffy-hand-island-no-bouken",
+                    "one-piece-nejimaki-jima-no-bouken-jango-no-dance-carnival",
+                    "one-piece-chinjuu-jima-no-chopper-oukoku"
+                ]
+            },
+            "route": "one-piece",
+            "season": {
+                "route": "fall-1999",
+                "season": "Fall",
+                "title": "Fall 1999",
+                "year": "1999"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 91.3324203491211,
+                "colorDarkMode": "1C904C",
+                "colorLightMode": "156D39",
+                "ratingCount": 154,
+                "trackedCount": 1498,
+                "trackedRating": 3
+            },
+            "status": "Ongoing",
+            "studios": [
+                {
+                    "name": "Toei Animation",
+                    "route": "toei-animation"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2023-03-20T02:00:00Z",
+            "title": "One Piece",
+            "websites": {
+                "aniList": "anilist.co/anime/21/One-Piece",
+                "anidb": "anidb.net/anime/69",
+                "animePlanet": "anime-planet.com/anime/one-piece",
+                "crunchyroll": "www.crunchyroll.com/one-piece",
+                "funimation": "www.funimation.com/shows/one-piece/",
+                "hulu": "www.hulu.com/series/one-piece-c7a08df6-d0d5-4dd3-afff-d1f90133cd4e",
+                "kitsu": "kitsu.io/anime/one-piece",
+                "mal": "myanimelist.net/anime/21/One_Piece",
+                "netflix": "www.netflix.com/title/80107103",
+                "official": "one-piece.com"
+            },
+            "year": 1999
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "When a 34-year-old underachiever gets run over by a bus, his story doesn\u2019t end there. Reincarnated in a new world as an infant, Rudeus will seize every opportunity to live the life he\u2019s always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he\u2019s always dreamed of, he\u2019s embarking on an epic adventure\u2014with all of his past experience intact!<br><br>(Source: Funimation, edited)<br><br><span class=\"italics\">Note: The anime pre-screened its 1st and 2nd episode starting on the 27th of December on the Nico Nico Live Broadcasting and D Anime Store services</span>",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-03-30T16:00:00Z",
+            "episodes": 11,
+            "genres": [
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Ecchi",
+                    "route": "ecchi"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                }
+            ],
+            "id": "992H",
+            "imageVersionRoute": "anime/jpg/default/mushoku-tensei-isekai-ittara-honki-dasu-a7416e5856.jpg",
+            "jpnTime": "0002-01-01T15:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "January",
+            "names": {
+                "english": "Mushoku Tensei: Jobless Reincarnation",
+                "native": "\u7121\u8077\u8ee2\u751f \uff5e\u7570\u4e16\u754c\u884c\u3063\u305f\u3089\u672c\u6c17\u3060\u3059\uff5e",
+                "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+                "synonyms": [
+                    "Jobless Reincarnation: I Will Seriously Try If I Go To Another World"
+                ]
+            },
+            "premier": "2021-01-10T00:00:00Z",
+            "relations": {
+                "sequels": [
+                    "mushoku-tensei-isekai-ittara-honki-dasu-part-2"
+                ]
+            },
+            "route": "mushoku-tensei-isekai-ittara-honki-dasu",
+            "season": {
+                "route": "winter-2021",
+                "season": "Winter",
+                "title": "Winter 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 84.7850570678711,
+                "colorDarkMode": "42AB5A",
+                "colorLightMode": "2A6E3A",
+                "ratingCount": 326,
+                "trackedCount": 1494,
+                "trackedRating": 4
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "Studio Bind",
+                    "route": "studio-bind"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T16:00:00Z",
+            "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+            "websites": {
+                "aniList": "anilist.co/anime/108465/Mushoku-Tensei-Isekai-Ittara-Honki-Dasu/",
+                "anidb": "anidb.net/anime/14758",
+                "animePlanet": "anime-planet.com/anime/mushoku-tensei-jobless-reincarnation",
+                "crunchyroll": "www.crunchyroll.com/mushoku-tensei-jobless-reincarnation",
+                "funimation": "www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/",
+                "hulu": "www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a",
+                "kitsu": "kitsu.io/anime/mushoku-tensei-isekai-ittara-honki-dasu",
+                "mal": "myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu",
+                "netflix": "www.netflix.com/title/80987039",
+                "official": "mushokutensei.jp/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/1170/mushoku-tensei-jobless-reincarnation"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The second season of <span class=\"italics\">Tensei shitara Slime Datta Ken</span>.<br><br>With the help of Queen Ramiris, the children are now in stable condition and should lead normal lives, much to Rimuru\u2019s relief. But all is not well\u2026 In fact, there are forces of humankind in this fantasy world that do not look kindly upon a slime-led nation of monsters. And now, insidious threats to Rimuru and the country of Tempest may be lurking around every corner!<br><br>(Source: Kodansha)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-04-06T15:00:00Z",
+            "episodes": 12,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                }
+            ],
+            "id": "Epcb",
+            "imageVersionRoute": "anime/jpg/default/tensei-shitara-slime-datta-ken-2nd-season-f963621f7e.jpg",
+            "jpnTime": "0002-01-01T14:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "January",
+            "names": {
+                "abbreviation": "TenSura 2",
+                "english": "That Time I Got Reincarnated as a Slime Season 2",
+                "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6",
+                "romaji": "Tensei Shitara Slime Datta Ken 2",
+                "synonyms": [
+                    "\u8ee2\u30b9\u30e92"
+                ]
+            },
+            "premier": "2021-01-12T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "tensei-shitara-slime-datta-ken-coleus-no-yume",
+                    "tensei-shitara-slime-datta-ken"
+                ],
+                "sequels": [
+                    "tensei-shitara-slime-datta-ken-2nd-season-part-2"
+                ]
+            },
+            "route": "tensei-shitara-slime-datta-ken-2nd-season",
+            "season": {
+                "route": "winter-2021",
+                "season": "Winter",
+                "title": "Winter 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 85.72510528564453,
+                "colorDarkMode": "3CA758",
+                "colorLightMode": "286E3A",
+                "ratingCount": 272,
+                "trackedCount": 1466,
+                "trackedRating": 5
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "8bit",
+                    "route": "8bit"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T15:00:00Z",
+            "title": "Tensei Shitara Slime Datta Ken 2nd Season",
+            "websites": {
+                "aniList": "anilist.co/anime/108511/Tensei-Shitara-Slime-Datta-Ken-2nd-Season/",
+                "anidb": "anidb.net/anime/14767",
+                "animePlanet": "anime-planet.com/anime/that-time-i-got-reincarnated-as-a-slime-season-2",
+                "crunchyroll": "www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime",
+                "funimation": "www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/",
+                "kitsu": "kitsu.io/anime/tensei-shitara-slime-datta-ken-2",
+                "mal": "myanimelist.net/anime/39551/Tensei_shitara_Slime_Datta_Ken_2nd_Season",
+                "netflix": "www.netflix.com/title/81028712",
+                "official": "ten-sura.com/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/1284/that-time-i-got-reincarnated-as-a-slime",
+                "youtube": "www.youtube.com/playlist?list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "Some people just aren\u2019t suited to playing the part of the flashy, in-your-face hero or the dastardly, mustache-twirling villain with larger-than-life panache. Instead, they operate in the shadows and pull the strings of society through wit and cleverness. That\u2019s the role Cid wants to play when he\u2019s transported to another world. Cid spins a yarn or three and becomes the unlikely leader of the underground Shadow Garden organization that fights against a menacing cult (which he totally made up). However, there\u2019s a catch even his wild imagination didn\u2019t see coming: the cult he concocted actually exists, and they\u2019re beyond displeased that his power fantasy just got in the way of their evil plans!<br><br>(Source: HIDIVE)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-12-26T00:00:00Z",
+            "dubTime": "2023-03-13T17:00:00Z",
+            "episodes": 20,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                }
+            ],
+            "id": "9z9M",
+            "imageVersionRoute": "anime/jpg/default/kage-no-jitsuryokusha-ni-naritakute-78981dc7d8.jpg",
+            "jpnTime": "2022-09-07T13:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "english": "The Eminence in Shadow",
+                "native": "\u9670\u306e\u5b9f\u529b\u8005\u306b\u306a\u308a\u305f\u304f\u3066\uff01",
+                "romaji": "Kage no Jitsuryokusha ni Naritakute!",
+                "synonyms": [
+                    "Shadow Garden",
+                    "To Be a Power in the Shadows!"
+                ]
+            },
+            "premier": "2022-10-05T00:00:00Z",
+            "relations": {
+                "sequels": [
+                    "kage-no-jitsuryokusha-ni-naritakute-2nd-season"
+                ],
+                "sideStories": [
+                    "kage-jitsu"
+                ]
+            },
+            "route": "kage-no-jitsuryokusha-ni-naritakute",
+            "season": {
+                "route": "fall-2022",
+                "season": "Fall",
+                "title": "Fall 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 87.49325561523438,
+                "colorDarkMode": "31A054",
+                "colorLightMode": "226E3A",
+                "ratingCount": 165,
+                "trackedCount": 1454,
+                "trackedRating": 6
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "Nexus",
+                    "route": "nexus"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-10-05T14:30:00Z",
+            "title": "Kage no Jitsuryokusha ni Naritakute!",
+            "websites": {
+                "aniList": "anilist.co/anime/130298/Kage-no-Jitsuryokusha-ni-Naritakute/",
+                "anidb": "anidb.net/anime/16073",
+                "animePlanet": "www.anime-planet.com/anime/the-eminence-in-shadow",
+                "hidive": "www.hidive.com/tv/the-eminence-in-shadow",
+                "kitsu": "kitsu.io/anime/kage-no-jitsuryokusha-ni-naritakute",
+                "mal": "myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute",
+                "official": "shadow-garden.jp/"
+            },
+            "year": 2022
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "Adaptation of the Swordsmith Village Arc.<br><br>Tanjiro\u2019s journey leads him to the Swordsmith Village, where he reunites with two Hashira, members of the Demon Slayer Corps\u2019 highest-ranking swordsmen - Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji. With the shadows of demons lurking near, a new battle begins for Tanjiro and his comrades.<br><br><span class=\"italics\">Note: The first and final episodes has a runtime of ~50 minutes, and received an early premiere in cinemas worldwide as part of a special screening alongside the final two episodes of Kimetsu no Yaiba: Yuukaku-hen.</span>",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2023-05-28T00:00:00Z",
+            "dubTime": "2023-05-29T20:30:00Z",
+            "episodes": 11,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Demons",
+                    "route": "demons"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Historical",
+                    "route": "historical"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "oyPF",
+            "imageVersionRoute": "anime/jpg/default/kimetsu-no-yaiba-katanakaji-no-sato-hen-70cee58cb8.jpg",
+            "jpnTime": "2023-03-01T14:15:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "April",
+            "names": {
+                "abbreviation": "KnY 4",
+                "english": "Demon Slayer: Swordsmith Village Arc",
+                "native": "\u9b3c\u6ec5\u306e\u5203 \u5200\u935b\u51b6\u306e\u91cc\u7de8",
+                "romaji": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+                "synonyms": [
+                    "Kimetsu no Yaiba 4",
+                    "Demon Slayer 4",
+                    "Blade of Demon Destruction 4",
+                    "Kimetsu no Yaiba Season 4",
+                    "Demon Slayer Season 4"
+                ]
+            },
+            "premier": "2023-04-09T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "kimetsu-no-yaiba-yuukaku-hen"
+                ],
+                "sequels": [
+                    "kimetsu-no-yaiba-hashira-geiko-hen"
+                ]
+            },
+            "route": "kimetsu-no-yaiba-katanakaji-no-sato-hen",
+            "season": {
+                "route": "spring-2023",
+                "season": "Spring",
+                "title": "Spring 2023",
+                "year": "2023"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 84.7718505859375,
+                "colorDarkMode": "42AB5A",
+                "colorLightMode": "2A6E3A",
+                "ratingCount": 57,
+                "trackedCount": 1413,
+                "trackedRating": 7
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "ufotable",
+                    "route": "ufotable"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2023-06-04T17:35:00Z",
+            "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+            "websites": {
+                "aniList": "anilist.co/anime/145139/Kimetsu-no-Yaiba-Katanakaji-no-Satohen/",
+                "anidb": "anidb.net/anime/17198",
+                "animePlanet": "www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+                "crunchyroll": "www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba",
+                "funimation": "www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/",
+                "kitsu": "kitsu.io/anime/kimetsu-no-yaiba-katanakaji-no-satohen",
+                "mal": "myanimelist.net/anime/51019/Kimetsu_no_Yaiba__Katanakaji_no_Sato-hen",
+                "netflix": "www.netflix.com/title/81091393",
+                "official": "kimetsu.com/anime/katanakajinosatohen/"
+            },
+            "year": 2023
+        },
+        {
+            "delayedDesc": "Episode 7 and further have been delayed due to COVID-19. Broadcast will restart from episode 1 on July 8th.",
+            "delayedFrom": "2023-02-18T00:00:00Z",
+            "delayedTimetable": "Delayed",
+            "delayedUntil": "2023-08-19T00:00:00Z",
+            "description": "The first cour of the second season of <span class=\"italics\">Maou Gakuin no Futekigousha</span>.<br><br>As peace returns to the demon realm, Anos Voldigoad wishes nothing more than to put his reputation as the Demon King of Tyranny to rest and go back to being a misfit at the prestigious Demon King Academy. Unfortunately, any tranquility is fleeting: sinister demons, kings, and deities plot Anos&#39;s demise from the shadows.<br><br>Rumors spread about the &#34;Child of God,&#34; a being whose power may rival that of Anos. To uncover the truth and eliminate the potential threat, Anos must journey deep into the land of spirits. However, the spirit world is shrouded in mystery, and it may only be entered after undergoing a series of difficult trials.<br><br>With unrivaled power and confidence, Anos braces himself to defeat various formidable enemies with grandiose titles. But he\u2014with the assistance of his trusted allies\u2014will barely have to break a sweat as the true Demon King of Tyranny.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "2023-04-08T00:00:00Z",
+            "dubDelayedTimetable": "Delayed",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2023-02-25T00:00:00Z",
+            "dubTime": "2023-03-13T20:30:00Z",
+            "genres": [
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                },
+                {
+                    "name": "Romance",
+                    "route": "romance"
+                },
+                {
+                    "name": "School",
+                    "route": "school"
+                }
+            ],
+            "id": "wj9b",
+            "imageVersionRoute": "anime/jpg/default/maou-gakuin-no-futekigousha-2-b8ce0c6698.jpg",
+            "jpnTime": "2022-12-08T15:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "January",
+            "names": {
+                "english": "The Misfit of Demon King Academy 2",
+                "native": "\u9b54\u738b\u5b66\u9662\u306e\u4e0d\u9069\u5408\u8005 \uff5e\u53f2\u4e0a\u6700\u5f37\u306e\u9b54\u738b\u306e\u59cb\u7956\u3001\u8ee2\u751f\u3057\u3066\u5b50\u5b6b\u305f\u3061\u306e\u5b66\u6821\u3078\u901a\u3046\uff5e II",
+                "romaji": "Maou Gakuin no Futekigousha 2",
+                "synonyms": [
+                    "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 2nd Season",
+                    "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso 2",
+                    "Tensei shite Shison-tachi no Gakkou e Kayou 2",
+                    "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants 2"
+                ]
+            },
+            "premier": "2023-01-07T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "maou-gakuin-no-futekigousha"
+                ],
+                "sequels": [
+                    "maou-gakuin-no-futekigousha-2-part-2"
+                ]
+            },
+            "route": "maou-gakuin-no-futekigousha-2",
+            "season": {
+                "route": "winter-2023",
+                "season": "Winter",
+                "title": "Winter 2023",
+                "year": "2023"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 71.8382797241211,
+                "colorDarkMode": "99D36B",
+                "colorLightMode": "516F38",
+                "ratingCount": 33,
+                "trackedCount": 1388,
+                "trackedRating": 8
+            },
+            "status": "Delayed",
+            "studios": [
+                {
+                    "name": "SILVER LINK.",
+                    "route": "silver-link"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2023-03-13T17:00:00Z",
+            "title": "Maou Gakuin no Futekigousha 2",
+            "websites": {
+                "aniList": "anilist.co/anime/130588/Maou-Gakuin-no-Futekigousha-Shijou-Saikyou-no-Maou-no-Shiso-Tensei-shite-Shisontachi-no-Gakkou-e-Kayou-2nd-Season/",
+                "anidb": "anidb.net/anime/16101",
+                "animePlanet": "www.anime-planet.com/anime/the-misfit-of-demon-king-academy-2",
+                "crunchyroll": "www.crunchyroll.com/series/GY243NN0R",
+                "kitsu": "kitsu.io/anime/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e",
+                "mal": "myanimelist.net/anime/48417/Maou_Gakuin_no_Futekigousha__Shijou_Saikyou_no_Maou_no_Shiso_Tensei_shite_Shison-tachi_no_Gakkou_e_",
+                "official": "maohgakuin.com/"
+            },
+            "year": 2023
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "It\u2019s been four years since the Scout Regiment reached the shoreline, and the world looks different now. Things are heating up as the fate of the Scout Regiment\u2014and the people of Paradis\u2014are determined at last. However, Eren is missing. Will he reappear before age-old tensions between Marleyans and Eldians result in the war of all wars?<br><br>(Source: Crunchyroll)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-02-07T00:00:00Z",
+            "dubTime": "2022-04-14T01:30:00Z",
+            "episodes": 16,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Military",
+                    "route": "military"
+                },
+                {
+                    "name": "Mystery",
+                    "route": "mystery"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "Ht1G",
+            "imageVersionRoute": "anime/jpg/default/shingeki-no-kyojin-the-final-season-5acf1f5034.jpg",
+            "jpnTime": "0002-01-01T15:10:00Z",
+            "lengthMin": 23,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "December",
+            "names": {
+                "abbreviation": "SnK 4",
+                "english": "Attack on Titan: The Final Season",
+                "native": "\u9032\u6483\u306e\u5de8\u4eba The Final Season",
+                "romaji": "Shingeki no Kyojin: The Final Season",
+                "synonyms": [
+                    "Shingeki no Kyojin: The Final Season Part 1",
+                    "Attack on Titan: The Final Season Part 1",
+                    "Attack on Titan 4",
+                    "Attack on Titan Season 4",
+                    "Shingeki no Kyojin 4",
+                    "Shingeki no Kyojin Season 4",
+                    "AoT 4"
+                ]
+            },
+            "premier": "2020-12-06T00:00:00Z",
+            "relations": {
+                "other": [
+                    "shingeki-no-kyojin-chimi-kyara-gekijou-final"
+                ],
+                "prequels": [
+                    "shingeki-no-kyojin-season-3-part-2",
+                    "shingeki-no-kyojin-chronicle"
+                ],
+                "sequels": [
+                    "shingeki-no-kyojin-the-final-season-part-2"
+                ]
+            },
+            "route": "shingeki-no-kyojin-the-final-season",
+            "season": {
+                "route": "fall-2020",
+                "season": "Fall",
+                "title": "Fall 2020",
+                "year": "2020"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 87.71284484863281,
+                "colorDarkMode": "2FA054",
+                "colorLightMode": "206E3A",
+                "ratingCount": 295,
+                "trackedCount": 1379,
+                "trackedRating": 9
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "MAPPA",
+                    "route": "mappa"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T20:45:00Z",
+            "title": "Shingeki no Kyojin: The Final Season",
+            "websites": {
+                "aniList": "anilist.co/anime/110277/Shingeki-no-Kyojin-The-Final-Season/",
+                "anidb": "anidb.net/anime/14977",
+                "animePlanet": "anime-planet.com/anime/attack-on-titan-the-final-season",
+                "crunchyroll": "www.crunchyroll.com/attack-on-titan",
+                "funimation": "www.funimation.com/shows/attack-on-titan",
+                "hulu": "www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+                "kitsu": "kitsu.io/anime/shingeki-no-kyojin-the-final-season",
+                "mal": "myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
+                "official": "shingeki.tv/final/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/381/attack-on-titan/season/2319/final-season"
+            },
+            "year": 2020
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "Everyone has a part of themselves they cannot show to anyone else.<br><br>At a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westalis Intelligence Services&#39; Eastern-Focused Division (WISE) sends their most talented spy, &#34;Twilight,&#34; on a top-secret mission to investigate the movements of Donovan Desmond, the chairman of Ostania&#39;s National Unity Party, who is threatening peace efforts between the two nations.<br><br>This mission is known as &#34;Operation Strix.&#34; It consists of &#34;putting together a family in one week in order to infiltrate social gatherings organized by the elite school that Desmond&#39;s son attends.&#34;<br><br>&#34;Twilight&#34; takes on the identity of psychiatrist Loid Forger and starts looking for family members. But Anya, the daughter he adopts, turns out to have the ability to read people&#39;s minds, while his wife, Yor, is an assassin! With it being in each of their own interests to keep these facts hidden, they start living together while concealing their true identities from one another.<br>World peace is now in the hands of this brand-new family as they embark on an adventure full of surprises.<br><br>(Source: Crunchyroll)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-04-16T00:00:00Z",
+            "dubTime": "2022-04-14T21:30:00Z",
+            "episodes": 12,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Slice of Life",
+                    "route": "slice-of-life"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "JRa5",
+            "imageVersionRoute": "anime/jpg/default/spy-x-family-7841f05975.jpg",
+            "jpnTime": "2022-03-06T14:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "April",
+            "names": {
+                "abbreviation": "SxF",
+                "synonyms": [
+                    "Spy x Family"
+                ]
+            },
+            "premier": "2022-04-09T00:00:00Z",
+            "relations": {
+                "sequels": [
+                    "spy-x-family-part-2"
+                ]
+            },
+            "route": "spy-x-family",
+            "season": {
+                "route": "spring-2022",
+                "season": "Spring",
+                "title": "Spring 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 86.69608306884766,
+                "colorDarkMode": "36A456",
+                "colorLightMode": "246E39",
+                "ratingCount": 262,
+                "trackedCount": 1375,
+                "trackedRating": 10
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "CloverWorks",
+                    "route": "cloverworks"
+                },
+                {
+                    "name": "Wit Studio",
+                    "route": "wit-studio"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-04-08T15:30:00Z",
+            "title": "SPY\u00d7FAMILY",
+            "websites": {
+                "aniList": "anilist.co/anime/140960/SPYFAMILY/",
+                "anidb": "anidb.net/anime/16947",
+                "animePlanet": "www.anime-planet.com/anime/spy-x-family",
+                "crunchyroll": "www.crunchyroll.com/spy-x-family",
+                "hulu": "www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
+                "kitsu": "kitsu.io/anime/spy-x-family",
+                "mal": "myanimelist.net/anime/50265/Spy_x_Family",
+                "netflix": "www.netflix.com/title/81511410",
+                "official": "spy-family.net/",
+                "youtube": "www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
+            },
+            "year": 2022
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The second season of <span class=\"italics\">The Rising of the Shield Hero (Tate no Yuusha no Nariagari)</span><br><br>With another Wave happening in a week, Naofumi Iwatani and his party have no time to waste. However, when bat familiars raid Lurolona Village and the Wave countdown comes to a halt, the Four Cardinal Heroes reconvene with the queen, Mirelia Q Melromarc, for a quick briefing. The queen presumes that the odd occurrences are linked to the Spirit Tortoise\u2014a threatening creature that has awakened from its slumber, back to cause havoc once again. A plan to put the Spirit Tortoise to rest is devised\u2014but out of the four men, only the cursed Shield Hero agrees to help.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-05-04T00:00:00Z",
+            "dubTime": "2022-05-02T21:00:00Z",
+            "episodes": 13,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                }
+            ],
+            "id": "mVGb",
+            "imageVersionRoute": "anime/jpg/default/tate-no-yuusha-no-nariagari-2-523f74d292.jpg",
+            "jpnTime": "2022-03-20T13:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "April",
+            "names": {
+                "english": "The Rising of the Shield Hero 2",
+                "native": "\u76fe\u306e\u52c7\u8005\u306e\u6210\u308a\u4e0a\u304c\u308a 2",
+                "romaji": "Tate no Yuusha no Nariagari 2",
+                "synonyms": [
+                    "Tate no Yuusha no Nariagari Season 2",
+                    "The Rising of the Shield Hero Season 2",
+                    "\u76fe\u306e\u52c7\u8005\u306e\u6210\u308a\u4e0a\u304c\u308a Season2",
+                    "Tate no Yuusha no Nariagari Second Season",
+                    "The Rising of the Shield Hero Second Season"
+                ]
+            },
+            "premier": "2022-04-06T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "tate-no-yuusha-no-nariagari"
+                ],
+                "sequels": [
+                    "tate-no-yuusha-no-nariagari-3"
+                ]
+            },
+            "route": "tate-no-yuusha-no-nariagari-2",
+            "season": {
+                "route": "spring-2022",
+                "season": "Spring",
+                "title": "Spring 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 68.09825897216797,
+                "colorDarkMode": "AFDD73",
+                "colorLightMode": "59703A",
+                "ratingCount": 136,
+                "trackedCount": 1324,
+                "trackedRating": 11
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "DR Movie",
+                    "route": "dr-movie"
+                },
+                {
+                    "name": "Kinema Citrus",
+                    "route": "kinema-citrus"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-04-06T13:01:00Z",
+            "title": "Tate no Yuusha no Nariagari 2",
+            "websites": {
+                "aniList": "anilist.co/anime/111321/Tate-no-Yuusha-no-Nariagari-2/",
+                "anidb": "anidb.net/anime/15070",
+                "animePlanet": "anime-planet.com/anime/the-rising-of-the-shield-hero-2nd-season",
+                "crunchyroll": "crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+                "funimation": "www.funimation.com/shows/the-rising-of-the-shield-hero/",
+                "hulu": "www.hulu.com/series/97f1d394-0ac7-48c2-bb1b-7b2575848441",
+                "kitsu": "kitsu.io/anime/tate-no-yuusha-no-nariagari-2",
+                "mal": "myanimelist.net/anime/40356/Tate_no_Yuusha_no_Nariagari_Season_2",
+                "netflix": "www.netflix.com/title/81058649",
+                "official": "shieldhero-anime.jp/"
+            },
+            "year": 2022
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The second half of <span class=\"italics\">SPY\u00d7FAMILY</span>.<br><br>With Anya Forger successfully enrolled at the renowned Eden Academy, Operation Strix advances to its second phase. To investigate Ostanian politician Donovan Desmond, Anya must either befriend his son Damian or collect eight Stella Stars to become an Imperial Scholar. Fortunately, Anya has already acquired her first star. In celebration, her adoptive father, Loid, decides to fulfill her wish to adopt a dog.<br><br>During their canine search, Loid receives new orders from his superiors, who have found that a band of Berlint University students is plotting to assassinate Westalis&#39; Minister Brantz using bombs worn by trained dogs. While Loid tries to stop their plans, Anya stumbles upon the terrorists&#39; base of operations. There, she befriends a kindhearted, clairvoyant dog who the family later names Bond.<br><br>Although the Forgers continue to lead their individual lives in secrecy, the family\u2014with a new fluffy addition\u2014remains united through all of the unusual obstacles thrown their way.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedTimetable": "Delayed",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-10-15T00:00:00Z",
+            "dubTime": "2022-12-25T22:30:00Z",
+            "episodes": 13,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Slice of Life",
+                    "route": "slice-of-life"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "Uuxq",
+            "imageVersionRoute": "anime/jpg/default/spy-x-family-part-2-5bad91ec16.jpg",
+            "jpnTime": "2022-08-29T14:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "abbreviation": "SxF Part 2",
+                "native": "SPY\u00d7FAMILY 2\u30af\u30fc\u30eb",
+                "synonyms": [
+                    "SPY x FAMILY: Part II",
+                    "SxF 2",
+                    "Spy x Family 2",
+                    "Spy x Family Part 2"
+                ]
+            },
+            "premier": "2022-10-01T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "spy-x-family"
+                ],
+                "sequels": [
+                    "spy-x-family-season-2"
+                ],
+                "sideStories": [
+                    "spy-x-family-the-movie"
+                ]
+            },
+            "route": "spy-x-family-part-2",
+            "season": {
+                "route": "fall-2022",
+                "season": "Fall",
+                "title": "Fall 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 83.60391998291016,
+                "colorDarkMode": "4AAF5C",
+                "colorLightMode": "2E6E3A",
+                "ratingCount": 162,
+                "trackedCount": 1320,
+                "trackedRating": 12
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "CloverWorks",
+                    "route": "cloverworks"
+                },
+                {
+                    "name": "Wit Studio",
+                    "route": "wit-studio"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-11-08T16:30:00Z",
+            "title": "SPY\u00d7FAMILY Part 2",
+            "websites": {
+                "aniList": "anilist.co/anime/142838/SPYFAMILY-Part-2/",
+                "anidb": "anidb.net/anime/17061",
+                "animePlanet": "www.anime-planet.com/anime/spy-x-family-part-ii",
+                "crunchyroll": "www.crunchyroll.com/spy-x-family",
+                "hulu": "www.hulu.com/series/spy-x-family-65d158d4-443f-44c7-bd2c-eae39f6c60e9",
+                "kitsu": "kitsu.io/anime/spy-x-family-part-2",
+                "mal": "myanimelist.net/anime/50602/Spy_x_Family_Part_2",
+                "netflix": "www.netflix.com/title/81511410",
+                "official": "spy-family.net/",
+                "youtube": "www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
+            },
+            "year": 2022
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The fifth season of <span class=\"italics\">My Hero Academia (Boku no Hero Academia)</span>.<br><br>The rivalry between Class 1-A and Class 1-B heats up in a joint training battle. Eager to be a part of the hero course, brainwashing buff Shinso is tasked with competing on both sides.<br><br>But as each team faces their own weaknesses and discovers new strengths, this showdown might just become a toss-up.<br><br>(Source: Funimation)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2022-08-03T12:00:00Z",
+            "episodes": 25,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "School",
+                    "route": "school"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Superpower",
+                    "route": "superpower"
+                }
+            ],
+            "id": "eZ6k",
+            "imageVersionRoute": "anime/jpg/default/boku-no-hero-academia-5-1098497e39.jpg",
+            "jpnTime": "0002-01-01T08:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "March",
+            "names": {
+                "abbreviation": "BNHA 5",
+                "english": "My Hero Academia 5",
+                "native": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 5",
+                "romaji": "Boku no Hero Academia 5",
+                "synonyms": [
+                    "MHA 5",
+                    "My Hero Academia Season 5"
+                ]
+            },
+            "premier": "2021-03-27T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "boku-no-hero-academia-4"
+                ],
+                "sequels": [
+                    "boku-no-hero-academia-6"
+                ],
+                "sideStories": [
+                    "boku-no-hero-academia-5-ona",
+                    "boku-no-hero-academia-the-movie-3-world-heroes-mission"
+                ]
+            },
+            "route": "boku-no-hero-academia-5",
+            "season": {
+                "route": "spring-2021",
+                "season": "Spring",
+                "title": "Spring 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 75.85554504394531,
+                "colorDarkMode": "80C866",
+                "colorLightMode": "476E38",
+                "ratingCount": 176,
+                "trackedCount": 1305,
+                "trackedRating": 13
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "bones",
+                    "route": "bones"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T09:30:00Z",
+            "title": "Boku no Hero Academia 5",
+            "websites": {
+                "amazon": "www.amazon.com/dp/B094FBJB83?&_encoding=UTF8&tag=animeschedule01-20&linkCode=ur2&linkId=92fe82aa0f6cb8ae94c6b35590596ead&camp=1789&creative=9325",
+                "aniList": "anilist.co/anime/117193/Boku-no-Hero-Academia-5/",
+                "anidb": "anidb.net/anime/15484",
+                "animePlanet": "anime-planet.com/anime/my-hero-academia-5",
+                "crunchyroll": "www.crunchyroll.com/my-hero-academia/",
+                "funimation": "www.funimation.com/shows/my-hero-academia/",
+                "hulu": "www.hulu.com/series/my-hero-academia-36e318dc-3daf-47fb-8219-9e3cb5cd28f2",
+                "kitsu": "kitsu.io/anime/boku-no-hero-academia-5th-season",
+                "mal": "myanimelist.net/anime/41587/Boku_no_Hero_Academia_5th_Season",
+                "netflix": "www.netflix.com/title/80135674",
+                "official": "heroaca.com/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/1278"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "A secret life is the one thing they have in common. At school, Hori is a prim and perfect social butterfly, but the truth is she&#39;s a brash homebody. Meanwhile, under a gloomy facade, Miyamura hides a gentle heart, along with piercings and tattoos. In a chance meeting, they both reveal a side they&#39;ve never shown. Could this blossom into something new?<br><br>(Source: Funimation)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-03-23T17:00:00Z",
+            "episodes": 13,
+            "genres": [
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Romance",
+                    "route": "romance"
+                },
+                {
+                    "name": "School",
+                    "route": "school"
+                },
+                {
+                    "name": "Slice of Life",
+                    "route": "slice-of-life"
+                }
+            ],
+            "id": "FYtT",
+            "imageVersionRoute": "anime/jpg/default/horimiya-96d7edd732.jpg",
+            "jpnTime": "0002-01-01T15:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "January",
+            "names": {
+                "native": "\u30db\u30ea\u30df\u30e4",
+                "synonyms": [
+                    "Hori-san and Miyamura-kun",
+                    "\u5800\u4e0e\u5bab\u6751"
+                ]
+            },
+            "premier": "2021-01-09T00:00:00Z",
+            "relations": {
+                "alternatives": [
+                    "hori-san-to-miyamura-kun-shingakki"
+                ],
+                "sideStories": [
+                    "horimiya-piece"
+                ]
+            },
+            "route": "horimiya",
+            "season": {
+                "route": "winter-2021",
+                "season": "Winter",
+                "title": "Winter 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 82.79481506347656,
+                "colorDarkMode": "50B25D",
+                "colorLightMode": "326E3A",
+                "ratingCount": 293,
+                "trackedCount": 1304,
+                "trackedRating": 14
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "CloverWorks",
+                    "route": "cloverworks"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T17:00:00Z",
+            "title": "Horimiya",
+            "websites": {
+                "aniList": "anilist.co/anime/124080/Horimiya/",
+                "anidb": "anidb.net/anime/15733",
+                "animePlanet": "anime-planet.com/anime/horimiya",
+                "crunchyroll": "www.crunchyroll.com/horimiya",
+                "funimation": "www.funimation.com/shows/horimiya",
+                "hulu": "www.hulu.com/series/horimiya-b76b37a3-c529-4967-ab5c-bc734b79132d",
+                "kitsu": "kitsu.io/anime/horimiya",
+                "mal": "myanimelist.net/anime/42897/Horimiya",
+                "netflix": "www.netflix.com/title/81020819",
+                "official": "horimiya-anime.com/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "After visiting the Rengoku residence, Tanjirou and his comrades volunteer for a mission within the Entertainment District, a place where desires are sold and demons dwell. They journey alongside the flashy Sound Hashira, Tengen Uzui, in search of a monstrous foe terrorizing the town. Sworn to slay creatures of the night, the hunt continues.<br><br>(Source: Funimation)<br><br><span class=\"italics\">Note: The first and final episodes aired with an extended runtime.</span>",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "2022-02-13T00:00:00Z",
+            "dubTime": "2022-04-14T15:00:00Z",
+            "episodes": 11,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Demons",
+                    "route": "demons"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Historical",
+                    "route": "historical"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Supernatural",
+                    "route": "supernatural"
+                }
+            ],
+            "id": "8Wyt",
+            "imageVersionRoute": "anime/jpg/default/kimetsu-no-yaiba-yuukaku-hen-e400d9686b.jpg",
+            "jpnTime": "2021-11-14T14:15:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "December",
+            "names": {
+                "abbreviation": "KnY 3",
+                "english": "Demon Slayer: Entertainment District Arc",
+                "native": "\u9b3c\u6ec5\u306e\u5203 \u904a\u90ed\u7de8",
+                "romaji": "Kimetsu no Yaiba: Yuukaku-hen",
+                "synonyms": [
+                    "Demon Slayer Season 3",
+                    "Kimetsu no Yaiba Season 3",
+                    "Blade of Demon Destruction 3",
+                    "Demon Slayer 3",
+                    "Kimetsu no Yaiba 3"
+                ]
+            },
+            "premier": "2021-12-05T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "kimetsu-no-yaiba-mugen-ressha-hen",
+                    "kimetsu-no-yaiba-mugen-ressha-hen-tv"
+                ],
+                "sequels": [
+                    "kimetsu-no-yaiba-katanakaji-no-sato-hen"
+                ]
+            },
+            "route": "kimetsu-no-yaiba-yuukaku-hen",
+            "season": {
+                "route": "fall-2021",
+                "season": "Fall",
+                "title": "Fall 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 88.60881805419922,
+                "colorDarkMode": "2A9C52",
+                "colorLightMode": "1D6D39",
+                "ratingCount": 228,
+                "trackedCount": 1290,
+                "trackedRating": 15
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "ufotable",
+                    "route": "ufotable"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2022-04-14T15:00:00Z",
+            "title": "Kimetsu no Yaiba: Yuukaku-hen",
+            "websites": {
+                "aniList": "anilist.co/anime/142329/Kimetsu-no-Yaiba-Yuukakuhen/",
+                "anidb": "anidb.net/anime/16054",
+                "animePlanet": "www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-yuukaku-hen",
+                "crunchyroll": "crunchyroll.com/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
+                "funimation": "www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba",
+                "hulu": "www.hulu.com/series/2c3e4b00-30d9-434d-bccc-cf346e40e868",
+                "kitsu": "kitsu.io/anime/kimetsu-no-yaiba-yuukaku-hen",
+                "mal": "myanimelist.net/anime/47778/Kimetsu_no_Yaiba__Yuukaku-hen",
+                "netflix": "www.netflix.com/us/title/81091393",
+                "official": "kimetsu.com/anime/yukakuhen/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba/season/3233/entertainment-district-arc-sub"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The second part of <span class=\"italics\">Mushoku Tensei: Isekai Ittara Honki Das</span>u.<br><br>Rudy, Eris, and Rujierd head for Asura Kingdom in search of answers. Meanwhile, Roxy sets out across the Demon Continent to find Rudy.<br><br>(Source: Funimation)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-03-30T16:00:00Z",
+            "episodes": 12,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Drama",
+                    "route": "drama"
+                },
+                {
+                    "name": "Ecchi",
+                    "route": "ecchi"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                }
+            ],
+            "id": "Y6Zd",
+            "imageVersionRoute": "anime/jpg/default/mushoku-tensei-isekai-ittara-honki-dasu-part-2-5b66c60969.jpg",
+            "jpnTime": "2021-09-15T15:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "english": "Mushoku Tensei: Jobless Reincarnation Part 2",
+                "native": "\u7121\u8077\u8ee2\u751f \uff5e\u7570\u4e16\u754c\u884c\u3063\u305f\u3089\u672c\u6c17\u3060\u3059\uff5e \u7b2c2\u671f",
+                "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+                "synonyms": [
+                    "Mushoku Tensei Part 2",
+                    "Jobless Reincarnation: I Will Seriously Try If I Go To Another World Part 2"
+                ]
+            },
+            "premier": "2021-10-03T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "mushoku-tensei-isekai-ittara-honki-dasu"
+                ],
+                "sequels": [
+                    "mushoku-tensei-isekai-ittara-honki-dasu-2"
+                ],
+                "sideStories": [
+                    "mushoku-tensei-isekai-ittara-honki-dasu-part-2-special"
+                ]
+            },
+            "route": "mushoku-tensei-isekai-ittara-honki-dasu-part-2",
+            "season": {
+                "route": "fall-2021",
+                "season": "Fall",
+                "title": "Fall 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 86.63935089111328,
+                "colorDarkMode": "36A456",
+                "colorLightMode": "246E39",
+                "ratingCount": 220,
+                "trackedCount": 1250,
+                "trackedRating": 16
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "Studio Bind",
+                    "route": "studio-bind"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2021-10-01T16:00:00Z",
+            "title": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+            "websites": {
+                "aniList": "anilist.co/anime/127720/Mushoku-Tensei-Isekai-Ittara-Honki-Dasu-Part-2/",
+                "anidb": "anidb.net/anime/15954",
+                "animePlanet": "www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-part-ii",
+                "crunchyroll": "www.crunchyroll.com/mushoku-tensei-jobless-reincarnation",
+                "funimation": "www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/",
+                "hulu": "www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a",
+                "kitsu": "kitsu.io/anime/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season",
+                "mal": "myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_2nd_Season",
+                "netflix": "www.netflix.com/title/80987039",
+                "official": "mushokutensei.jp/",
+                "wakanim": "www.wakanim.tv/sc/v2/catalogue/show/1170"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "0001-01-01T00:00:00Z",
+            "delayedUntil": "0001-01-01T00:00:00Z",
+            "description": "The second cour of <span class=\"italics\">Tensei Shitara Slime Datta Ken 2</span>.<br><br>The nation of Tempest is in a festive mood after successfully overcoming the surprise attack from the Falmuth Army and the Western Holy Church. Beyond the festivities lies a meeting between Tempest and its allies to decide the future of the Nation of Monsters. The aftermath of the Falmuth invasion, Milim Nava&#39;s suspicious behavior, and the disappearance of Demon Lord Carrion\u2014the problems seem to keep on piling up.<br><br>Rimuru Tempest, now awakened as a &#34;True Demon Lord,&#34; decides to go on the offensive against Clayman. With the fully revived &#34;Storm Dragon&#34; Veldora, &#34;Ultimate Skill&#34; Raphael, and other powerful comrades, the ruler of the Tempest is confident in taking down his enemies one by one until he can face the man pulling the strings.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "0001-01-01T00:00:00Z",
+            "dubDelayedUntil": "0001-01-01T00:00:00Z",
+            "dubPremier": "0001-01-01T00:00:00Z",
+            "dubTime": "2023-04-06T15:00:00Z",
+            "episodes": 12,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Adventure",
+                    "route": "adventure"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "Fantasy",
+                    "route": "fantasy"
+                },
+                {
+                    "name": "Isekai",
+                    "route": "isekai"
+                },
+                {
+                    "name": "Magic",
+                    "route": "magic"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                }
+            ],
+            "id": "yEa1",
+            "imageVersionRoute": "anime/jpg/default/tensei-shitara-slime-datta-ken-2nd-season-part-2-9992487c64.jpg",
+            "jpnTime": "0002-01-01T14:00:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "July",
+            "names": {
+                "abbreviation": "TenSura 2 Part 2",
+                "english": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
+                "native": "\u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 \u7b2c2\u671f",
+                "romaji": "Tensei Shitara Slime Datta Ken 2 Part 2",
+                "synonyms": [
+                    "\u8ee2\u30b9\u30e92",
+                    "Tensei Shitara Slime Datta Ken Season 2"
+                ]
+            },
+            "premier": "2021-07-06T00:00:00Z",
+            "relations": {
+                "prequels": [
+                    "tensei-shitara-slime-datta-ken-2nd-season"
+                ],
+                "sequels": [
+                    "tensei-shitara-slime-datta-ken-3rd-season"
+                ],
+                "sideStories": [
+                    "tensei-shitara-slime-datta-ken-movie"
+                ]
+            },
+            "route": "tensei-shitara-slime-datta-ken-2nd-season-part-2",
+            "season": {
+                "route": "summer-2021",
+                "season": "Summer",
+                "title": "Summer 2021",
+                "year": "2021"
+            },
+            "sources": [
+                {
+                    "name": "Light Novel",
+                    "route": "light-novel"
+                }
+            ],
+            "stats": {
+                "averageScore": 84.6690902709961,
+                "colorDarkMode": "43AB5A",
+                "colorLightMode": "2B6E3A",
+                "ratingCount": 210,
+                "trackedCount": 1216,
+                "trackedRating": 17
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "8bit",
+                    "route": "8bit"
+                }
+            ],
+            "subDelayedFrom": "0001-01-01T00:00:00Z",
+            "subDelayedUntil": "0001-01-01T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "0002-01-01T15:00:00Z",
+            "title": "Tensei Shitara Slime Datta Ken 2nd Season Part 2",
+            "websites": {
+                "aniList": "anilist.co/anime/116742/Tensei-Shitara-Slime-Datta-Ken-2nd-Season-Part-2/",
+                "anidb": "anidb.net/anime/15456",
+                "animePlanet": "anime-planet.com/anime/that-time-i-got-reincarnated-as-a-slime-season-2-part-ii",
+                "crunchyroll": "www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime",
+                "funimation": "www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/",
+                "kitsu": "kitsu.io/anime/tensei-shitara-slime-datta-ken-2nd-season-part-2",
+                "mal": "myanimelist.net/anime/41487/Tensei_shitara_Slime_Datta_Ken_2nd_Season_Part_2",
+                "netflix": "www.netflix.com/title/81028712",
+                "official": "ten-sura.com/",
+                "youtube": "www.youtube.com/playlist?list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL"
+            },
+            "year": 2021
+        },
+        {
+            "delayedFrom": "2022-12-31T00:00:00Z",
+            "delayedTimetable": "Delayed",
+            "delayedUntil": "2023-01-07T00:00:00Z",
+            "description": "The sixth season of <span class=\"italics\">My Hero Academia (Boku no Hero Academia)</span><br><br>With Tomura Shigaraki at its helm, the former Liberation Army is now known as the Paranormal Liberation Front. This organized criminal group poses an immense threat to the Hero Association, not only because of its sheer size and strength, but also the overpowering quirks of Jin &#34;Twice&#34; Bubaigawara and Gigantomachia.<br><br>As new intel from the covert hero Keigo &#34;Hawks&#34; Takami confirms that Shigaraki is nowhere to be seen, the Hero Association decides to strike the enemy headquarters with a surprise attack using the entirety of its assets\u2014and the UA students find themselves on the battlefield once again. As the fight rages on, the unsuspecting villains must regroup and push back, but the brave heroes are determined to eradicate every last one of them.<br><br>(Source: MAL Rewrite)",
+            "dubDelayedFrom": "2023-02-04T00:00:00Z",
+            "dubDelayedTimetable": "Delayed",
+            "dubDelayedUntil": "2023-02-11T00:00:00Z",
+            "dubPremier": "2022-10-15T00:00:00Z",
+            "dubTime": "2023-03-13T19:00:00Z",
+            "episodes": 25,
+            "genres": [
+                {
+                    "name": "Action",
+                    "route": "action"
+                },
+                {
+                    "name": "Comedy",
+                    "route": "comedy"
+                },
+                {
+                    "name": "School",
+                    "route": "school"
+                },
+                {
+                    "name": "Shounen",
+                    "route": "shounen"
+                },
+                {
+                    "name": "Superpower",
+                    "route": "superpower"
+                }
+            ],
+            "id": "wq8X",
+            "imageVersionRoute": "anime/jpg/default/boku-no-hero-academia-6-f8da03cdfe.jpg",
+            "jpnTime": "2022-07-24T08:30:00Z",
+            "lengthMin": 24,
+            "mediaTypes": [
+                {
+                    "name": "TV",
+                    "route": "tv"
+                }
+            ],
+            "month": "October",
+            "names": {
+                "abbreviation": "BNHA 6",
+                "english": "My Hero Academia 6",
+                "native": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2\uff16",
+                "romaji": "Boku no Hero Academia 6",
+                "synonyms": [
+                    "MHA 6",
+                    "My Hero Academia Season 6"
+                ]
+            },
+            "premier": "2022-10-01T00:00:00Z",
+            "relations": {
+                "other": [
+                    "bokurano-music"
+                ],
+                "prequels": [
+                    "boku-no-hero-academia-5"
+                ],
+                "sequels": [
+                    "boku-no-hero-academia-7"
+                ]
+            },
+            "route": "boku-no-hero-academia-6",
+            "season": {
+                "route": "fall-2022",
+                "season": "Fall",
+                "title": "Fall 2022",
+                "year": "2022"
+            },
+            "sources": [
+                {
+                    "name": "Manga",
+                    "route": "manga"
+                }
+            ],
+            "stats": {
+                "averageScore": 82.2451171875,
+                "colorDarkMode": "54B45E",
+                "colorLightMode": "336E3A",
+                "ratingCount": 76,
+                "trackedCount": 1186,
+                "trackedRating": 18
+            },
+            "status": "Finished",
+            "studios": [
+                {
+                    "name": "bones",
+                    "route": "bones"
+                }
+            ],
+            "subDelayedFrom": "2022-12-31T00:00:00Z",
+            "subDelayedTimetable": "Delayed",
+            "subDelayedUntil": "2023-01-07T00:00:00Z",
+            "subPremier": "0001-01-01T00:00:00Z",
+            "subTime": "2023-03-13T09:30:00Z",
+            "title": "Boku no Hero Academia 6",
+            "websites": {
+                "aniList": "anilist.co/anime/139630",
+                "anidb": "anidb.net/anime/16793",
+                "animePlanet": "www.anime-planet.com/anime/my-hero-academia-6",
+                "crunchyroll": "www.crunchyroll.com/my-hero-academia",
+                "funimation": "www.funimation.com/shows/my-hero-academia",
+                "hulu": "www.hulu.com/series/my-hero-academia-b4859a95-39ba-4051-a550-256c42e70a1d",
+                "kitsu": "kitsu.io/anime/45240",
+                "mal": "myanimelist.net/anime/49918",
+                "official": "heroaca.com/"
+            },
+            "year": 2022
+        }
+    ],
+    "page": 1,
+    "totalAmount": 16046
+}

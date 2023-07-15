@@ -47,17 +47,33 @@ def criaPasta():
 
 
 def limpa():
-    # Get a list of all the file paths that ends with .txt from in specified directory
-    fileList = glob.glob(f'Download\*.jpg')
-    # print(fileList)
-    # Iterate over the list of filepaths & remove each file.
-    for filePath in fileList:
-        try:
-            pass
-            os.remove(filePath)
-        except:
-            print("Error while deleting file : ", filePath)
+    try:
+        # Get a list of all the file paths that ends with .txt from in specified directory
+        fileList = glob.glob(f'Download\*.jpg')
+        # print(fileList)
+        # Iterate over the list of filepaths & remove each file.
+        for filePath in fileList:
+            try:
+                pass
+                os.remove(filePath)
+            except:
+                print("Error while deleting file : ", filePath)
+    except:
+        pass
 
+    try:
+        # Get a list of all the file paths that ends with .txt from in specified directory
+        fileList = glob.glob(f'Download/*.jpg')
+        # print(fileList)
+        # Iterate over the list of filepaths & remove each file.
+        for filePath in fileList:
+            try:
+                pass
+                os.remove(filePath)
+            except:
+                print("Error while deleting file : ", filePath)
+    except:
+        pass
 # baixa a imagem
 
 
@@ -334,9 +350,5 @@ def inicioAuto():
 
 
 inicioAuto()
-# print(unionMangas('One punch'))
-# limpa()
-# getCapitulosFromUrl(
-#     'https://mangaschan.com/manga/naruto-sasuke-retsuden-uchiha-no-matsuei-to-tenkyu-no-hoshikuzu-novel/')
-# getImgFromUrl('teste', 'https://mangaschan.com/one-punch-man-capitulo-222/')
+
 # ..\venv\Scripts\pyinstaller.exe -F --console --icon="icone.ico" --distpath .\ -c --name "Novo Manga Downloader 2023" .\mangaNovo.py
