@@ -1,10 +1,11 @@
-# pip install pytelegrambotapi
+# import telepot
+
+import telepot
+from telepot.loop import MessageLoop
 
 import platform
 from re import I
 import shutil
-from telebot import types
-import telebot
 import funcoes as funcoes
 import logging
 import os
@@ -24,269 +25,177 @@ else:
 
 
 # API_TOKEN = '1641410313:AAE4pAf4se3EvdD7-INkfiUhgCVHZjLdeVE'  # bot teste
-with open('token.txt', 'r') as f:
-    API_TOKEN = f.read()
-    print(API_TOKEN)
+# with open('token.txt', 'r') as f:
+#     API_TOKEN = f.read()
+#     print(API_TOKEN)
 
-bot = telebot.TeleBot(API_TOKEN)
-
-
-@bot.message_handler(commands=['ajuda', 'help'])
-# funcao de ajuda para o usuario
-def ajuda(message):
-    msg = bot.reply_to(
-        message, f'Para iniciar o bot use /baixar\n\nPara Ler os Mangas recomendo utilizar o programa ComicScreen https://play.google.com/store/apps/details?id=com.viewer.comicscreen')
+# Dicionário para rastrear o estado do usuário
+user_states = {}
 
 
-@bot.message_handler(commands=['log'])
-# funcao de envio de log para o usuario
-def log(message):
-    if message.chat.id == 769723764:
-        with open('logManga.log', 'r') as log:
-            msg = bot.send_document(
-                769723764, document=open('logManga.log', 'rb'))
+def handle_message(msg):
+    idusr = msg["chat"]['id']
+    nomeusr = msg["chat"]['first_name']
+    content_type, chat_type, chat_id = telepot.glance(msg)
 
+    if content_type == 'text':
+        message = msg['text']
 
-@bot.message_handler(commands=['novo'])
-# funcao de envio de log para o usuario
-def novo(message):
-    if message.chat.id == 769723764:
-        bot.reply_to(
-            message, 'Aguarde, vou buscar os ultimos capitulos dos preferidos...')
-        funcoes.buscaPreferidos(message.chat.id)
-        with open('novo.txt', 'r', encoding='utf-8') as file1:
-            linhas = file1.readlines()
-            for line in linhas:
-                bot.sendMessage(
-                    id, f'{line.split(",")[0]} {line.split(",")[2]}')
+        if message == '/start' or message == '/buscar':
+            bot.sendMessage(chat_id, f'Olá {nomeusr}, Digite o nome do manga')
 
+            user_states[chat_id] = 'step1'
 
-@bot.message_handler(commands=['comecar', 'start', 'buscar', 'buscar manga', 'pesquisar', 'baixar', 'BuscarManga'])
-# comando inicial do bot
-def buscaManga(message):
-    print('buscaManga')
-    # verifica se é o primeiro uso do bot
-    with open('usuarios.txt', 'r+') as usuarios:
-        usuario = usuarios.readlines()
-        for i in usuario:
-            if not str(message.chat.id) in i:
-                novo = True
-        if novo:
-            usuarios.write(str(message.chat.id)+'\n')
-    # define o teclado para selecionar o servidor
-    msg = bot.reply_to(
-        message, f'Olá {message.from_user.first_name}, bem vindo ao meu bot!\nDigite o nome do mangá', parse_mode='Markdown')
-
-    bot.register_next_step_handler(msg, exibeServidores)
-
-
-def exibeServidores(message):
-    print('exibeServidores')
-    # recebe o nome do seridor escolhido
-    id = message.chat.id
-    manga = str(message.text).lower()
-    bot.send_message(id, f'Aguarde! Buscando o mangá...')
-    with open('logManga.log', 'a') as logger:
-        logger.write(
-            f'\nINFO:{message.date} {message.chat.id} - {message.from_user.first_name} - Pesquisa manga: {manga}')
-
-    # faz uma pesquisa no servidor escolhido
-    x = funcoes.busca_manga(id, manga)
-    print(f'{x=}')
-    if len(x) > 0:
-        lista_enum = [f'{i+1}. {elem}' for i, elem in enumerate(x)]
-        lista = "\n".join(lista_enum)
-        lista = lista.replace(';', ' -> ')
-
-        msg = bot.reply_to(
-            message, f'Encontrei estes aqui!\n\n{lista}\n\nDigite o numero do manga desejado =)', parse_mode='Markdown')
-        bot.register_next_step_handler(msg, procuraCapitulos)
-    else:
-        bot.reply_to(
-            message, f'Não foi encontrado nenhum mangá com esse nome, verifique o nome e pesquise novamente\n/buscar', parse_mode='Markdown')
-        bot.register_next_step_handler(msg, buscaManga)
-
-
-def procuraCapitulos(message):
-    print('procuraCapitulos')
-    # recebe o nome do seridor escolhido
-    id = message.chat.id
-    numManga = str(message.text).lower()
-    bot.send_message(
-        message.chat.id, f'Localizando os capitulos disponiveis, aguarde um momento...')
-
-    with open(f'TXT/{id}lista_manga.txt', 'r') as link:
-        link = link.readlines()
-        titulo = link[int(numManga)-1].split(';')[0]
-        link_manga = link[int(numManga)-1].split(';')[2]
-        fonte = link[int(numManga)-1].split(';')[1]
-
-    with open('logManga.log', 'a') as logger:
-        logger.write(
-            f'\nINFO:{message.date} {message.chat.id} - {message.from_user.first_name} - Manga escolhido: {titulo}')
-
-    if link_manga:
-        capitulos = funcoes.busca_capitulos(id, link_manga, fonte)
-        bot.send_photo(id, open(f'TXT/{id}capa.jpg', 'rb'))
-        # bot.send_message(id, +'\n\nDigite o número dos capítulos do mangá para baixar, Ex: 1-10\nLimite maximo de 10 capítulos por vez')
-
-        stringcap = capitulos.split(' ')
-        listacap = []
-        contadorcap = 0
-        nova_listacap = False
-        textocap = []
-        for i in stringcap:
-            if contadorcap + len(i) < 3000:
-                contadorcap += len(i)
-                textocap.append(i)
-            else:
-                if not nova_listacap:
-                    nova_listacap = True
-                    listacap.append(textocap)
-                    textocap = []
-                contadorcap = 0
-                textocap.append(i)
-        listacap.append(textocap)
-
-        if len(listacap) > 1:
-            msg = bot.send_message(id, f'''Encontrei os capitulos\n*{" ".join(listacap[0])}*''',
-                                   parse_mode='Markdown', reply_markup=telebot.types.ReplyKeyboardRemove())
-
-            msg = bot.send_message(id, f'''*{" ".join(listacap[1])}*\n\nDigite qual capitulo deseja:\nExemplo1 : \n1\nExemplo2 :\n1-5\n\nObs o limite de capitulos é de *{numeroMaximoDownload}*''',
-                                   parse_mode='Markdown', reply_markup=telebot.types.ReplyKeyboardRemove())
+        elif message == '/ajuda':
+            bot.sendMessage(
+                chat_id, f'Para iniciar o bot use /baixar\n\nPara Ler os Mangas recomendo utilizar o programa ComicScreen https://play.google.com/store/apps/details?id=com.viewer.comicscreen')
+            bot.stop()
         else:
-            msg = bot.reply_to(message, f'''Encontrei os capitulos\n*{capitulos}*\n\nDigite qual capitulo deseja:\nExemplo1 : \n1\nExemplo2 :\n1-5\n\nObs o limite de capitulos é de *{numeroMaximoDownload}*''',
-                               parse_mode='Markdown', reply_markup=telebot.types.ReplyKeyboardRemove())
-
-        with open(f'TXT/{id}mangaescolhido.txt', 'w') as escolhido:
-            escolhido.write(f'{fonte};{titulo}')
-
-    bot.register_next_step_handler(msg, baixarManga)
+            handle_next_step(chat_id, message)
 
 
-def baixarManga(message):
-    print('baixarManga')
-    capitulo = message.text
-    chat_id = message.chat.id
+def handle_next_step(chat_id, message):
+    # Obtém o estado atual do usuário
+    print(chat_id)
+    state = user_states.get(chat_id)
 
-    bot.send_message(
-        message.chat.id, f'Aguarde! Baixando o manga... Este processo pode demorar de acordo com a quantidade de capitulos\n*TENHA PACIENCIA!*', parse_mode='Markdown')
+    #########################################################################################
+    # pesquisa o nome do manga
+    #########################################################################################
 
-    # verifica o mangá escolhido
-    with open(f'TXT/{message.chat.id}mangaescolhido.txt', 'r') as fmanga:
-        fmanga = fmanga.read()
-        servidor, manga = fmanga.split(';')
+    if state == 'step1':
+        funcoes.limpaArquivos(chat_id, 'Download', 'jpg')
+        manga = message
+        bot.sendMessage(
+            chat_id, 'Aguarde um momento enquanto faço uma pesquisa...')
+        x = funcoes.iniciaBuscaManga(chat_id, manga)
+        print(f'{x=}')
+        if len(x) > 0:
+            lista_enum = [f'{i+1}. {elem}' for i, elem in enumerate(x)]
+            lista = "\n".join(lista_enum)
+            lista = lista.replace(';', ' -> ')
+        bot.sendMessage(
+            chat_id, f'Encontrei estes aqui!\n\n{lista}\n\nDigite o numero do manga desejado ')
+        # Atualiza o estado do usuário para 'step2'
+        user_states[chat_id] = 'step2'
 
-    with open('logManga.log', 'a') as logger:
-        logger.write(
-            f'\nINFO:{message.date} {message.chat.id} - {message.from_user.first_name} - Download manga: {manga}, capitulos {capitulo} em {servidor}')
+    #########################################################################################
+    # busca os capitulos do mangas
+    #########################################################################################
 
-    # define os capitulos escolhidos separando com '-' ' ' e ','
-    # e atribui a variavel inicio e fim
-    if '-' in capitulo:
-        capitulo = capitulo.split('-')
-        inicio = capitulo[0]
-        fim = capitulo[1]
-    elif ' ' in capitulo:
-        capitulo = capitulo.split(' ')
-        inicio = capitulo[0]
-        fim = capitulo[1]
-    elif ',' in capitulo:
-        capitulo = capitulo.split(',')
-        inicio = capitulo[0]
-        fim = capitulo[1]
-    else:
-        inicio = capitulo
-        fim = capitulo
-
-    print(f'{inicio=}, {fim=}')
-    if float(inicio) > float(fim):
-        inicio, fim = fim, inicio
-    print(f'{inicio=}, {fim=}')
-    capitulo = str(float(inicio)) + "-" + str(float(fim))
-    # calcula o numero de capitulos a serem baixados
-    calculo = float(fim) - float(inicio)
-    if message.chat.id == 769723764:
-        numeroMaximoDownload = 15
-    else:
-        numeroMaximoDownload = 10
-    # verifica se o numero de capitulos a serem baixados e menor ou igual ao limite
-    if calculo <= (numeroMaximoDownload-1):
-        # grava o log
-        with open('logManga.log', 'a') as logger:
-            logger.write(
-                f'\nINFO:{message.date} {message.chat.id} - {message.from_user.first_name} - Download manga: {manga}, capitulos {capitulo} em {servidor}')
-        print(
-            f'{message.chat.id} - Baixando os capitulos {inicio} a {fim} de {manga} em {servidor}')
-        bot.send_message(
-            message.chat.id, f'Baixando capitulos de *{inicio} a {fim}* do mangá, aguarde...', parse_mode='Markdown')
-
-        # faz o download dos capitulos escolhidos
-        quantidadeCBR = funcoes.iniciaDownload(
-            str(chat_id), manga, inicio, fim, fonte=servidor)
-        print(quantidadeCBR)
+    elif state == 'step2':
         try:
-            # teclado rapido para voltar ao inicio do bot
-            markup = types.ReplyKeyboardMarkup(one_time_keyboard=True)
-            markup.add('/baixar')
+            numero = int(message)-1
+            with open(f"TXT/{chat_id}lista_manga.txt") as f:
+                resultadopesquisa = f.readlines()
 
-            # dependendo do sistema operacional envia os arquivos de acordo com a pasta
-            # if sistema == 'Windows':
-            #     bot.send_document(chat_id, document=open(
-            #         f'{folder}{chat_id}\\{manga}_capitulo_{capitulo}.cbr', 'rb'))
+            user_states['nome_manga'] = resultadopesquisa[numero].split(";")[0]
+            user_states['servidor'] = resultadopesquisa[numero].split(";")[1]
+            user_states['link_manga'] = resultadopesquisa[numero].split(";")[2]
+            bot.sendMessage(chat_id, 'Pesquisando os capítulos disponiveis...')
+            capitulosDisponiveis = funcoes.getCapitulosFromUrl(
+                resultadopesquisa[numero].split(";")[2])
+            listaDisponiveis = []
 
-            #     bot.send_message(
-            #         chat_id, f'Download concluido! Para baixar outros capitulos, execute o comando */baixar*', reply_markup=markup, parse_mode='Markdown')
-            # else:
+            for cap in capitulosDisponiveis:
+                listaDisponiveis.append(
+                    str(cap[1]).replace('Cap. ', ''))
 
-            for i in quantidadeCBR:
-                if sistema == 'Windows':
-                    i = str(i).replace('\\', '/')
-                    print(f'arquivo {i=}')
-                try:
-                    # faz uma copia do arquivo localmente
-                    # arquivo = f'{folder}{chat_id}/{manga}_capitulo_{capitulo}_{i}.cbr'
-                    # shutil.copy(i, 'backup')
+            if len(listaDisponiveis) > 0:
+                with open(f'TXT/{chat_id}listaDisponiveis.txt', 'w') as fh:
+                    for line in capitulosDisponiveis:
+                        fh.write(f'{line[1]};{line[0]}\n')
+                bot.sendMessage(
+                    chat_id, f'\nCapitulos encontrados:  {" ".join(listaDisponiveis)}\nDigite qual capitulo deseja:\nExemplo1 : \n1\nExemplo2 :\n1-5\n\nObs o limite de capitulos é de 10')
+                user_states[chat_id] = 'step3'
 
-                    # envia o arquivo para o telegram
-                    print(f'arquivo {i}')
-                    bot.send_document(
-                        chat_id, document=open(i, 'rb'), timeout=20)
-                    # msg = bot.send_message(
-                    #     769723764, f'Enviado o arquivo {i} para {chat_id} {message.from_user.first_name}')
-                except Exception as e:
-                    print(f'erro ao enviar o arquivo: {e}')
-                    logger.write(
-                        f'\nERROR:{message.date} - {e} - Erro ao enviar o arquivo.\n Tente novamente\n/buscar')
+            else:
+                bot.sendMessage(
+                    chat_id, "Nao foi encontrado nenhum capitulos, selecione uma das opções encontradas acima:")
+                user_states[chat_id] = 'step2'
 
-            bot.send_message(
-                chat_id, f'Download concluido! Para baixar outros capitulos, execute o comando */baixar* ', reply_markup=markup, parse_mode='Markdown')
-            # grava o log
-            with open('logManga.log', 'a') as logger:
-                logger.write(
-                    f'\nINFO:{message.date} {message.chat.id} - {message.from_user.first_name} - Arquivo enviado {manga}_capitulo_{capitulo}_{i}.cbr')
+        except ValueError as e:
+            bot.sendMessage(chat_id, 'Opção invalida! '+str(e))
 
-        except Exception as e:
-            print(e)
-            # grava o log
-            with open('logManga.log', 'a') as logger:
-                logger.write(
-                    f'\nERROR:{message.date} Erro ao enviar o arquivo: {e}')
-            markup = types.ReplyKeyboardMarkup(one_time_keyboard=True)
-            markup.add('/baixar')
-            bot.send_message(
-                chat_id, f'Ocorreu um erro ao enviar o arquivo\n\nexecute o comando */baixar* para reiniciar o processo..', reply_markup=markup, parse_mode='Markdown')
-        # selecionaServidorManga(message)
+    #########################################################################################
+    # inicia o download
+    #########################################################################################
+
+    elif state == 'step3':
+        # Realiza a lógica para a etapa 2
+        nome_manga = user_states.get('nome_manga')
+        link_manga = user_states.get('link_manga')
+        servidor = user_states.get('servidor')
+        print(nome_manga, servidor, link_manga)
+        bot.sendMessage(chat_id, f'Aguarde o download dos arquivos')
+        try:
+            opcao = message
+            print(f'opcao {opcao}=')
+            try:
+                inicio, fim = str(opcao).split('-')
+            except:
+                inicio, fim = opcao, opcao
+
+            inicio = float(inicio)
+            fim = float(fim)
+            quantidade = fim - inicio
+            if quantidade < 10:
+                capsBaixados = False
+
+                with open(f'TXT/{chat_id}listaDisponiveis.txt') as f:
+                    f = f.readlines()
+                listaDisponiveis = []
+                for i in f:
+                    listaDisponiveis.append(i.split(";"))
+
+                print(inicio, fim, capsBaixados)
+                # percorre a lista em busca dos capitulos para baixar
+                cont = 0
+                for i in listaDisponiveis:
+                    atual = float(i[0])
+                    if inicio <= atual <= fim:
+                        capsBaixados = True
+                        print(str(listaDisponiveis[cont][1]).strip())
+                        funcoes.getImgFromUrl(chat_id, f'{user_states["nome_manga"]}_{atual}', servidor, str(
+                            listaDisponiveis[cont][1]).strip())
+
+                    cont += 1
+                max_size = 45 * 1024 * 1024
+                bot.sendMessage(chat_id, 'Compactando o manga, aguarde....')
+                arquivos_enviar = funcoes.create_zip_files(
+                    chat_id, f'{user_states["nome_manga"]}_{inicio}_{fim}', max_size)
+                contagem = 0
+                bot.sendMessage(chat_id, 'Enviando os arquivos CBR...')
+                for i in arquivos_enviar:
+                    bot.sendDocument(chat_id, document=open(i, 'rb'))
+                    contagem += 1
+                if contagem > 0:
+                    bot.sendMessage(
+                        chat_id, 'Todas as partes foram enviadas....\nEnvie o comando /buscar para uma nova pesquisa.')
+                else:
+                    bot.sendMessage(
+                        chat_id, 'Ocorreu um erro....\nEnvie o comando /buscar para uma nova pesquisa.')
+
+            else:
+                bot.sendMessage(
+                    chat_id, 'Limite de download é de 10 capítulos por vez, tente novamente')
+                user_states[chat_id] = 'step3'
+        except ValueError:
+            bot.sendMessage(
+                chat_id, 'Ocorreu um erro, tente novamente!\n\n/buscar')
+
+    #########################################################################################
+    #
+    #########################################################################################
+
     else:
-        # grava o log
-        with open('logManga.log', 'a') as logger:
-            logger.write(
-                f'\nWARNING:{message.date} {message.chat.id} - {message.from_user.first_name} - Numero de capitulos a serem baixados excede o limite: {numeroMaximoDownload}')
-        markup = types.ReplyKeyboardMarkup(one_time_keyboard=True)
-        markup.add('/baixar')
-        msg = bot.reply_to(
-            message, f'*O limite de capitulos é de {numeroMaximoDownload} por vez, e voce colocou {calculo}, execute o comando /baixar para reiniciar o processo..*', parse_mode='Markdown', reply_markup=markup)
-        procuraCapitulos(msg)
+        bot.sendMessage(chat_id, 'Desculpe, não entendi o que você disse.')
 
 
-bot.infinity_polling()
+# bot = telepot.Bot('6211370557:AAGWzCnAhxT_xTEkNOtRS_GIjugnlPWdkvY')
+bot = telepot.Bot('5301844040:AAHCF19e3PwfBUeEbiWlVKdWls6MRdA9dDc')
+MessageLoop(bot, handle_message).run_as_thread()
+
+# Mantém o programa em execução
+while True:
+    pass

@@ -38,7 +38,7 @@ else:
 fontes = ['union', 'scanlator']  # , 'muito manga']
 
 
-def busca_manga(id, manga_name):
+'''def busca_manga(id, manga_name):
     print('>>> funcoes - busca_manga')
     print(f'{"#"*60}\n\nProcurando nos sites pelo mangá: {manga_name}\n\n{"#"*60}\n\n')
     try:
@@ -547,6 +547,7 @@ def zipa1(id, lista, manga, capitulo):
             listaZip.append(listaTmp)
             total = size
             listaTmp = []
+            print(i)
             listaTmp.append(
                 f"{str(i.split('/')[-3])}/{str(i.split('/')[-2])}/{str(i.split('/')[-1])}")
         else:
@@ -584,19 +585,6 @@ def zipa1(id, lista, manga, capitulo):
     return nomesZip
 
 
-def limpaTXT(id, ext):
-    print('>>> funcoes - limpaTXT')
-    import os
-    import glob
-    # Get a list of all the file paths that ends with .txt from in specified directory
-    fileList = glob.glob(f'{id}*.{ext}')
-    # Iterate over the list of filepaths & remove each file.
-    for filePath in fileList:
-        try:
-            os.remove(filePath)
-        except:
-            print("Error while deleting file : ", filePath)
-
 
 def log(N=20):
     texto = ''
@@ -604,14 +592,31 @@ def log(N=20):
         for line in (f.readlines()[-N:]):
             texto += line+'\n'
     return texto
-
+'''
 
 # abre as configs do chrome
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_experimental_option(
     "excludeSwitches", ['enable-logging'])
-servidor = 'mangachan'
+
+
+def limpaArquivos(id, pasta, ext):
+    print('>>> funcoes - limpaTXT')
+    import os
+    import glob
+    # Get a list of all the file paths that ends with .txt from in specified directory
+    if pasta == 'Download':
+        fileList = glob.glob(f'Download/{id}/*.{ext}')
+    elif pasta == 'TXT':
+        fileList = glob.glob(f'TXT/{id}*.{ext}')
+
+    # Iterate over the list of filepaths & remove each file.
+    for filePath in fileList:
+        try:
+            os.remove(filePath)
+        except:
+            print("Error while deleting file : ", filePath)
 
 
 def unionMangas(nomeManga):
@@ -680,81 +685,167 @@ def mangaChan(nomeManga):
 
 
 def iniciaBuscaManga(chatid, nomeManga):
+    limpaArquivos(chatid, 'TXT', 'txt')
     print(chatid)
+    texto = []
     with open(f'TXT/{chatid}lista_manga.txt', 'a+') as f:
         try:
             c = mangaChan(nomeManga)
             for i in c:
                 link, nome = i
+                texto.append(nome+" - MangaChan")
                 f.write(f'{nome};mangachan;{link}\n')
         except:
             pass
         try:
             u = unionMangas(nomeManga)
             for i in u:
-                f.write(f'{c[1]};union;{c[0]}\n')
+                link, nome = i
+                texto.append(nome+" - UnionManga")
+                f.write(f'{nome};union;{link}\n')
         except:
             pass
+    return texto
+
+
+def getCapitulosFromUrl(link):
+    print(link)
+    if 'unionleitor' in link:
+        servidor = 'unionmanga'
+    elif 'mangaschan' in link:
+        servidor = 'mangachan'
+    print(servidor)
+    link = requests.get(link)
+    soup = BeautifulSoup(link.text, 'html.parser')
+    # print(soup)
+    if servidor == 'unionmanga':
+        itens = soup.find_all('div', {'class': 'row capitulos'})
+    elif servidor == 'mangachan':
+        itens = soup.find_all('div', {'class': 'eph-num'})
+
+    capitulos = []
+    for item in itens:
+        try:
+            a = item.find('a')
+            if servidor == 'unionmanga':
+                numeroep = str(a.text).replace('Cap. ', '')
+            elif servidor == 'mangachan':
+                numeroep = str(item.find('span', {'class': 'chapternum'}).text).replace(
+                    'Capítulo ', '')
+            numero = ''
+            for char in numeroep:
+                if char.isalpha():
+                    char = '.'
+                numero += char.strip()
+                numero = numero.replace('..', '.')
+
+            numeroCap = float(numero)
+
+            capitulos.append([a['href'], numeroCap])
+        except:
+            pass
+
+    return capitulos
+
+
+def getImgFromUrl(id, mangaName, servidor, url):
+
+    try:
+        os.mkdir(f'Download/{id}')
+    except Exception as e:
+        print(f'{e}')
+
+    print(f'{colorama.Fore.GREEN}> Baixando {mangaName} -> {url}{colorama.Fore.BLUE}')
+    navegador = webdriver.Chrome(options=chrome_options)
+    navegador.get(url)
+    imagens = navegador.find_elements(By.TAG_NAME, 'img')
+
+    lista_images = []
+    contador = 1
+    for img in imagens:
+
+        if servidor == 'unionmanga':
+            link = img.get_attribute('src')
+        if servidor == 'mangachan':
+            link = img.get_attribute('data-src')
+
+        print(link)
+        try:
+            download_image(id, link, f'{mangaName}_{contador}.jpg')
+
+        except Exception as e:
+            print(f'erro {e}')
+            try:
+                os.remove(f'Download/{id}/{mangaName}_{contador}.jpg')
+            except:
+                pass
+        contador += 1
+    navegador.quit()
+
+
+def download_image(id, link, img):
+    folder = f'Download/{id}/'
+    with open(folder + '/' + img, 'wb') as handle:
+        response = requests.get(link, stream=True)
+        if not response.ok:
+            response
+
+        for block in response.iter_content(1024):
+            if not block:
+                break
+            handle.write(block)
+
+
+def create_zip_files(id, manganame, max_size):
+    file_list = []
+    current_size = 0
+    zip_count = 1
+    arquivos_compactados = []
+    path = [os.path.join(p, file) for p, _, files in os.walk(
+        os.path.abspath(f"Download/{id}/")) for file in files]
+
+    lista = natsorted(path)
+    print(lista)
+
+    # Lista todos os arquivos da pasta em ordem alfabética
+
+    for file in lista:
+        # Verifica se o arquivo é uma imagem JPEG
+        if file.lower().endswith('.jpg'):
+            file_size = os.path.getsize(file)
+
+            # Verifica se o tamanho do arquivo excede o limite
+            if current_size + file_size > max_size:
+                # Cria um novo arquivo ZIP
+                zip_filename = f'Baixados/{manganame}_{zip_count}.cbr'
+                with zipfile.ZipFile(zip_filename, 'w') as zipf:
+                    # Adiciona os arquivos à nova pasta ZIP em ordem alfabética
+                    for f in sorted(file_list):
+                        zipf.write(f, arcname=os.path.basename(f))
+                arquivos_compactados.append(
+                    f'Baixados/{manganame}_{zip_count}.cbr')
+                # Reseta as variáveis para o próximo arquivo ZIP
+                file_list = []
+                current_size = 0
+                zip_count += 1
+
+            # Adiciona o arquivo atual à lista de arquivos
+            file_list.append(file)
+            current_size += file_size
+
+    # Cria o último arquivo ZIP, se houver algum arquivo restante
+    if file_list:
+        arquivos_compactados.append(f'Baixados/{manganame}_{zip_count}.cbr')
+        zip_filename = f'Baixados/{manganame}_{zip_count}.cbr'
+        with zipfile.ZipFile(zip_filename, 'w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            for f in sorted(file_list):
+                zipf.write(f, arcname=os.path.basename(f))
+    return arquivos_compactados
 
 
 if __name__ == "__main__":
     pass
-
-    print(busca_manga('101010', 'bleach'))
-    # print(busca_capitulos(
-    #     '101010', 'https://firemangas.com/manga/ler/52', 'firemangas'))
-    # print(busca_capitulos(
-    #     '101010', 'https://mangayabu.top/manga/oyasumi-punpun/', 'mangayabu'))
-
-    # print(zipa1(769723764, ['Download\\'], 'One Punch-Man', '206.0-206.0'))
-
-    # while True:
-    #     manga = input(f'{"#"*20}\nDigite o nome do manga a pesquisar: ')
-    #     print(f'\nAguarde enquando pesquiso o manga: "{manga}"')
-    #     encontrados = busca_manga('local_', manga)
-
-    #     if encontrados:
-    #         contador = 1
-    #         servidor_ = '.'
-    #         for i in encontrados:
-    #             nome, servidor = str(i).split(';')
-    #             if servidor != servidor_:
-    #                 print("\nServidor: "+str(servidor).upper())
-    #                 servidor_ = servidor
-    #             print(f'{contador}-> {nome}')
-    #             contador += 1
-    #         escolhido = input('\n\nDigite o numero do manga escolhido: ')
-    #     if escolhido:
-    #         print('\nProcurando os capítulos disponiveis...')
-    #         with open('TXT/local_lista_manga.txt', 'r') as r:
-    #             r = r.readlines()
-    #             nome, servidor, link = r[int(escolhido)-1].split(';')
-
-    #             print('\nEncontrei os seguintes capítulos:')
-    #             print(busca_capitulos('local_', link, servidor))
-    #         capitulo = input(
-    #             'Digite o intervalo de capítulos a ser baixado:\nEx 1-10 ou 1 10\n->: ')
-    #     if capitulo:
-    #         if '-' in capitulo:
-    #             capitulo = capitulo.split('-')
-    #             inicio = capitulo[0]
-    #             fim = capitulo[1]
-    #         elif ' ' in capitulo:
-    #             capitulo = capitulo.split(' ')
-    #             inicio = capitulo[0]
-    #             fim = capitulo[1]
-    #         elif ',' in capitulo:
-    #             capitulo = capitulo.split(',')
-    #             inicio = capitulo[0]
-    #             fim = capitulo[1]
-    #         else:
-    #             inicio = capitulo
-    #             fim = capitulo
-
-    #         if inicio > fim:
-    #             inicio, fim = fim, inicio
-
-    #         capitulo = str(float(inicio)) + "-" + str(float(fim))
-    #         quantidadeCBR = iniciaDownload(
-    #             'local_', nome, inicio, fim, servidor)
-    #         print(quantidadeCBR)
+    # getImgFromUrl('123', 'teste',
+    #               'https://mangaschan.com/one-punch-man-capitulo-223/')
+    # create_zip_files('769723764', '769723764', 40*1024*1024)
+    getCapitulosFromUrl('https://unionleitor.top/manga/jujutsu-kaisen')
