@@ -41,7 +41,7 @@ def handle_message(msg):
     if content_type == 'text':
         message = msg['text']
 
-        if message == '/start' or message == '/buscar':
+        if message == '/start' or message == '/buscar' or message == '/baixar':
             bot.sendMessage(chat_id, f'Olá {nomeusr}, Digite o nome do manga')
 
             user_states[chat_id] = 'step1'
@@ -74,10 +74,14 @@ def handle_next_step(chat_id, message):
             lista_enum = [f'{i+1}. {elem}' for i, elem in enumerate(x)]
             lista = "\n".join(lista_enum)
             lista = lista.replace(';', ' -> ')
-        bot.sendMessage(
-            chat_id, f'Encontrei estes aqui!\n\n{lista}\n\nDigite o numero do manga desejado ')
+            bot.sendMessage(
+                chat_id, f'Encontrei estes aqui!\n\n{lista}\n\nDigite o numero do manga desejado ')
+            user_states[chat_id] = 'step2'
+        else:
+            bot.sendMessage(
+                chat_id, f'Não foi encontrado nenhum manga com esse nome.. \n/buscar')
+            user_states[chat_id] = 'step1'
         # Atualiza o estado do usuário para 'step2'
-        user_states[chat_id] = 'step2'
 
     #########################################################################################
     # busca os capitulos do mangas
@@ -127,7 +131,7 @@ def handle_next_step(chat_id, message):
         link_manga = user_states.get('link_manga')
         servidor = user_states.get('servidor')
         print(nome_manga, servidor, link_manga)
-        bot.sendMessage(chat_id, f'Aguarde o download dos arquivos')
+        bot.sendMessage(chat_id, f'Aguarde o download dos arquivos, dependendo da quantidade de paginas este processo pode demorar um pouco... Por favor não envie outra solicitação, aguarde o termino.......')
         try:
             opcao = message
             print(f'opcao {opcao}=')
@@ -172,10 +176,11 @@ def handle_next_step(chat_id, message):
                 if contagem > 0:
                     bot.sendMessage(
                         chat_id, 'Todas as partes foram enviadas....\nEnvie o comando /buscar para uma nova pesquisa.')
+                    user_states[chat_id] = 'step1'
                 else:
                     bot.sendMessage(
                         chat_id, 'Ocorreu um erro....\nEnvie o comando /buscar para uma nova pesquisa.')
-
+                    user_states[chat_id] = 'step1'
             else:
                 bot.sendMessage(
                     chat_id, 'Limite de download é de 10 capítulos por vez, tente novamente')

@@ -687,8 +687,18 @@ def mangaChan(nomeManga):
 def iniciaBuscaManga(chatid, nomeManga):
     limpaArquivos(chatid, 'TXT', 'txt')
     print(chatid)
+
+    with open('usuarios.txt', 'r') as f:
+        f = f.readlines()
+        with open('usuarios.txt', 'a') as fa:
+            for i in f:
+                if not str(chatid) in i:
+                    novo = True
+            if novo:
+                fa.write(f'{chatid}\n')
+
     texto = []
-    with open(f'TXT/{chatid}lista_manga.txt', 'a+') as f:
+    with open(f'TXT/{chatid}lista_manga.txt', 'w') as f:
         try:
             c = mangaChan(nomeManga)
             for i in c:
