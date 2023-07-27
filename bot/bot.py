@@ -2,7 +2,7 @@
 
 import telepot
 from telepot.loop import MessageLoop
-
+from datetime import datetime
 import platform
 from re import I
 import shutil
@@ -38,20 +38,38 @@ def handle_message(msg):
     nomeusr = msg["chat"]['first_name']
     content_type, chat_type, chat_id = telepot.glance(msg)
 
-    if content_type == 'text':
-        message = msg['text']
+    # grava o comando enviado
+    with open('comandos.txt', 'a') as cf:
+        current_dateTime = datetime.now()
+        cf.write(f'\nMensagem: {msg}\n')
+        cf.write(
+            f'{current_dateTime} : {chat_id} - {msg["chat"]["first_name"]} {msg["chat"]["last_name"]} -> {msg["text"]}\n')
+    if str(chat_id) == '769723764' or str(chat_id) == '5360408602':
 
-        if message == '/start' or message == '/buscar' or message == '/baixar':
-            bot.sendMessage(chat_id, f'Olá {nomeusr}, Digite o nome do manga')
+        # inicia o bot
+        if content_type == 'text':
+            message = msg['text']
 
-            user_states[chat_id] = 'step1'
+            if message == '/start' or message == '/buscar' or message == '/baixar':
+                bot.sendMessage(
+                    chat_id, f'Olá {nomeusr}, Digite o nome do manga')
 
-        elif message == '/ajuda':
-            bot.sendMessage(
-                chat_id, f'Para iniciar o bot use /baixar\n\nPara Ler os Mangas recomendo utilizar o programa ComicScreen https://play.google.com/store/apps/details?id=com.viewer.comicscreen')
-            bot.stop()
-        else:
-            handle_next_step(chat_id, message)
+                user_states[chat_id] = 'step1'
+            elif message == '/stop' or message == '/cancel':
+                bot.sendMessage(chat_id, 'Até logo!')
+                bot.leaveChat(chat_id)
+            elif message == '/ajuda':
+                bot.sendMessage(
+                    chat_id, f'Para iniciar o bot use /baixar\n\nPara Ler os Mangas recomendo utilizar o programa ComicScreen https://play.google.com/store/apps/details?id=com.viewer.comicscreen')
+                bot.stop()
+            elif 'left_chat_member' in msg:
+                user_id = msg['left_chat_member']['id']
+                print(f"Usuário {user_id} bloqueou ou saiu do chat.")
+            else:
+                handle_next_step(chat_id, message)
+    else:
+        bot.sendMessage(
+            769723764, f'Tentativa de acesso: {chat_id} -> {msg["chat"]["first_name"]} {msg["chat"]["last_name"]}')
 
 
 def handle_next_step(chat_id, message):
@@ -198,7 +216,7 @@ def handle_next_step(chat_id, message):
 
 
 # bot = telepot.Bot('6211370557:AAGWzCnAhxT_xTEkNOtRS_GIjugnlPWdkvY')
-bot = telepot.Bot('5301844040:AAHCF19e3PwfBUeEbiWlVKdWls6MRdA9dDc')
+bot = telepot.Bot('6330871005:AAHtu1RBKjqzlgtxq0QU9mQ_rfpDpb4vY9M')
 MessageLoop(bot, handle_message).run_as_thread()
 
 # Mantém o programa em execução

@@ -1,0 +1,71 @@
+{'message_id': 32, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1690308621, 'text': '/buscar', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}{'message_id': 34, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1690308625, 'text': 'Naruto'}2023-07-25 15:12:19.484341 : 769723764 -> /buscar
+2023-07-25 15:12:36.865552 : 769723764 -> Naruto
+2023-07-25 15:13:58.471975 : 769723764 -> /buscar
+2023-07-25 15:14:04.110380 : 769723764 -> Naruto
+2023-07-25 15:15:03.205254 : 769723764 -> /buscar
+2023-07-25 15:15:06.475636 : 769723764 -> Naruto
+2023-07-25 15:24:54.884677 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:24:55.370160 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:25:34.947314 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:25:35.350466 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:25:35.817660 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:18.185508 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:18.618707 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:19.066344 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:19.532148 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:20.001774 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:27.635604 : 1035577098 - CPD Jacareí Tenta Atacado -> Naruto
+2023-07-25 15:26:41.595398 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:42.033772 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:42.552921 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:43.034333 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:26:43.502293 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:27:00.679394 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:27:01.092391 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-25 15:27:41.215972 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:33:42.722319 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:34:04.617982 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:34:47.892931 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:43:17.229546 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:43:45.437206 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:44:17.070869 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+2023-07-26 08:44:45.515053 : 1035577098 - CPD Jacareí Tenta Atacado -> /start
+
+Mensagem: {'message_id': 103, 'from': {'id': 5432223021, 'is_bot': False, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'language_code': 'ar'}, 'chat': {'id': 5432223021, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'type': 'private'}, 'date': 1690427026, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 00:03:46.789979 : 5432223021 - زيـــد باوزير -> /start
+
+Mensagem: {'message_id': 106, 'from': {'id': 5432223021, 'is_bot': False, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'language_code': 'ar'}, 'chat': {'id': 5432223021, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'type': 'private'}, 'date': 1690427040, 'text': '/buscar', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}
+2023-07-27 00:04:00.374026 : 5432223021 - زيـــد باوزير -> /buscar
+
+Mensagem: {'message_id': 108, 'from': {'id': 5432223021, 'is_bot': False, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'language_code': 'ar'}, 'chat': {'id': 5432223021, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'type': 'private'}, 'date': 1690427043, 'text': '/ajuda', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 00:04:04.094062 : 5432223021 - زيـــد باوزير -> /ajuda
+
+Mensagem: {'message_id': 110, 'from': {'id': 5432223021, 'is_bot': False, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'language_code': 'ar'}, 'chat': {'id': 5432223021, 'first_name': 'زيـــد', 'last_name': 'باوزير', 'username': 'Oktan_9x', 'type': 'private'}, 'date': 1690427058, 'text': 'One piece'}
+2023-07-27 00:04:18.855626 : 5432223021 - زيـــد باوزير -> One piece
+
+Mensagem: {'message_id': 1, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1690469739, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 11:55:40.108531 : 769723764 - Christian Carvalho -> /start
+
+Mensagem: {'message_id': 3, 'from': {'id': 1035577098, 'is_bot': False, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'language_code': 'pt-br'}, 'chat': {'id': 1035577098, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'type': 'private'}, 'date': 1690469820, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 11:57:00.257936 : 1035577098 - CPD Jacareí Tenda Atacado -> /start
+
+Mensagem: {'message_id': 3, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1690470646, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 12:10:46.952755 : 769723764 - Christian Carvalho -> /start
+
+Mensagem: {'message_id': 5, 'from': {'id': 1035577098, 'is_bot': False, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'language_code': 'pt-br'}, 'chat': {'id': 1035577098, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'type': 'private'}, 'date': 1690470673, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 12:11:13.796391 : 1035577098 - CPD Jacareí Tenda Atacado -> /start
+
+Mensagem: {'message_id': 2, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1690471043, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 12:17:23.566464 : 769723764 - Christian Carvalho -> /start
+
+Mensagem: {'message_id': 4, 'from': {'id': 1035577098, 'is_bot': False, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'language_code': 'pt-br'}, 'chat': {'id': 1035577098, 'first_name': 'CPD Jacareí', 'last_name': 'Tenda Atacado', 'type': 'private'}, 'date': 1690471093, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 12:18:13.631017 : 1035577098 - CPD Jacareí Tenda Atacado -> /start
+
+Mensagem: {'message_id': 6, 'from': {'id': 5360408602, 'is_bot': False, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'language_code': 'pt-br'}, 'chat': {'id': 5360408602, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'type': 'private'}, 'date': 1690481269, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 15:07:49.298039 : 5360408602 - Ewerton Cavalini -> /start
+
+Mensagem: {'message_id': 8, 'from': {'id': 5360408602, 'is_bot': False, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'language_code': 'pt-br'}, 'chat': {'id': 5360408602, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'type': 'private'}, 'date': 1690481307, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-07-27 15:08:27.685009 : 5360408602 - Ewerton Cavalini -> /start
+
+Mensagem: {'message_id': 10, 'from': {'id': 5360408602, 'is_bot': False, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'language_code': 'pt-br'}, 'chat': {'id': 5360408602, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'type': 'private'}, 'date': 1690481319, 'text': 'Solo Leveling'}
+2023-07-27 15:08:39.914327 : 5360408602 - Ewerton Cavalini -> Solo Leveling

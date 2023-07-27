@@ -132,14 +132,14 @@ def iniciaBuscaManga(chatid, nomeManga):
     limpaArquivos(chatid, 'TXT', 'txt')
     print(chatid)
 
-    with open('usuarios.txt', 'r') as f:
-        f = f.readlines()
-        with open('usuarios.txt', 'a') as fa:
-            for i in f:
-                if not str(chatid) in i:
-                    novo = True
-            if novo:
-                fa.write(f'{chatid}\n')
+    # with open('usuarios.txt', 'r') as f:
+    #     f = f.readlines()
+    #     with open('usuarios.txt', 'a') as fa:
+    #         for i in f:
+    #             if not str(chatid) in i:
+    #                 novo = True
+    #         if novo:
+    #             fa.write(f'{chatid}\n')
 
     texto = []
     with open(f'TXT/{chatid}lista_manga.txt', 'w') as f:
@@ -302,4 +302,4 @@ if __name__ == "__main__":
     # getImgFromUrl('123', 'teste',
     #               'https://mangaschan.com/one-punch-man-capitulo-223/')
     # create_zip_files('769723764', '769723764', 40*1024*1024)
-    getCapitulosFromUrl('https://unionleitor.top/manga/jujutsu-kaisen')
+    # getCapitulosFromUrl('https://unionleitor.top/manga/jujutsu-kaisen')
