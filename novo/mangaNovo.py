@@ -17,7 +17,7 @@ servidor = 'unionmanga'
 # cria o arquivo de log
 if not os.path.isfile('config.cfg'):
     with open('config.cfg', 'w') as f:
-        f.write('headless=true\nlog=false\n#servidor=unionmanga\servidor=mangachan')
+        f.write('headless=true\nlog=false\n#servidor=unionmanga\nservidor=mangachan')
 
 # abre as configs do chrome
 chrome_options = Options()
@@ -295,7 +295,8 @@ def inicioAuto():
 
                         listaDisponiveis.append(
                             str(cap[1]).replace('Cap. ', ''))
-
+                    listaDisponiveis = natsorted(set(listaDisponiveis))
+                    # print(listaDisponiveis)
                     if len(listaDisponiveis) > 0:
                         print(
                             f'\nCapitulos encontrados: {colorama.Fore.RED}{" ".join(listaDisponiveis)}{colorama.Fore.BLUE}')
