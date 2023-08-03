@@ -12,12 +12,13 @@ import os
 import colorama
 import glob
 
-servidor = 'unionmanga'
+servidor = 'mangahosted'
 
 # cria o arquivo de log
 if not os.path.isfile('config.cfg'):
     with open('config.cfg', 'w') as f:
-        f.write('headless=true\nlog=false\n#servidor=unionmanga\nservidor=mangachan')
+        f.write(
+            'headless=true\nlog=false\n#servidor=unionmanga\nservidor=mangachan\nservidor=golden\n')
 
 # abre as configs do chrome
 chrome_options = Options()
@@ -31,7 +32,8 @@ with open('config.cfg') as f:
                 "excludeSwitches", ['enable-logging'])
         if i.lower().startswith('servidor=mangachan'):
             servidor = 'mangachan'
-
+        if i.lower().startswith('servidor=golden'):
+            servidor = 'golden'
 # print(servidor)
 
 
@@ -108,6 +110,9 @@ def getImgFromUrl(mangaName, url):
             link = img.get_attribute('src')
         if servidor == 'mangachan':
             link = img.get_attribute('data-src')
+        if servidor == 'mangahosted':
+            link = img.get_attribute('src')
+
         # lista_images.append([mangaName, link, contador])]
         print(link)
         try:
@@ -123,30 +128,45 @@ def getImgFromUrl(mangaName, url):
 
 
 def getCapitulosFromUrl(link):
-    link = requests.get(link)
-    soup = BeautifulSoup(link.text, 'html.parser')
+    # servidor = 'mangahosted'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
 
+    link = requests.get(link, headers=headers)
+    soup = BeautifulSoup(link.text, 'html.parser')
+    # print(soup)
     if servidor == 'unionmanga':
         itens = soup.find_all('div', {'class': 'row capitulos'})
     elif servidor == 'mangachan':
         itens = soup.find_all('div', {'class': 'eph-num'})
+    elif servidor == 'mangahosted':
+        itens = soup.find_all('div', {'class': 'tags'})
+
+    # print(servidor, itens)
 
     capitulos = []
     for item in itens:
+        # print(item)
         try:
             a = item.find('a')
+
             if servidor == 'unionmanga':
                 numeroep = str(a.text).replace('Cap. ', '')
             elif servidor == 'mangachan':
                 numeroep = str(item.find('span', {'class': 'chapternum'}).text).replace(
                     'Capítulo ', '')
+            elif servidor == 'mangahosted':
+                # print(a['title'])
+                numeroep = str(a['title']).split('-')[1].replace(
+                    '#', '').replace('Capítulo ', '')
+
             numero = ''
             for char in numeroep:
                 if char.isalpha():
                     char = '.'
                 numero += char.strip()
                 numero = numero.replace('..', '.')
-
+            # print(numeroep)
             numeroCap = float(numero)
             # print([a['href'], numeroCap])
             capitulos.append([a['href'], numeroCap])
@@ -223,6 +243,66 @@ def mangaChan(nomeManga):
     return capitulos
 
 
+def goldenMangas(nomeManga):
+    print(f'{colorama.Fore.GREEN}> Aguarde um momento...{colorama.Fore.BLUE}')
+    navegador = webdriver.Chrome(options=chrome_options)
+    navegador.get('https://goldenmanga.top/mangas?busca='+nomeManga)
+
+    resultado = navegador.find_element(
+        'xpath', '/html/body/article/div[2]/section')
+    resultado = resultado.get_attribute('innerHTML')
+
+    soup = BeautifulSoup(resultado, 'html.parser')
+    itens = soup.find_all('a')
+
+    capitulos = []
+    for item in itens:
+        try:
+
+            special_characters = [':', ';', '\\', '/', '@', '#', '$', '*', '&']
+            nome = str(item.text).strip()
+            titulo = "".join(
+                filter(lambda char: char not in special_characters, nome))
+
+            capitulos.append([item['href'], titulo])
+        except Exception as e:
+            pass
+
+    navegador.quit()
+    return capitulos
+
+
+def mangaHosted(nomeManga):
+    print(f'{colorama.Fore.GREEN}> Aguarde um momento...{colorama.Fore.BLUE}')
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
+
+    link = requests.get('https://mangahost4.com/find/' +
+                        nomeManga, headers=headers)
+    soup = BeautifulSoup(link.text, 'html.parser')
+
+    itens = soup.find_all('h4', {'class': 'entry-title'})
+    # print(itens)
+    capitulos = []
+    for item in itens:
+
+        try:
+
+            special_characters = [':', ';', '\\',
+                                  '/', '@', '#', '$', '*', '&', '?']
+            nome = str(item.text).strip()
+            titulo = "".join(
+                filter(lambda char: char not in special_characters, nome))
+
+            url = item.find('a')['href']
+            capitulos.append([url, titulo])
+        except Exception as e:
+            pass
+
+    # navegador.quit()
+    return capitulos
+
+
 # compacta os capitulos baixados em zip
 def zipa(manga, capitulo):
     extensao = ['.jpg', '.png']
@@ -266,8 +346,12 @@ def inicioAuto():
         if nomeManga:
             if servidor == 'mangachan':
                 resultadopesquisa = mangaChan(nomeManga)
-            else:
+            elif servidor == 'unionmanga':
                 resultadopesquisa = unionMangas(nomeManga)
+            elif servidor == 'golden':
+                resultadopesquisa = goldenMangas(nomeManga)
+            elif servidor == 'mangahosted':
+                resultadopesquisa = mangaHosted(nomeManga)
 
             if resultadopesquisa:
                 print('Encontrei os seguintes mangás:\n')
@@ -350,6 +434,8 @@ def inicioAuto():
                   "\n\nPrecisa digitar algum nome, Tente outra vez!\n\n"+colorama.Fore.BLUE)
 
 
-inicioAuto()
-
+# inicioAuto()
+print(getCapitulosFromUrl('https://mangahost4.com/manga/sakamoto-days-mh14842'))
+# print(mangaHosted('sakamoto'))
+# print(goldenMangas('one punch'))
 # ..\venv\Scripts\pyinstaller.exe -F --console --icon="icone.ico" --distpath .\ -c --name "Novo Manga Downloader 2023" .\mangaNovo.py

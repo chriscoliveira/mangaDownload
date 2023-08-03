@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
+from time import time
 import colorama
 from bs4 import BeautifulSoup
 from time import sleep
@@ -28,14 +28,12 @@ else:
 token = '5511090444:AAGGloPQ-Qh4Fwz0xgpP5rR-Yvc1nuWNK6A'
 bot = telepot.Bot(token)
 
-links = ['https://unionleitor.top/manga/dandadan',
-         'https://unionleitor.top/manga/chainsaw-man', 'https://unionleitor.top/pagina-manga/one-punch-man',
-         'https://unionleitor.top/manga/mashle-magic-and-muscles',
-         'https://unionleitor.top/pagina-manga/solo-leveling', 'https://mangaschan.com/manga/jujutsu-kaisen/', 'https://mangaschan.com/manga/tokyo-revengers/', 'https://mangaschan.com/manga/chainsaw-man/', 'https://mangaschan.com/manga/black-clover/', 'https://mangaschan.com/manga/sakamoto-days/', 'https://mangaschan.com/manga/mashle-magic-and-muscles/', 'https://mangaschan.com/manga/dandadan/']
+links = ['https://mangahost4.com/manga/sakamoto-days-mh14842','https://mangahost4.com/manga/jujutsu-kaisen-mh20595','https://mangahost4.com/manga/mashle-magic-and-muscles-mh99784','https://mangahost4.com/manga/one-punch-man-mh12111','https://mangahost4.com/manga/chainsaw-man-mh17070']
 
 envio = [769723764]  # , 1299478866]
 # conn = sqlite3.connect('manga.db')
 
+servidor='mangahosted'
 
 # abre as configs do chrome
 chrome_options = Options()
@@ -63,21 +61,30 @@ def limpaArquivos(id, pasta, ext):
 
 
 def getCapitulosFromUrl(link):
+    
     if 'unionleitor' in link:
         servidor = 'unionmanga'
     elif 'mangaschan' in link:
         servidor = 'mangachan'
+    elif 'mangahost' in link:
+        servidor = 'mangahosted'
 
-    link = requests.get(link)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
+
+    link = requests.get(link,headers=headers)
     soup = BeautifulSoup(link.text, 'html.parser')
-
+    # print(link,servidor)
     if servidor == 'unionmanga':
         itens = soup.find_all('div', {'class': 'row capitulos'})
     elif servidor == 'mangachan':
         itens = soup.find_all('div', {'class': 'eph-num'})
+    elif servidor == 'mangahosted':
+        itens = soup.find_all('div', {'class': 'tags'})
 
     capitulos = []
     for item in itens:
+        # print(item)
         try:
             a = item.find('a')
             if servidor == 'unionmanga':
@@ -85,6 +92,10 @@ def getCapitulosFromUrl(link):
             elif servidor == 'mangachan':
                 numeroep = str(item.find('span', {'class': 'chapternum'}).text).replace(
                     'Capítulo ', '')
+            elif servidor == 'mangahosted':
+                # print(a['title'])
+                numeroep = str(a['title']).split('-')[1].replace(
+                    '#', '').replace('Capítulo ', '')
             numero = ''
             for char in numeroep:
                 if char.isalpha():
@@ -122,6 +133,8 @@ def getImgFromUrl(id, mangaName, servidor, url):
             link = img.get_attribute('src')
         if servidor == 'mangachan':
             link = img.get_attribute('data-src')
+        if servidor == 'mangahosted':
+            link = img.get_attribute('src')
 
         print(link)
         try:
@@ -140,7 +153,7 @@ def getImgFromUrl(id, mangaName, servidor, url):
 def download_image(id, link, img):
     folder = f'Download/{id}/'
     with open(folder + '/' + img, 'wb') as handle:
-        response = requests.get(link, stream=True)
+        response = requests.get(link, stream=True,headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'})
         if not response.ok:
             response
 
@@ -196,6 +209,8 @@ def create_zip_files(id, manganame, max_size):
                 zipf.write(f, arcname=os.path.basename(f))
     return arquivos_compactados
 
+# print(getCapitulosFromUrl('https://mangahost4.com/manga/sakamoto-days-mh14842'))
+# getImgFromUrl('saiu hoje','teste','mangahosted','https://mangahost4.com/manga/sakamoto-days-mh14842/129')
 
 with open('recente.txt', 'a', encoding='utf-8') as f:
     with open('recente.txt', 'r', encoding='utf-8') as fr:
@@ -210,8 +225,10 @@ with open('recente.txt', 'a', encoding='utf-8') as f:
                     print(u)
                     if 'unionleitor' in manga:
                         servidor = 'unionmanga'
-                    else:
+                    elif 'mangaschan' in manga:
                         servidor = 'mangachan'
+                    elif 'mangahost' in manga:
+                        servidor = 'mangahosted'
                     nome = f"{manga.split(' ')[0].split('/')[-2]}_{manga.split(' ')[0].split('/')[-1]}"
                     print(nome)
                     getImgFromUrl('saiu hoje', nome, servidor,
@@ -221,6 +238,6 @@ with open('recente.txt', 'a', encoding='utf-8') as f:
                     for i in zipa:
                         bot.sendMessage(int(u), f'Acabou de sair... {nome}')
                         bot.sendDocument(int(u), document=open(i, 'rb'))
-                    # bot.sendMessage(int(u), f'{manga}\n')
+            sleep(60)
 
-limpaArquivos('saiu hoje', 'Download', 'jpg')
+# limpaArquivos('saiu hoje', 'Download', 'jpg')
