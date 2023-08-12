@@ -434,8 +434,8 @@ def inicioAuto():
                   "\n\nPrecisa digitar algum nome, Tente outra vez!\n\n"+colorama.Fore.BLUE)
 
 
-# inicioAuto()
-print(getCapitulosFromUrl('https://mangahost4.com/manga/sakamoto-days-mh14842'))
+inicioAuto()
+# print(getCapitulosFromUrl('https://mangahost4.com/manga/sakamoto-days-mh14842'))
 # print(mangaHosted('sakamoto'))
 # print(goldenMangas('one punch'))
 # ..\venv\Scripts\pyinstaller.exe -F --console --icon="icone.ico" --distpath .\ -c --name "Novo Manga Downloader 2023" .\mangaNovo.py
