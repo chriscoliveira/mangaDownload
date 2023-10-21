@@ -18,7 +18,7 @@ servidor = 'mangahosted'
 if not os.path.isfile('config.cfg'):
     with open('config.cfg', 'w') as f:
         f.write(
-            'headless=true\nlog=false\n#servidor=unionmanga\nservidor=mangachan\nservidor=golden\n')
+            'headless=true\nlog=false\n#servidor=unionmanga\n#servidor=mangachan\nservidor=golden\n')
 
 # abre as configs do chrome
 chrome_options = Options()
@@ -82,7 +82,9 @@ def limpa():
 def download_image(link, img):
     folder = 'Download'
     with open(folder + '/' + img, 'wb') as handle:
-        response = requests.get(link, stream=True)
+        response = requests.get(link, stream=True, headers={
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'})
+
         if not response.ok:
             response
 

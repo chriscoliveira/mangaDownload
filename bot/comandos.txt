@@ -69,3 +69,17 @@ Mensagem: {'message_id': 8, 'from': {'id': 5360408602, 'is_bot': False, 'first_n
 
 Mensagem: {'message_id': 10, 'from': {'id': 5360408602, 'is_bot': False, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'language_code': 'pt-br'}, 'chat': {'id': 5360408602, 'first_name': 'Ewerton', 'last_name': 'Cavalini', 'type': 'private'}, 'date': 1690481319, 'text': 'Solo Leveling'}
 2023-07-27 15:08:39.914327 : 5360408602 - Ewerton Cavalini -> Solo Leveling
+
+Mensagem: {'message_id': 697, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1694427570, 'text': '/inicio', 'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}]}
+2023-09-11 07:19:31.110724 : 769723764 - Christian Carvalho -> /inicio
+
+Mensagem: {'message_id': 699, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1694427593, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-09-11 07:19:53.304266 : 769723764 - Christian Carvalho -> /start
+
+Mensagem: {'message_id': 701, 'from': {'id': 769723764, 'is_bot': False, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'language_code': 'pt-br'}, 'chat': {'id': 769723764, 'first_name': 'Christian', 'last_name': 'Carvalho', 'username': 'ChrisColiveira', 'type': 'private'}, 'date': 1694427602, 'text': 'One punch'}
+2023-09-11 07:20:02.405229 : 769723764 - Christian Carvalho -> One punch
+
+Mensagem: {'message_id': 704, 'from': {'id': 1625730203, 'is_bot': False, 'first_name': 'Fodoness', 'language_code': 'pt-br'}, 'chat': {'id': 1625730203, 'first_name': 'Fodoness', 'type': 'private'}, 'date': 1694427877, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+
+Mensagem: {'message_id': 705, 'from': {'id': 1625730203, 'is_bot': False, 'first_name': 'Fodoness', 'language_code': 'pt-br'}, 'chat': {'id': 1625730203, 'first_name': 'Fodoness', 'type': 'private'}, 'date': 1694428034, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
+2023-09-11 07:27:14.711532 : 1625730203 - Fodoness -> /start

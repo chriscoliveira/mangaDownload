@@ -43,7 +43,7 @@ def handle_message(msg):
         current_dateTime = datetime.now()
         cf.write(f'\nMensagem: {msg}\n')
         cf.write(
-            f'{current_dateTime} : {chat_id} - {msg["chat"]["first_name"]} {msg["chat"]["last_name"]} -> {msg["text"]}\n')
+            f'{current_dateTime} : {chat_id} - {msg["chat"]["first_name"]} -> {msg["text"]}\n')
     if str(chat_id) == '769723764' or str(chat_id) == '5360408602':
 
         # inicia o bot

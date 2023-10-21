@@ -28,12 +28,15 @@ else:
 token = '5511090444:AAGGloPQ-Qh4Fwz0xgpP5rR-Yvc1nuWNK6A'
 bot = telepot.Bot(token)
 
-links = ['https://mangahost4.com/manga/sakamoto-days-mh14842','https://mangahost4.com/manga/jujutsu-kaisen-mh20595','https://mangahost4.com/manga/mashle-magic-and-muscles-mh99784','https://mangahost4.com/manga/one-punch-man-mh12111','https://mangahost4.com/manga/chainsaw-man-mh17070']
+links = ['https://mangaschan.net/manga/kagurabachi/,https://mangahost4.com/manga/sakamoto-days-mh14842', 'https://mangahost4.com/manga/jujutsu-kaisen-mh20595',
+         'https://mangahost4.com/manga/one-punch-man-mh12111', 'https://mangahost4.com/manga/chainsaw-man-mh17070']
 
-envio = [769723764]  # , 1299478866]
+envio = [769723764, 1625730203]  # , 1299478866]
+# joao pp
 # conn = sqlite3.connect('manga.db')
+# Mensagem: {'message_id': 704, 'from': {'id': 1625730203, 'is_bot': False, 'first_name': 'Fodoness', 'language_code': 'pt-br'}, 'chat': {'id': 1625730203, 'first_name': 'Fodoness', 'type': 'private'}, 'date': 1694427877, 'text': '/start', 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}]}
 
-servidor='mangahosted'
+servidor = 'mangachan'
 
 # abre as configs do chrome
 chrome_options = Options()
@@ -61,7 +64,7 @@ def limpaArquivos(id, pasta, ext):
 
 
 def getCapitulosFromUrl(link):
-    
+
     if 'unionleitor' in link:
         servidor = 'unionmanga'
     elif 'mangaschan' in link:
@@ -72,7 +75,7 @@ def getCapitulosFromUrl(link):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
 
-    link = requests.get(link,headers=headers)
+    link = requests.get(link, headers=headers)
     soup = BeautifulSoup(link.text, 'html.parser')
     # print(link,servidor)
     if servidor == 'unionmanga':
@@ -153,7 +156,8 @@ def getImgFromUrl(id, mangaName, servidor, url):
 def download_image(id, link, img):
     folder = f'Download/{id}/'
     with open(folder + '/' + img, 'wb') as handle:
-        response = requests.get(link, stream=True,headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'})
+        response = requests.get(link, stream=True, headers={
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'})
         if not response.ok:
             response
 
@@ -211,6 +215,7 @@ def create_zip_files(id, manganame, max_size):
 
 # print(getCapitulosFromUrl('https://mangahost4.com/manga/sakamoto-days-mh14842'))
 # getImgFromUrl('saiu hoje','teste','mangahosted','https://mangahost4.com/manga/sakamoto-days-mh14842/129')
+
 
 with open('recente.txt', 'a', encoding='utf-8') as f:
     with open('recente.txt', 'r', encoding='utf-8') as fr:
