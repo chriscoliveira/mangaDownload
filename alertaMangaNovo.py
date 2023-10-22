@@ -1,3 +1,5 @@
+from datetime import date, time
+import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -28,8 +30,10 @@ else:
 token = '5511090444:AAGGloPQ-Qh4Fwz0xgpP5rR-Yvc1nuWNK6A'
 bot = telepot.Bot(token)
 
-links = ['https://mangaschan.net/manga/kagurabachi/,https://mangahost4.com/manga/sakamoto-days-mh14842', 'https://mangahost4.com/manga/jujutsu-kaisen-mh20595',
-         'https://mangahost4.com/manga/one-punch-man-mh12111', 'https://mangahost4.com/manga/chainsaw-man-mh17070']
+links = ['https://mangaschan.net/manga/kagurabachi/', 'https://mangaschan.net/manga/one-punch-man/',
+         'https://mangaschan.net/manga/sakamoto-days/', 'https://mangaschan.net/manga/jujutsu-kaisen/', 'https://mangaschan.net/manga/chainsaw-man/']
+# ,'https://mangahost4.com/manga/sakamoto-days-mh14842', 'https://mangahost4.com/manga/jujutsu-kaisen-mh20595',
+#  'https://mangahost4.com/manga/one-punch-man-mh12111', 'https://mangahost4.com/manga/chainsaw-man-mh17070']
 
 envio = [769723764, 1625730203]  # , 1299478866]
 # joao pp
@@ -117,7 +121,7 @@ def getCapitulosFromUrl(link):
 
 
 def getImgFromUrl(id, mangaName, servidor, url):
-
+    print('getImgFromUrl')
     try:
         os.mkdir(f'Download/{id}')
     except Exception as e:
@@ -217,12 +221,18 @@ def create_zip_files(id, manganame, max_size):
 # getImgFromUrl('saiu hoje','teste','mangahosted','https://mangahost4.com/manga/sakamoto-days-mh14842/129')
 
 
+agora = datetime.datetime.now()
+agora_string = agora.strftime("%A %d %B %y %I:%M")
+hora = datetime.datetime.strptime(agora_string, "%A %d %B %y %I:%M")
+bot.sendMessage(769723764, f'Verificação de Mangas: {hora}')
+
 with open('recente.txt', 'a', encoding='utf-8') as f:
     with open('recente.txt', 'r', encoding='utf-8') as fr:
         fr = fr.read()
 
         for i in links:
             manga = getCapitulosFromUrl(i)
+            print(manga)
             if not manga in fr:
                 limpaArquivos('saiu hoje', 'Download', 'jpg')
                 f.write(manga+'\n')
